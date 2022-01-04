@@ -96,7 +96,7 @@ body:
 
         Write a short description telling me what you are trying to solve and what you are currently doing.
       placeholder: |
-        * Call an sync function from async code with asyncify().
+        * Call a sync function from async code with asyncify().
         * Print the result value.
         * I would like it to also automatically send me an email with the result.
     validations:
