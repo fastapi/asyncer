@@ -79,7 +79,7 @@ Successfully installed asyncer anyio
 
 You can read more about each of the use cases and utility functions in **Asyncer** in the <a href="https://asyncer.tiangolo.com/tutorial/" class="external-link" target="_blank">tutorial</a>.
 
-As a sneak preview of one of the utilities, you can **call sync sode from async code** using `asyncify()`:
+As a sneak preview of one of the utilities, you can **call sync code from async code** using `asyncify()`:
 
 ```Python
 import time
