@@ -1,0 +1,97 @@
+[tool.poetry]
+name = "asyncer"
+version = "0"
+description = "Asyncer, async and await, focused on developer experience."
+authors = ["Sebastián Ramírez <tiangolo@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/tiangolo/asyncer"
+documentation = "https://asyncer.tiangolo.com"
+repository = "https://github.com/tiangolo/asyncer"
+license = "MIT"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: AsyncIO",
+    "Framework :: Trio",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Internet",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+anyio = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+mypy = "^0.930"
+flake8 = "^3.9.2"
+black = {version = "^21.5-beta.1", python = "^3.7"}
+mkdocs = "^1.2.1"
+mkdocs-material = "^7.1.9"
+mdx-include = "^1.4.1"
+coverage = {extras = ["toml"], version = "^5.5"}
+autoflake = "^1.4"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry-version-plugin]
+source = "init"
+
+[tool.coverage.run]
+parallel = true
+source = [
+    "docs_src",
+    "tests",
+    "asyncer"
+]
+
+[tool.coverage.report]
+omit = [
+    "docs_src/tutorial/soonify_return/tutorial002.py",
+]
+
+[tool.isort]
+profile = "black"
+known_third_party = ["asyncer"]
+skip_glob = [
+    "asyncer/__init__.py",
+    ]
+
+
+[tool.mypy]
+# --strict
+disallow_any_generics = true
+disallow_subclassing_any = true 
+disallow_untyped_calls = true 
+disallow_untyped_defs = true
+disallow_incomplete_defs = true 
+check_untyped_defs = true 
+disallow_untyped_decorators = true 
+no_implicit_optional = true
+warn_redundant_casts = true 
+warn_unused_ignores = true
+warn_return_any = true 
+implicit_reexport = false
+strict_equality = true
+# --strict end
+
+[[tool.mypy.overrides]]
+module = "docs_src.*"
+disallow_incomplete_defs = false
+disallow_untyped_defs = false
+disallow_untyped_calls = false 
+warn_no_return = false
