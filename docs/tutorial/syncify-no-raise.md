@@ -45,7 +45,7 @@ In this example, because `do_sync_work()` will be called from **async code** and
 
 ## Computational Cost
 
-Running many times something like `anyio.run()` frecuently from a mainly sync program could be expensive, as every time it has to start a new *event loop*, etc.
+Running many times something like `anyio.run()` frequently from a mainly sync program could be expensive, as every time it has to start a new *event loop*, etc.
 
 If your program is mainly sync and you use `syncify(raise_sync_error=False)` that will run `anyio.run()`.
 
