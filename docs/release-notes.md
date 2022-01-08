@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 🔧 Upgrade MkDocs Material and update configs. PR [#10](https://github.com/tiangolo/asyncer/pull/10) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.0.1
 
