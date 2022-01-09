@@ -59,7 +59,7 @@ For this example, let's simulate that by making `do_work()` wait there for 1 sec
 
 ## Run the Main Function
 
-As `main()` is an `async` function, we can't call it directly because we can't `await` it. Instead, we call it with `asyncio.run()`:
+As `main()` is an `async` function, we can't call it directly because we can't `await` it. Instead, we call it with `anyio.run()`:
 
 ```Python hl_lines="1  14"
 {!./docs_src/tutorial/first_steps/tutorial001.py!}
