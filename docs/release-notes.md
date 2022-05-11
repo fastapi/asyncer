@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 👷 Disable installing MkDocs Insiders in forks. PR [#26](https://github.com/tiangolo/asyncer/pull/26) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade Codecov GitHub Action. PR [#23](https://github.com/tiangolo/asyncer/pull/23) by [@tiangolo](https://github.com/tiangolo).
 * 💚 Only run CI on push when on master, to avoid duplicate runs for PRs. PR [#17](https://github.com/tiangolo/asyncer/pull/17) by [@tiangolo](https://github.com/tiangolo).
 * ✏ Fix typo in `docs/tutorial/first-steps.md`, from `asyncio` to `anyio`. PR [#11](https://github.com/tiangolo/asyncer/pull/11) by [@windson](https://github.com/windson).
