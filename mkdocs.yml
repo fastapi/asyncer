@@ -38,7 +38,7 @@ nav:
     - tutorial/soonify-return.md
     - tutorial/asyncify.md
     - tutorial/syncify.md
-    - tutorial/syncify-no-raise.md    
+    - tutorial/syncify-no-raise.md
   - help.md
   - release-notes.md
 markdown_extensions:
