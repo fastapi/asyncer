@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 💚 Fix installing Material for MkDocs Insiders in CI. PR [#27](https://github.com/tiangolo/asyncer/pull/27) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Disable installing MkDocs Insiders in forks. PR [#26](https://github.com/tiangolo/asyncer/pull/26) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade Codecov GitHub Action. PR [#23](https://github.com/tiangolo/asyncer/pull/23) by [@tiangolo](https://github.com/tiangolo).
 * 💚 Only run CI on push when on master, to avoid duplicate runs for PRs. PR [#17](https://github.com/tiangolo/asyncer/pull/17) by [@tiangolo](https://github.com/tiangolo).
