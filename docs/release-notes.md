@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 🔧 Add pre-commit and format. PR [#28](https://github.com/tiangolo/asyncer/pull/28) by [@tiangolo](https://github.com/tiangolo).
 * 💚 Fix installing Material for MkDocs Insiders in CI. PR [#27](https://github.com/tiangolo/asyncer/pull/27) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Disable installing MkDocs Insiders in forks. PR [#26](https://github.com/tiangolo/asyncer/pull/26) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade Codecov GitHub Action. PR [#23](https://github.com/tiangolo/asyncer/pull/23) by [@tiangolo](https://github.com/tiangolo).
