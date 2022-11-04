@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ Update flake8 requirement from ^4.0.1 to ^5.0.4. PR [#37](https://github.com/tiangolo/asyncer/pull/37) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update Dependabot config. PR [#43](https://github.com/tiangolo/asyncer/pull/43) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Move from Codecov to Smokeshow. PR [#42](https://github.com/tiangolo/asyncer/pull/42) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add pre-commit and format. PR [#28](https://github.com/tiangolo/asyncer/pull/28) by [@tiangolo](https://github.com/tiangolo).
