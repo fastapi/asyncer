@@ -34,7 +34,7 @@ anyio = "^3.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.1"
-mypy = "^0.930"
+mypy = "^0.971"
 flake8 = "^5.0.4"
 black = {version = "^22.10.0", python = "^3.7"}
 mkdocs = "^1.2.1"
