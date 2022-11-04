@@ -2,12 +2,23 @@
 
 ## Latest Changes
 
-* 🔧 Update mypy config, use `strict = true` instead of manual configs. PR [#38](https://github.com/tiangolo/asyncer/pull/38) by [@michaeloliverx](https://github.com/michaeloliverx).
+### Features
+
+* ✨ Add compatibility with the next (unreleased) version of AnyIO (4.x.x), with `get_asynclib` utility. PR [#48](https://github.com/tiangolo/asyncer/pull/48) by [@tiangolo](https://github.com/tiangolo).
+
+### Docs
+
 * ✏ Fix link to FastAPI and Friends newsletter. PR [#13](https://github.com/tiangolo/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
+* ✏ Fix typo in `docs/tutorial/first-steps.md`, from `asyncio` to `anyio`. PR [#11](https://github.com/tiangolo/asyncer/pull/11) by [@windson](https://github.com/windson).
+* ✏️ Fix broken link in README and index. PR [#9](https://github.com/tiangolo/asyncer/pull/9) by [@vrslev](https://github.com/vrslev).
+* ✏ Fix typo in `syncify-no-raise.md`. PR [#6](https://github.com/tiangolo/asyncer/pull/6) by [@Kludex](https://github.com/Kludex).
+
+### Internal
+
+* 🔧 Update mypy config, use `strict = true` instead of manual configs. PR [#38](https://github.com/tiangolo/asyncer/pull/38) by [@michaeloliverx](https://github.com/michaeloliverx).
 * ➕ Add extra dev dependencies for MkDocs Material. PR [#49](https://github.com/tiangolo/asyncer/pull/49) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Update mypy requirement from ^0.930 to ^0.971. PR [#34](https://github.com/tiangolo/asyncer/pull/34) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update black requirement from ^21.5-beta.1 to ^22.10.0. PR [#41](https://github.com/tiangolo/asyncer/pull/41) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ✨ Add compatibility with the next (unreleased) version of AnyIO (4.x.x), with `get_asynclib` utility. PR [#48](https://github.com/tiangolo/asyncer/pull/48) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#31](https://github.com/tiangolo/asyncer/pull/31) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump nwtgck/actions-netlify from 1.1.5 to 1.2.4. PR [#47](https://github.com/tiangolo/asyncer/pull/47) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 2 to 3. PR [#46](https://github.com/tiangolo/asyncer/pull/46) by [@dependabot[bot]](https://github.com/apps/dependabot).
@@ -22,11 +33,8 @@
 * 👷 Disable installing MkDocs Insiders in forks. PR [#26](https://github.com/tiangolo/asyncer/pull/26) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade Codecov GitHub Action. PR [#23](https://github.com/tiangolo/asyncer/pull/23) by [@tiangolo](https://github.com/tiangolo).
 * 💚 Only run CI on push when on master, to avoid duplicate runs for PRs. PR [#17](https://github.com/tiangolo/asyncer/pull/17) by [@tiangolo](https://github.com/tiangolo).
-* ✏ Fix typo in `docs/tutorial/first-steps.md`, from `asyncio` to `anyio`. PR [#11](https://github.com/tiangolo/asyncer/pull/11) by [@windson](https://github.com/windson).
 * ⬆ Update flake8 requirement from ^3.9.2 to ^4.0.1. PR [#3](https://github.com/tiangolo/asyncer/pull/3) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update coverage requirement from ^5.5 to ^6.2. PR [#1](https://github.com/tiangolo/asyncer/pull/1) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ✏️ Fix broken link in README and index. PR [#9](https://github.com/tiangolo/asyncer/pull/9) by [@vrslev](https://github.com/vrslev).
-* ✏ Fix typo in `syncify-no-raise.md`. PR [#6](https://github.com/tiangolo/asyncer/pull/6) by [@Kludex](https://github.com/Kludex).
 * 🔧 Upgrade MkDocs Material and update configs. PR [#10](https://github.com/tiangolo/asyncer/pull/10) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.0.1
