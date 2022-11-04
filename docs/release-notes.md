@@ -2,6 +2,9 @@
 
 ## Latest Changes
 
+
+## 0.0.2
+
 ### Features
 
 * ✨ Add compatibility with the next (unreleased) version of AnyIO (4.x.x), with `get_asynclib` utility. PR [#48](https://github.com/tiangolo/asyncer/pull/48) by [@tiangolo](https://github.com/tiangolo).
