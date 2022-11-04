@@ -1,5 +1,6 @@
 import functools
 import sys
+from importlib import import_module
 from typing import (
     Any,
     Awaitable,
@@ -18,8 +19,24 @@ else:
     from typing_extensions import ParamSpec
 
 import anyio
-from anyio._core._eventloop import get_asynclib, threadlocals
+import sniffio
+from anyio._core._eventloop import threadlocals
 from anyio.abc import TaskGroup as _TaskGroup
+
+
+# This was obtained with: from anyio._core._eventloop import get_asynclib
+# Removed in https://github.com/agronholm/anyio/pull/429
+# First release (not released yet): 4.0-dev
+def get_asynclib(asynclib_name: Union[str, None] = None) -> Any:
+    if asynclib_name is None:
+        asynclib_name = sniffio.current_async_library()
+
+    modulename = "anyio._backends._" + asynclib_name
+    try:
+        return sys.modules[modulename]
+    except KeyError:
+        return import_module(modulename)
+
 
 T_Retval = TypeVar("T_Retval")
 T_ParamSpec = ParamSpec("T_ParamSpec")
