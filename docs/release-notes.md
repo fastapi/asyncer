@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ Update mypy requirement from ^0.930 to ^0.971. PR [#34](https://github.com/tiangolo/asyncer/pull/34) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update black requirement from ^21.5-beta.1 to ^22.10.0. PR [#41](https://github.com/tiangolo/asyncer/pull/41) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ✨ Add compatibility with the next (unreleased) version of AnyIO (4.x.x), with `get_asynclib` utility. PR [#48](https://github.com/tiangolo/asyncer/pull/48) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#31](https://github.com/tiangolo/asyncer/pull/31) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
