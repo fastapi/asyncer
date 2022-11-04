@@ -34,7 +34,7 @@ def get_asynclib(asynclib_name: Union[str, None] = None) -> Any:
     modulename = "anyio._backends._" + asynclib_name
     try:
         return sys.modules[modulename]
-    except KeyError:
+    except KeyError:  # pragma: no cover
         return import_module(modulename)
 
 
