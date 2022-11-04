@@ -1,12 +1,14 @@
 name: Build Docs
 on:
   push:
+    branches:
+      - main
   pull_request:
     types: [opened, synchronize]
   workflow_dispatch:
     inputs:
       debug_enabled:
-        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'     
+        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
         required: false
         default: false
 jobs:
@@ -17,9 +19,9 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: "3.7"
       # Allow debugging with tmate
@@ -49,26 +51,26 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: python -m poetry install
       - name: Install Material for MkDocs Insiders
-        if: github.event.pull_request.head.repo.fork == false && steps.cache.outputs.cache-hit != 'true'
+        if: ( github.event_name != 'pull_request' || github.event.pull_request.head.repo.fork == false ) && steps.cache.outputs.cache-hit != 'true'
         run: python -m poetry run pip install git+https://${{ secrets.ACTIONS_TOKEN }}@github.com/squidfunk/mkdocs-material-insiders.git
       - uses: actions/cache@v2
         with:
           key: mkdocs-cards-${{ github.ref }}
           path: .cache
       - name: Build Docs
-        if: github.event.pull_request.head.repo.fork == true
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == true
         run: python -m poetry run mkdocs build
       - name: Build Docs with Insiders
-        if: github.event.pull_request.head.repo.fork == false
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.fork == false
         run: python -m poetry run mkdocs build --config-file mkdocs.insiders.yml
       - name: Zip docs
         run: python -m poetry run bash ./scripts/zip-docs.sh
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: docs-zip
           path: ./docs.zip
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v1.1.5
+        uses: nwtgck/actions-netlify@v1.2.4
         with:
           publish-dir: './site'
           production-branch: main
