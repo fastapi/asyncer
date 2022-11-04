@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 🔧 Update mypy config, use `strict = true` instead of manual configs. PR [#38](https://github.com/tiangolo/asyncer/pull/38) by [@michaeloliverx](https://github.com/michaeloliverx).
 * ✏ Fix link to FastAPI and Friends newsletter. PR [#13](https://github.com/tiangolo/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
 * ➕ Add extra dev dependencies for MkDocs Material. PR [#49](https://github.com/tiangolo/asyncer/pull/49) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Update mypy requirement from ^0.930 to ^0.971. PR [#34](https://github.com/tiangolo/asyncer/pull/34) by [@dependabot[bot]](https://github.com/apps/dependabot).
