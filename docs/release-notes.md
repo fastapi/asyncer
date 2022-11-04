@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 🔧 Update Dependabot config. PR [#43](https://github.com/tiangolo/asyncer/pull/43) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Move from Codecov to Smokeshow. PR [#42](https://github.com/tiangolo/asyncer/pull/42) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add pre-commit and format. PR [#28](https://github.com/tiangolo/asyncer/pull/28) by [@tiangolo](https://github.com/tiangolo).
 * 💚 Fix installing Material for MkDocs Insiders in CI. PR [#27](https://github.com/tiangolo/asyncer/pull/27) by [@tiangolo](https://github.com/tiangolo).
