@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ Bump actions/upload-artifact from 2 to 3. PR [#46](https://github.com/tiangolo/asyncer/pull/46) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/setup-python from 2 to 4. PR [#45](https://github.com/tiangolo/asyncer/pull/45) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/checkout from 2 to 3. PR [#44](https://github.com/tiangolo/asyncer/pull/44) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update pytest requirement from ^6.2.4 to ^7.0.1. PR [#18](https://github.com/tiangolo/asyncer/pull/18) by [@dependabot[bot]](https://github.com/apps/dependabot).
