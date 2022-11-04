@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ Bump actions/checkout from 2 to 3. PR [#44](https://github.com/tiangolo/asyncer/pull/44) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update pytest requirement from ^6.2.4 to ^7.0.1. PR [#18](https://github.com/tiangolo/asyncer/pull/18) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update flake8 requirement from ^4.0.1 to ^5.0.4. PR [#37](https://github.com/tiangolo/asyncer/pull/37) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Update Dependabot config. PR [#43](https://github.com/tiangolo/asyncer/pull/43) by [@tiangolo](https://github.com/tiangolo).
