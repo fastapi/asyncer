@@ -18,7 +18,7 @@ Knowing if it's useful or if you find any obvious problem with its design would 
 
 ## Subscribe to the FastAPI and Friends newsletter
 
-You can subscribe to the (infrequent) [**FastAPI and friends** newsletter](/newsletter/){.internal-link target=_blank} to stay updated about:
+You can subscribe to the (infrequent) <a href="https://fastapi.tiangolo.com/newsletter/" class="external-link" target="_blank">**FastAPI and friends**</a> to stay updated about:
 
 * News about FastAPI and friends, including Asyncer 🚀
 * Guides 📝

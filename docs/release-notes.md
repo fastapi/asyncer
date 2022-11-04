@@ -2,6 +2,20 @@
 
 ## Latest Changes
 
+* ✏ Fix link to FastAPI and Friends newsletter. PR [#13](https://github.com/tiangolo/asyncer/pull/13) by [@JonasKs](https://github.com/JonasKs).
+* ➕ Add extra dev dependencies for MkDocs Material. PR [#49](https://github.com/tiangolo/asyncer/pull/49) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Update mypy requirement from ^0.930 to ^0.971. PR [#34](https://github.com/tiangolo/asyncer/pull/34) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Update black requirement from ^21.5-beta.1 to ^22.10.0. PR [#41](https://github.com/tiangolo/asyncer/pull/41) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ✨ Add compatibility with the next (unreleased) version of AnyIO (4.x.x), with `get_asynclib` utility. PR [#48](https://github.com/tiangolo/asyncer/pull/48) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#31](https://github.com/tiangolo/asyncer/pull/31) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump nwtgck/actions-netlify from 1.1.5 to 1.2.4. PR [#47](https://github.com/tiangolo/asyncer/pull/47) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/upload-artifact from 2 to 3. PR [#46](https://github.com/tiangolo/asyncer/pull/46) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/setup-python from 2 to 4. PR [#45](https://github.com/tiangolo/asyncer/pull/45) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/checkout from 2 to 3. PR [#44](https://github.com/tiangolo/asyncer/pull/44) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Update pytest requirement from ^6.2.4 to ^7.0.1. PR [#18](https://github.com/tiangolo/asyncer/pull/18) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Update flake8 requirement from ^4.0.1 to ^5.0.4. PR [#37](https://github.com/tiangolo/asyncer/pull/37) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Update Dependabot config. PR [#43](https://github.com/tiangolo/asyncer/pull/43) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Move from Codecov to Smokeshow. PR [#42](https://github.com/tiangolo/asyncer/pull/42) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add pre-commit and format. PR [#28](https://github.com/tiangolo/asyncer/pull/28) by [@tiangolo](https://github.com/tiangolo).
 * 💚 Fix installing Material for MkDocs Insiders in CI. PR [#27](https://github.com/tiangolo/asyncer/pull/27) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Disable installing MkDocs Insiders in forks. PR [#26](https://github.com/tiangolo/asyncer/pull/26) by [@tiangolo](https://github.com/tiangolo).
