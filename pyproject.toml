@@ -58,6 +58,7 @@ source = [
     "tests",
     "asyncer"
 ]
+context = '${CONTEXT}'
 
 [tool.coverage.report]
 omit = [
