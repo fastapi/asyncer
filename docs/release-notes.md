@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ Update black requirement from ^21.5-beta.1 to ^22.10.0. PR [#41](https://github.com/tiangolo/asyncer/pull/41) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ✨ Add compatibility with the next (unreleased) version of AnyIO (4.x.x), with `get_asynclib` utility. PR [#48](https://github.com/tiangolo/asyncer/pull/48) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#31](https://github.com/tiangolo/asyncer/pull/31) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump nwtgck/actions-netlify from 1.1.5 to 1.2.4. PR [#47](https://github.com/tiangolo/asyncer/pull/47) by [@dependabot[bot]](https://github.com/apps/dependabot).
