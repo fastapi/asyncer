@@ -64,7 +64,7 @@ class SoonValue(Generic[T]):
         if isinstance(self._stored_value, PendingType):
             raise PendingValueException(
                 "The return value of this task is still pending. Maybe you forgot to "
-                "access it after the async with asyncer.create_task_group() block. "
+                "access it after the async with `asyncer.create_task_group()` block. "
                 "If you need to access values of async tasks inside the same task "
                 "group, you probably need a different approach, for example with "
                 "AnyIO Streams."
