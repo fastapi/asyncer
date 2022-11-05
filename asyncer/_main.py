@@ -181,6 +181,7 @@ def create_task_group() -> "TaskGroup":
     it creates an extended `TaskGroup` object that includes the `task_group.soonify()`
     method.
     """
+
     LibTaskGroup = get_asynclib().TaskGroup
 
     class ExtendedTaskGroup(LibTaskGroup, TaskGroup):  # type: ignore
@@ -220,7 +221,7 @@ def runnify(
     ## Arguments
 
     `async_function`: an async function to call
-    `backend` name of the asynchronous event loop implementation - currently either
+    `backend`: name of the asynchronous event loop implementation - currently either
         `asyncio` or `trio`
     `backend_options` keyword arguments to call the backend `run()` implementation with
 
@@ -232,7 +233,6 @@ def runnify(
 
     `RuntimeError`: if an asynchronous event loop is already running in this thread
     `LookupError`: if the named backend is not found
-
     """
 
     @functools.wraps(async_function)
@@ -320,7 +320,6 @@ def asyncify(
     autocompletion and inline errors for the arguments of the function called and the
     return value.
 
-
     If the `cancellable` option is enabled and the task waiting for its completion is
     cancelled, the thread will still run its course but its return value (or any raised
     exception) will be ignored.
@@ -348,7 +347,6 @@ def asyncify(
     An async function that takes the same positional and keyword arguments as the
     original one, that when called runs the same original function in a thread worker
     and returns the result.
-
     """
 
     async def wrapper(
