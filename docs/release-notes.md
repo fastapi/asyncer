@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ Bump dawidd6/action-download-artifact from 2.9.0 to 2.24.1. PR [#53](https://github.com/tiangolo/asyncer/pull/53) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
 ## 0.0.2
 
