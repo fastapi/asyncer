@@ -2,6 +2,12 @@
 
 ## Latest Changes
 
+* 🍱 Update logo vector asset, do not depend on system fonts. PR [#60](https://github.com/tiangolo/asyncer/pull/60) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Refactor CI artifact upload/download for docs previews. PR [#59](https://github.com/tiangolo/asyncer/pull/59) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#56](https://github.com/tiangolo/asyncer/pull/56) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump actions/cache from 2 to 3. PR [#55](https://github.com/tiangolo/asyncer/pull/55) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump dawidd6/action-download-artifact from 2.24.1 to 2.24.2. PR [#54](https://github.com/tiangolo/asyncer/pull/54) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump dawidd6/action-download-artifact from 2.9.0 to 2.24.1. PR [#53](https://github.com/tiangolo/asyncer/pull/53) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
 ## 0.0.2
 
