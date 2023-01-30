@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ Upgrade isort and pre-commit config. PR [#62](https://github.com/tiangolo/asyncer/pull/62) by [@tiangolo](https://github.com/tiangolo).
 * 🍱 Update logo vector asset, do not depend on system fonts. PR [#60](https://github.com/tiangolo/asyncer/pull/60) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Refactor CI artifact upload/download for docs previews. PR [#59](https://github.com/tiangolo/asyncer/pull/59) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#56](https://github.com/tiangolo/asyncer/pull/56) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
