@@ -1,6 +1,5 @@
 import anyio
-
-from asyncer import runnify, asyncify
+from asyncer import asyncify, runnify
 
 
 def test_decorator():

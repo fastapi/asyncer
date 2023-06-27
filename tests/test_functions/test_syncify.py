@@ -1,6 +1,5 @@
 import anyio
-
-from asyncer import syncify, asyncify
+from asyncer import asyncify, syncify
 
 
 def test_decorator():
