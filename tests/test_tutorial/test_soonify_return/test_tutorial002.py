@@ -7,7 +7,6 @@ from ...conftest import get_testing_print_function
 
 
 def test_tutorial():
-
     calls = []
 
     new_print = get_testing_print_function(calls)
