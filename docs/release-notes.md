@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 🛠️ Tweak internal CI actions, add `--no-cache-dir` at `Dockfile` files. PR [#52](https://github.com/tiangolo/asyncer/pull/52) by [@realFranco](https://github.com/realFranco).
 * ✏️ Tweak docstrings format. PR [#50](https://github.com/tiangolo/asyncer/pull/50) by [@realFranco](https://github.com/realFranco).
 * ⬆ Bump nwtgck/actions-netlify from 1.2.4 to 2.0.0. PR [#58](https://github.com/tiangolo/asyncer/pull/58) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump dawidd6/action-download-artifact from 2.24.2 to 2.27.0. PR [#74](https://github.com/tiangolo/asyncer/pull/74) by [@dependabot[bot]](https://github.com/apps/dependabot).
