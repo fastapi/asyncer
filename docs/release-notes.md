@@ -2,6 +2,15 @@
 
 ## Latest Changes
 
+* ⬆ Bump nwtgck/actions-netlify from 1.2.4 to 2.0.0. PR [#58](https://github.com/tiangolo/asyncer/pull/58) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump dawidd6/action-download-artifact from 2.24.2 to 2.27.0. PR [#74](https://github.com/tiangolo/asyncer/pull/74) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#57](https://github.com/tiangolo/asyncer/pull/57) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 👷 Update token for latest changes. PR [#70](https://github.com/tiangolo/asyncer/pull/70) by [@tiangolo](https://github.com/tiangolo).
+* ⬆️ Upgrade analytics. PR [#67](https://github.com/tiangolo/asyncer/pull/67) by [@tiangolo](https://github.com/tiangolo).
+* 📝 Update help Asyncer docs. PR [#65](https://github.com/tiangolo/asyncer/pull/65) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Update new issue chooser to point to Discussions. PR [#64](https://github.com/tiangolo/asyncer/pull/64) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Add question template for GitHub Discussions and update issues template. PR [#63](https://github.com/tiangolo/asyncer/pull/63) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Upgrade isort and pre-commit config. PR [#62](https://github.com/tiangolo/asyncer/pull/62) by [@tiangolo](https://github.com/tiangolo).
 * 🍱 Update logo vector asset, do not depend on system fonts. PR [#60](https://github.com/tiangolo/asyncer/pull/60) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Refactor CI artifact upload/download for docs previews. PR [#59](https://github.com/tiangolo/asyncer/pull/59) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#56](https://github.com/tiangolo/asyncer/pull/56) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).

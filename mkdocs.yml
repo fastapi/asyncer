@@ -61,7 +61,7 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: UA-216293837-1
+    property: G-T4CRRCXTNY
   social:
   - icon: fontawesome/brands/github-alt
     link: https://github.com/tiangolo/asyncer
