@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 👷 Update token for latest changes. PR [#70](https://github.com/tiangolo/asyncer/pull/70) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade analytics. PR [#67](https://github.com/tiangolo/asyncer/pull/67) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update help Asyncer docs. PR [#65](https://github.com/tiangolo/asyncer/pull/65) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update new issue chooser to point to Discussions. PR [#64](https://github.com/tiangolo/asyncer/pull/64) by [@tiangolo](https://github.com/tiangolo).
