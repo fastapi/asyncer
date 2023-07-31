@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 👷 Update docs deploy to Cloudflare pages. PR [#81](https://github.com/tiangolo/asyncer/pull/81) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update docs CI, main branch is main, not master. PR [#80](https://github.com/tiangolo/asyncer/pull/80) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update dependencies now that 3.6 is deprecated. PR [#79](https://github.com/tiangolo/asyncer/pull/79) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade CI for docs. PR [#78](https://github.com/tiangolo/asyncer/pull/78) by [@tiangolo](https://github.com/tiangolo).
