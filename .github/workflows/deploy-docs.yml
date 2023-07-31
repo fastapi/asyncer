@@ -40,9 +40,6 @@ jobs:
           directory: './site'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ ( github.event.workflow_run.head_repository.full_name == github.repository && github.event.workflow_run.head_branch == 'main' && 'main' ) || ( github.event.workflow_run.head_sha ) }}
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       - name: Comment Deploy
         if: steps.deploy.outputs.deploy-url != ''
         uses: ./.github/actions/comment-docs-preview-in-pr
