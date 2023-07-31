@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 👷 Update docs CI, main branch is main, not master. PR [#80](https://github.com/tiangolo/asyncer/pull/80) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update dependencies now that 3.6 is deprecated. PR [#79](https://github.com/tiangolo/asyncer/pull/79) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade CI for docs. PR [#78](https://github.com/tiangolo/asyncer/pull/78) by [@tiangolo](https://github.com/tiangolo).
 * 🛠️ Tweak internal CI actions, add `--no-cache-dir` at `Dockfile` files. PR [#52](https://github.com/tiangolo/asyncer/pull/52) by [@realFranco](https://github.com/realFranco).
