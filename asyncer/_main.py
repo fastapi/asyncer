@@ -349,6 +349,7 @@ def asyncify(
     and returns the result.
     """
 
+    @functools.wraps(function)
     async def wrapper(
         *args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs
     ) -> T_Retval:
