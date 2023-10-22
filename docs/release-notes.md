@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 🔧 Add `CITATION.cff` file for academic citations. PR [#92](https://github.com/tiangolo/asyncer/pull/92) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update Debug mode with Tmate for CI. PR [#82](https://github.com/tiangolo/asyncer/pull/82) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update docs deploy to Cloudflare pages. PR [#81](https://github.com/tiangolo/asyncer/pull/81) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update docs CI, main branch is main, not master. PR [#80](https://github.com/tiangolo/asyncer/pull/80) by [@tiangolo](https://github.com/tiangolo).
