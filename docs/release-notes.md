@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 🔨 Update dev scripts. PR [#95](https://github.com/tiangolo/asyncer/pull/95) by [@tiangolo](https://github.com/tiangolo).
 
 ### Refactor
 
