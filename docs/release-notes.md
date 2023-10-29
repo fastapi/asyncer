@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#83](https://github.com/tiangolo/asyncer/pull/83) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump actions/checkout from 3 to 4. PR [#85](https://github.com/tiangolo/asyncer/pull/85) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump dawidd6/action-download-artifact from 2.27.0 to 2.28.0. PR [#88](https://github.com/tiangolo/asyncer/pull/88) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Install MkDocs Material Insiders only when secrets are available, for Dependabot. PR [#94](https://github.com/tiangolo/asyncer/pull/94) by [@tiangolo](https://github.com/tiangolo).
