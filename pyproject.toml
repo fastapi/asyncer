@@ -33,7 +33,7 @@ anyio = "^3.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.1"
-mypy = "^0.971"
+mypy = "^1.4"
 flake8 = "^5.0.4"
 black = "^22.10.0"
 pillow = "^9.3.0"
