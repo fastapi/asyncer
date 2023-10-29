@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* ⬆ Bump dawidd6/action-download-artifact from 2.27.0 to 2.28.0. PR [#88](https://github.com/tiangolo/asyncer/pull/88) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Install MkDocs Material Insiders only when secrets are available, for Dependabot. PR [#94](https://github.com/tiangolo/asyncer/pull/94) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add `CITATION.cff` file for academic citations. PR [#92](https://github.com/tiangolo/asyncer/pull/92) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update Debug mode with Tmate for CI. PR [#82](https://github.com/tiangolo/asyncer/pull/82) by [@tiangolo](https://github.com/tiangolo).
