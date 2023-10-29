@@ -2,6 +2,7 @@
 
 ## Latest Changes
 
+* 👷 Install MkDocs Material Insiders only when secrets are available, for Dependabot. PR [#94](https://github.com/tiangolo/asyncer/pull/94) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add `CITATION.cff` file for academic citations. PR [#92](https://github.com/tiangolo/asyncer/pull/92) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update Debug mode with Tmate for CI. PR [#82](https://github.com/tiangolo/asyncer/pull/82) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update docs deploy to Cloudflare pages. PR [#81](https://github.com/tiangolo/asyncer/pull/81) by [@tiangolo](https://github.com/tiangolo).
