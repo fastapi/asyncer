@@ -30,9 +30,23 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debug_enabled == 'true' }}
         with:
           limit-access-to-actor: true
-      - uses: docker://tiangolo/latest-changes:0.0.3
+      - uses: docker://tiangolo/latest-changes:0.1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           latest_changes_file: docs/release-notes.md
-          latest_changes_header: '## Latest Changes\n\n'
+          latest_changes_header: '## Latest Changes'
+          end_regex: '^## '
           debug_logs: true
+          labels: >
+            [
+              {"label": "breaking", "header": "### Breaking Changes"},
+              {"label": "security", "header": "### Security Fixes"},
+              {"label": "feature", "header": "### Features"},
+              {"label": "bug", "header": "### Fixes"},
+              {"label": "refactor", "header": "### Refactors"},
+              {"label": "upgrade", "header": "### Upgrades"},
+              {"label": "docs", "header": "### Docs"},
+              {"label": "lang-all", "header": "### Translations"},
+              {"label": "internal", "header": "### Internal"}
+            ]
+          next_section_start: '^### '
