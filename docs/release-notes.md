@@ -2,9 +2,7 @@
 
 ## Latest Changes
 
-* 🔨 Update dev scripts. PR [#95](https://github.com/tiangolo/asyncer/pull/95) by [@tiangolo](https://github.com/tiangolo).
-
-### Refactor
+### Refactors
 
 * ✏️ Tweak docstrings format. PR [#50](https://github.com/tiangolo/asyncer/pull/50) by [@realFranco](https://github.com/realFranco).
 
@@ -17,6 +15,7 @@
 
 ### Internal
 
+* 🔨 Update dev scripts. PR [#95](https://github.com/tiangolo/asyncer/pull/95) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#83](https://github.com/tiangolo/asyncer/pull/83) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump actions/checkout from 3 to 4. PR [#85](https://github.com/tiangolo/asyncer/pull/85) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump dawidd6/action-download-artifact from 2.27.0 to 2.28.0. PR [#88](https://github.com/tiangolo/asyncer/pull/88) by [@dependabot[bot]](https://github.com/apps/dependabot).
