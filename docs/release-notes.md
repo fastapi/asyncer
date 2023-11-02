@@ -17,6 +17,7 @@
 
 ### Internal
 
+* 📝 Tweak release notes with latest changes. PR [#98](https://github.com/tiangolo/asyncer/pull/98) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Fix duplicated docs and latest-changes GitHub Action version. PR [#99](https://github.com/tiangolo/asyncer/pull/99) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Update dev scripts. PR [#95](https://github.com/tiangolo/asyncer/pull/95) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#83](https://github.com/tiangolo/asyncer/pull/83) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
