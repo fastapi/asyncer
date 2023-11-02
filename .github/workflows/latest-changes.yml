@@ -30,8 +30,8 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debug_enabled == 'true' }}
         with:
           limit-access-to-actor: true
-      # - uses: docker://tiangolo/latest-changes:0.1.0
-      - uses: tiangolo/latest-changes@multi-sections
+      - uses: docker://tiangolo/latest-changes:0.1.1
+      # - uses: tiangolo/latest-changes@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           latest_changes_file: docs/release-notes.md
