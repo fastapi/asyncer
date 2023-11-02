@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+* 👷 Upgrade latest-changes. PR [#97](https://github.com/tiangolo/asyncer/pull/97) by [@tiangolo](https://github.com/tiangolo).
+
 ### Refactors
 
 * ✏️ Tweak docstrings format. PR [#50](https://github.com/tiangolo/asyncer/pull/50) by [@realFranco](https://github.com/realFranco).
