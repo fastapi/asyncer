@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 👷 Upgrade latest-changes. PR [#101](https://github.com/tiangolo/asyncer/pull/101) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update latest changes GitHub Action to use the latest release. PR [#100](https://github.com/tiangolo/asyncer/pull/100) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Fix duplicated docs and latest-changes GitHub Action version. PR [#99](https://github.com/tiangolo/asyncer/pull/99) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade latest-changes. PR [#97](https://github.com/tiangolo/asyncer/pull/97) by [@tiangolo](https://github.com/tiangolo).
