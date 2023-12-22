@@ -17,7 +17,7 @@ jobs:
     outputs:
       docs: ${{ steps.filter.outputs.docs }}
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     # For pull requests it's not necessary to checkout the code but for the main branch it is
     - uses: dorny/paths-filter@v2
       id: filter
@@ -30,6 +30,8 @@ jobs:
             - pyproject.toml
             - mkdocs.yml
             - mkdocs.insiders.yml
+            - .github/workflows/build-docs.yml
+            - .github/workflows/deploy-docs.yml
 
   build-docs:
     needs:
@@ -41,7 +43,7 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -63,17 +65,17 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: python -m poetry install
       - name: Install Material for MkDocs Insiders
-        if: ( github.event_name != 'pull_request' || github.event.pull_request.head.repo.fork == false ) && steps.cache.outputs.cache-hit != 'true'
+        if: ( github.event_name != 'pull_request' || github.secret_source == 'Actions' ) && steps.cache.outputs.cache-hit != 'true'
         run: python -m poetry run pip install git+https://${{ secrets.ASYNCER_MKDOCS_MATERIAL_INSIDERS }}@github.com/squidfunk/mkdocs-material-insiders.git
       - uses: actions/cache@v3
         with:
           key: mkdocs-cards-${{ github.ref }}
           path: .cache
       - name: Build Docs
-        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == true
+        if: github.event_name == 'pull_request' && github.secret_source != 'Actions'
         run: python -m poetry run mkdocs build
       - name: Build Docs with Insiders
-        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.fork == false
+        if: github.event_name != 'pull_request' || github.secret_source == 'Actions'
         run: python -m poetry run mkdocs build --config-file mkdocs.insiders.yml
       - uses: actions/upload-artifact@v3
         with:
