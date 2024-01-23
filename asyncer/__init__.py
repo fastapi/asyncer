@@ -6,3 +6,4 @@ from ._main import asyncify as asyncify
 from ._main import syncify as syncify
 from ._main import runnify as runnify
 from ._main import PendingValueException as PendingValueException
+from ._main import TaskGroup as TaskGroup
