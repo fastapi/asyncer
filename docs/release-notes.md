@@ -24,6 +24,7 @@
 
 ### Internal
 
+* 🔧 Update classifiers for Python 3.11 and Python 3.12. PR [#110](https://github.com/tiangolo/asyncer/pull/110) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Enable tests for Python 3.12 in CI. PR [#108](https://github.com/tiangolo/asyncer/pull/108) by [@khiemdoan](https://github.com/khiemdoan).
 * ⬆ Bump actions/setup-python from 4 to 5. PR [#102](https://github.com/tiangolo/asyncer/pull/102) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/issue-manager from 0.4.0 to 0.4.1. PR [#109](https://github.com/tiangolo/asyncer/pull/109) by [@dependabot[bot]](https://github.com/apps/dependabot).
