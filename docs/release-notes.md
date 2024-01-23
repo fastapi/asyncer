@@ -24,6 +24,7 @@
 
 ### Internal
 
+* ⬆ Bump tiangolo/issue-manager from 0.4.0 to 0.4.1. PR [#109](https://github.com/tiangolo/asyncer/pull/109) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update build docs cache key. PR [#103](https://github.com/tiangolo/asyncer/pull/103) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade latest-changes. PR [#101](https://github.com/tiangolo/asyncer/pull/101) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update latest changes GitHub Action to use the latest release. PR [#100](https://github.com/tiangolo/asyncer/pull/100) by [@tiangolo](https://github.com/tiangolo).
