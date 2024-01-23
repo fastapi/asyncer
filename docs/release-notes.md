@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 🔧 Add Ruff config. PR [#112](https://github.com/tiangolo/asyncer/pull/112) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Adopt Ruff for formatting and linting and upgrade internal tools. PR [#111](https://github.com/tiangolo/asyncer/pull/111) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.0.3
