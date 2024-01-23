@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Features
+
+* ✨ Add support for AnyIO 4.x, drop support for Python 3.7. PR [#90](https://github.com/tiangolo/asyncer/pull/90) by [@khiemdoan](https://github.com/khiemdoan).
+
 ### Refactors
 
 * ✏️ Tweak docstrings format. PR [#50](https://github.com/tiangolo/asyncer/pull/50) by [@realFranco](https://github.com/realFranco).
