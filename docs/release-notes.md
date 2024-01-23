@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.3
+
 ### Features
 
 * ✨ Export (import and re-export) `TaskGroup` from `asyncer`. PR [#87](https://github.com/tiangolo/asyncer/pull/87) by [@MarkParker5](https://github.com/MarkParker5).
