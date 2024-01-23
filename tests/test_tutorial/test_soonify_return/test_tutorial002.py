@@ -1,9 +1,8 @@
 from unittest.mock import patch
 
+import asyncer
 import exceptiongroup
 import pytest
-
-import asyncer
 
 from ...conftest import get_testing_print_function
 
