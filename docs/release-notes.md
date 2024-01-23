@@ -7,6 +7,10 @@
 * ✨ Export (import and re-export) `TaskGroup` from `asyncer`. PR [#87](https://github.com/tiangolo/asyncer/pull/87) by [@MarkParker5](https://github.com/MarkParker5).
 * ✨ Add support for AnyIO 4.x, drop support for Python 3.7. PR [#90](https://github.com/tiangolo/asyncer/pull/90) by [@khiemdoan](https://github.com/khiemdoan).
 
+### Fixes
+
+* 🐛 Add missing dependency `typing_extensions` for Python < 3.10. PR [#89](https://github.com/tiangolo/asyncer/pull/89) by [@ZhymabekRoman](https://github.com/ZhymabekRoman).
+
 ### Refactors
 
 * ✏️ Tweak docstrings format. PR [#50](https://github.com/tiangolo/asyncer/pull/50) by [@realFranco](https://github.com/realFranco).
