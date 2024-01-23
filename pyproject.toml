@@ -28,8 +28,8 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-anyio = "^3.4.0"
+python = "^3.8"
+anyio = ">=3.4.0,<5.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.1"
