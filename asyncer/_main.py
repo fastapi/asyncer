@@ -9,7 +9,6 @@ from typing import (
     Dict,
     Generic,
     Optional,
-    Tuple,
     TypeVar,
     Union,
 )
@@ -159,7 +158,7 @@ class TaskGroup(_TaskGroup):
             soon_value: SoonValue[T] = SoonValue()
 
             @functools.wraps(partial_f)
-            async def value_wrapper(*args: Tuple[Any]) -> None:
+            async def value_wrapper(*args: Any) -> None:
                 value = await partial_f()
                 soon_value._stored_value = value
 
