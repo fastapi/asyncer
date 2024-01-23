@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 🔧 Adopt Ruff for formatting and linting and upgrade internal tools. PR [#111](https://github.com/tiangolo/asyncer/pull/111) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.3
 
 ### Features
