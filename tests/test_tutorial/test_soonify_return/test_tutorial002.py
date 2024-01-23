@@ -1,7 +1,7 @@
+import sys
 from unittest.mock import patch
 
 import asyncer
-import sys
 import pytest
 
 if sys.version_info < (3, 11):
