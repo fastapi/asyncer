@@ -24,6 +24,7 @@
 
 ### Internal
 
+* 👷 Enable tests for Python 3.12 in CI. PR [#108](https://github.com/tiangolo/asyncer/pull/108) by [@khiemdoan](https://github.com/khiemdoan).
 * ⬆ Bump actions/setup-python from 4 to 5. PR [#102](https://github.com/tiangolo/asyncer/pull/102) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/issue-manager from 0.4.0 to 0.4.1. PR [#109](https://github.com/tiangolo/asyncer/pull/109) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update build docs cache key. PR [#103](https://github.com/tiangolo/asyncer/pull/103) by [@tiangolo](https://github.com/tiangolo).
