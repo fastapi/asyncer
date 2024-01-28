@@ -285,7 +285,9 @@ def syncify(
 
     `async_function`: an async function to be called in the main thread, in the async
         event loop
-    `raise_sync_error`: If set to `False`
+    `raise_sync_error`: If set to `False`, when used in a non-async context (without
+        an async event loop), it will run `async_function` in a new async event loop,
+        instead of raising an exception.
 
     ## Return
 
