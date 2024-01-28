@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Update Publish CI Python version to 3.11. PR [#120](https://github.com/tiangolo/asyncer/pull/120) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.4
 
 ### Docs
