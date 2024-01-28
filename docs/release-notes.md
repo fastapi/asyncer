@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Docs
+
+* 📝 Update docstring for `syncify()`, fix name of parameter `raise_sync_error` (remove unused parameter name `check_called_from_async`). PR [#113](https://github.com/tiangolo/asyncer/pull/113) by [@giladsheffer](https://github.com/giladsheffer).
+
 ### Internal
 
 * 🔧 Add Ruff config. PR [#112](https://github.com/tiangolo/asyncer/pull/112) by [@tiangolo](https://github.com/tiangolo).
