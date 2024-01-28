@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.4
+
 ### Docs
 
 * 📝 Update docstring for `syncify()`, fix name of parameter `raise_sync_error` (remove unused parameter name `check_called_from_async`). PR [#113](https://github.com/tiangolo/asyncer/pull/113) by [@giladsheffer](https://github.com/giladsheffer).
