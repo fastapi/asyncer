@@ -13,6 +13,8 @@ from typing import (
     Union,
 )
 
+import sniffio
+
 if sys.version_info >= (3, 10):
     from typing import ParamSpec
 else:
@@ -26,7 +28,9 @@ from anyio.abc import TaskGroup as _TaskGroup
 
 # This was obtained with: from anyio._core._eventloop import get_asynclib
 # Removed in https://github.com/agronholm/anyio/pull/429
-# First release (not released yet): 4.0-dev
+# Released in AnyIO 4.x.x
+# The new function is anyio._core._eventloop.get_async_backend but that returns a
+# class, not a module to extract the TaskGroup class from.
 def get_asynclib(asynclib_name: Union[str, None] = None) -> Any:
     if asynclib_name is None:
         asynclib_name = sniffio.current_async_library()
@@ -298,7 +302,12 @@ def syncify(
 
     @functools.wraps(async_function)
     def wrapper(*args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs) -> T_Retval:
-        current_async_module = getattr(threadlocals, "current_async_module", None)
+        current_async_module = (
+            getattr(threadlocals, "current_async_backend", None)
+            or
+            # TODO: remove when deprecating AnyIO 3.x
+            getattr(threadlocals, "current_async_module", None)
+        )
         partial_f = functools.partial(async_function, *args, **kwargs)
         if current_async_module is None and raise_sync_error is False:
             return anyio.run(partial_f)
