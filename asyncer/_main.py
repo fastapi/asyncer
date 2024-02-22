@@ -13,8 +13,6 @@ from typing import (
     Union,
 )
 
-import sniffio
-
 if sys.version_info >= (3, 10):
     from typing import ParamSpec
 else:
