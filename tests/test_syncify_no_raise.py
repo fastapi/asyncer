@@ -12,7 +12,6 @@ class Report:
     caller_func: str
 
 
-
 def test_syncify_no_raise_async():
     reports: List[Report] = []
 
