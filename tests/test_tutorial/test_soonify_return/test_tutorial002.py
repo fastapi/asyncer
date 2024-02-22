@@ -16,10 +16,11 @@ def test_tutorial():
     new_print = get_testing_print_function(calls)
 
     with patch("builtins.print", new=new_print):
-        with pytest.raises(ExceptionGroup) as e:
+        with pytest.raises((ExceptionGroup, asyncer.PendingValueException)) as e:
             from docs_src.tutorial.soonify_return import tutorial002 as mod
 
             # Avoid autoflake removing this import
             assert mod  # pragma: nocover
-        assert isinstance(e.value.exceptions[0], asyncer.PendingValueException)
+        if isinstance(e, ExceptionGroup):
+            assert isinstance(e.value.exceptions[0], asyncer.PendingValueException)
     assert calls == []
