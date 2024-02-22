@@ -26,6 +26,9 @@ jobs:
           - "3.10"
           - "3.11"
           - "3.12"
+        anyio-version:
+          - anyio-v3
+          - anyio-v4
       fail-fast: false
 
     steps:
@@ -56,6 +59,12 @@ jobs:
       - name: Install Dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: python -m poetry install
+      - name: Install AnyIO v3
+        if: matrix.anyio-version == 'anyio-v3'
+        run: pip install --upgrade "anyio>=3.4.0,<4.0"
+      - name: Install AnyIO v4
+        if: matrix.anyio-version == 'anyio-v4'
+        run: pip install --upgrade "anyio>=4.0.0,<5.0"
       - name: Lint
         run: python -m poetry run bash scripts/lint.sh
       - run: mkdir coverage
