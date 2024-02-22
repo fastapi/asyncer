@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.5
+
 ### Fixes
 
 * 🐛  Fix `syncify` with `raise_sync_error=False` on AnyIO 4.x.x, do not start new event loops unnecessarily. PR [#130](https://github.com/tiangolo/asyncer/pull/130) by [@tiangolo](https://github.com/tiangolo).
