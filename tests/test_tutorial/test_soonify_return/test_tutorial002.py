@@ -21,6 +21,8 @@ def test_tutorial():
 
             # Avoid autoflake removing this import
             assert mod  # pragma: nocover
-        if isinstance(e, ExceptionGroup):
+        if isinstance(e.value, ExceptionGroup):
             assert isinstance(e.value.exceptions[0], asyncer.PendingValueException)
+        else:
+            assert isinstance(e.value, asyncer.PendingValueException)
     assert calls == []
