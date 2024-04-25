@@ -373,7 +373,7 @@ def asyncify(
 
         return wrapper
 
-    async def wrapper(
+    async def wrapper(  # type: ignore[no-redef]
         *args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs
     ) -> T_Retval:
         partial_f = functools.partial(function, *args, **kwargs)
