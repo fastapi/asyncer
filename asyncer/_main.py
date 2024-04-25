@@ -368,7 +368,9 @@ def asyncify(
         ) -> T_Retval:
             partial_f = functools.partial(function, *args, **kwargs)
             return await anyio.to_thread.run_sync(
-                partial_f, abandon_on_cancel=cancellable, limiter=limiter
+                partial_f,
+                abandon_on_cancel=cancellable, # type: ignore[call-arg]
+                limiter=limiter
             )
 
         return wrapper
