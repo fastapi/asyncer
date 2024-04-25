@@ -1,4 +1,5 @@
 import functools
+from importlib.metadata import version as module_version
 import sys
 from importlib import import_module
 from typing import (
@@ -22,6 +23,9 @@ import anyio
 import sniffio
 from anyio._core._eventloop import threadlocals
 from anyio.abc import TaskGroup as _TaskGroup
+
+
+ANYIO_VERSION = tuple(int(num) for num in module_version('anyio').split('.'))
 
 
 # This was obtained with: from anyio._core._eventloop import get_asynclib
@@ -358,12 +362,22 @@ def asyncify(
     and returns the result.
     """
 
+    if ANYIO_VERSION >= (4, 1, 0):
+        async def wrapper(
+            *args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs
+        ) -> T_Retval:
+            partial_f = functools.partial(function, *args, **kwargs)
+            return await anyio.to_thread.run_sync(
+                partial_f, abandon_on_cancel=cancellable, limiter=limiter
+            )
+        return wrapper
+
     async def wrapper(
-        *args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs
-    ) -> T_Retval:
-        partial_f = functools.partial(function, *args, **kwargs)
-        return await anyio.to_thread.run_sync(
-            partial_f, cancellable=cancellable, limiter=limiter
-        )
+            *args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs
+        ) -> T_Retval:
+            partial_f = functools.partial(function, *args, **kwargs)
+            return await anyio.to_thread.run_sync(
+                partial_f, cancellable=cancellable, limiter=limiter
+            )
 
     return wrapper
