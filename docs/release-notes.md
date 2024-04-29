@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 🔨 Update internal scripts and remove unused ones. PR [#149](https://github.com/tiangolo/asyncer/pull/149) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Migrate from Poetry to PDM for handling the internal dependencies and build. PR [#148](https://github.com/tiangolo/asyncer/pull/148) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add cron to run test once a week on monday. PR [#140](https://github.com/tiangolo/asyncer/pull/140) by [@estebanx64](https://github.com/estebanx64).
 * ⬆️ Upgrade Ruff version and configs. PR [#139](https://github.com/tiangolo/asyncer/pull/139) by [@tiangolo](https://github.com/tiangolo).
