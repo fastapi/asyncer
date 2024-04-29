@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump dorny/paths-filter from 2 to 3. PR [#118](https://github.com/tiangolo/asyncer/pull/118) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump dawidd6/action-download-artifact from 2.28.0 to 3.1.4. PR [#137](https://github.com/tiangolo/asyncer/pull/137) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔨 Update internal scripts and remove unused ones. PR [#149](https://github.com/tiangolo/asyncer/pull/149) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Migrate from Poetry to PDM for handling the internal dependencies and build. PR [#148](https://github.com/tiangolo/asyncer/pull/148) by [@tiangolo](https://github.com/tiangolo).
