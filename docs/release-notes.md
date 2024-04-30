@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.6
+
 ### Internal
 
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#122](https://github.com/tiangolo/asyncer/pull/122) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
