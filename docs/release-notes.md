@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.7
+
 ### Internal
 
 * 🔧 Add configs for asyncer-slim. PR [#152](https://github.com/tiangolo/asyncer/pull/152) by [@tiangolo](https://github.com/tiangolo).
