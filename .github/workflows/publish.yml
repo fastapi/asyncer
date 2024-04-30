@@ -3,11 +3,7 @@ name: Publish
 on:
   release:
     types:
-      - created
-  # TODO: remove this
-  push:
-    branches:
-      - slim
+      - created  
   workflow_dispatch:
     inputs:
       debug_enabled:
