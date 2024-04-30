@@ -4,6 +4,10 @@ on:
   release:
     types:
       - created
+  # TODO: remove this
+  push:
+    branches:
+      - slim
   workflow_dispatch:
     inputs:
       debug_enabled:
@@ -18,6 +22,7 @@ jobs:
       matrix:
         package:
           - asyncer
+          - asyncer-slim
     permissions:
       id-token: write
     steps:
