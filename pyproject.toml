@@ -52,6 +52,15 @@ source-includes = [
     "scripts/",
     ]
 
+[tool.tiangolo._internal-slim-build.packages.asyncer-slim.project]
+name = "asyncer-slim"
+
+[tool.tiangolo._internal-slim-build.packages.asyncer]
+# include-optional-dependencies = ["standard"]
+
+[tool.tiangolo._internal-slim-build.packages.asyncer.project]
+optional-dependencies = {}
+
 [tool.coverage.run]
 parallel = true
 source = [
