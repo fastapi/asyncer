@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Tweak CI for test-redistribute, add needed env vars for slim. PR [#158](https://github.com/tiangolo/asyncer/pull/158) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.7
 
 ### Internal
