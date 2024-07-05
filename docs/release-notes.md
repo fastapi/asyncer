@@ -4,6 +4,27 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-material from 9.4.7 to 9.5.24. PR [#162](https://github.com/tiangolo/asyncer/pull/162) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update GitHub Actions to download and upload artifacts. PR [#159](https://github.com/tiangolo/asyncer/pull/159) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Tweak CI for test-redistribute, add needed env vars for slim. PR [#158](https://github.com/tiangolo/asyncer/pull/158) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.7
+
+### Internal
+
+* 🔧 Add configs for asyncer-slim. PR [#152](https://github.com/tiangolo/asyncer/pull/152) by [@tiangolo](https://github.com/tiangolo).
+
+In the future Asyncer can include the standard default recommended packages, and `asyncer-slim` can come without those recommended standard packages and with a group of optional dependencies `asyncer-slim[standard]`, equivalent to `asyncer`, for those that want to opt out of those packages.
+
+## 0.0.6
+
+### Internal
+
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#122](https://github.com/tiangolo/asyncer/pull/122) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump dorny/paths-filter from 2 to 3. PR [#118](https://github.com/tiangolo/asyncer/pull/118) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump dawidd6/action-download-artifact from 2.28.0 to 3.1.4. PR [#137](https://github.com/tiangolo/asyncer/pull/137) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔨 Update internal scripts and remove unused ones. PR [#149](https://github.com/tiangolo/asyncer/pull/149) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Migrate from Poetry to PDM for handling the internal dependencies and build. PR [#148](https://github.com/tiangolo/asyncer/pull/148) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add cron to run test once a week on monday. PR [#140](https://github.com/tiangolo/asyncer/pull/140) by [@estebanx64](https://github.com/estebanx64).
 * ⬆️ Upgrade Ruff version and configs. PR [#139](https://github.com/tiangolo/asyncer/pull/139) by [@tiangolo](https://github.com/tiangolo).
 
