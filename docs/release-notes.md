@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 🔨 Update docs Termynal scripts to not include line nums for local dev. PR [#169](https://github.com/tiangolo/asyncer/pull/169) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-material from 9.4.7 to 9.5.24. PR [#162](https://github.com/tiangolo/asyncer/pull/162) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update GitHub Actions to download and upload artifacts. PR [#159](https://github.com/tiangolo/asyncer/pull/159) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Tweak CI for test-redistribute, add needed env vars for slim. PR [#158](https://github.com/tiangolo/asyncer/pull/158) by [@tiangolo](https://github.com/tiangolo).
