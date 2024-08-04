@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 🔧 Enable auto dark mode. PR [#175](https://github.com/tiangolo/asyncer/pull/175) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update issue-manager. PR [#174](https://github.com/tiangolo/asyncer/pull/174) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update issue-manager.yml GitHub Action permissions. PR [#173](https://github.com/tiangolo/asyncer/pull/173) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Refactor GitHub Action to comment docs deployment URLs and update token, preparing for GitHub org. PR [#172](https://github.com/tiangolo/asyncer/pull/172) by [@tiangolo](https://github.com/tiangolo).
