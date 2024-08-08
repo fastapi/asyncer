@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 👷 Show docs deployment status and preview URLs in comment. PR [#177](https://github.com/tiangolo/asyncer/pull/177) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Enable auto dark mode. PR [#175](https://github.com/tiangolo/asyncer/pull/175) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update issue-manager. PR [#174](https://github.com/tiangolo/asyncer/pull/174) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update issue-manager.yml GitHub Action permissions. PR [#173](https://github.com/tiangolo/asyncer/pull/173) by [@tiangolo](https://github.com/tiangolo).
