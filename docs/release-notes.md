@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 👷 Add alls-green for test-redistribute. PR [#178](https://github.com/tiangolo/asyncer/pull/178) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update docs-previews to handle no docs changes. PR [#179](https://github.com/tiangolo/asyncer/pull/179) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Show docs deployment status and preview URLs in comment. PR [#177](https://github.com/tiangolo/asyncer/pull/177) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Enable auto dark mode. PR [#175](https://github.com/tiangolo/asyncer/pull/175) by [@tiangolo](https://github.com/tiangolo).
