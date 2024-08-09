@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 💄 Update Termynal line-height. PR [#181](https://github.com/tiangolo/asyncer/pull/181) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade build docs configs. PR [#180](https://github.com/tiangolo/asyncer/pull/180) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add alls-green for test-redistribute. PR [#178](https://github.com/tiangolo/asyncer/pull/178) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update docs-previews to handle no docs changes. PR [#179](https://github.com/tiangolo/asyncer/pull/179) by [@tiangolo](https://github.com/tiangolo).
