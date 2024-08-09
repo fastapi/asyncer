@@ -37,8 +37,8 @@ theme:
   # - navigation.instant.preview
   - navigation.instant.progress
   - navigation.path
-  # - navigation.tabs
-  # - navigation.tabs.sticky
+  - navigation.tabs
+  - navigation.tabs.sticky
   - navigation.top
   - navigation.tracking
   - search.highlight
@@ -57,6 +57,10 @@ plugins:
   # Material for MkDocs
   search:
   social:
+  # Other plugins
+  macros:
+    include_yaml:
+    - members: data/members.yml
 
 nav:
   - Asyncer: index.md
@@ -69,7 +73,13 @@ nav:
     - tutorial/asyncify.md
     - tutorial/syncify.md
     - tutorial/syncify-no-raise.md
-  - help.md
+  - Resources:
+    - resources/index.md
+    - help.md
+    - management-tasks.md
+  - About:
+    - about/index.md
+    - management.md
   - release-notes.md
 
 markdown_extensions:
