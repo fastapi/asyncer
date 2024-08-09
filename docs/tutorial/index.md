@@ -1,4 +1,6 @@
-# Intro
+# Learn
+
+This is the **Asyncer** tutorial - user guide. But I'll show you more than just how to use Asyncer.
 
 I'll show you in simple examples how to use `async` and `await`.
 
