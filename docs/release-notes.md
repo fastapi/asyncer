@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 🔧 Update MkDocs previews. PR [#183](https://github.com/tiangolo/asyncer/pull/183) by [@tiangolo](https://github.com/tiangolo).
 * 💄 Update Termynal line-height. PR [#181](https://github.com/tiangolo/asyncer/pull/181) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade build docs configs. PR [#180](https://github.com/tiangolo/asyncer/pull/180) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add alls-green for test-redistribute. PR [#178](https://github.com/tiangolo/asyncer/pull/178) by [@tiangolo](https://github.com/tiangolo).
