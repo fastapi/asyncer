@@ -57,6 +57,10 @@ plugins:
   # Material for MkDocs
   search:
   social:
+  # Other plugins
+  macros:
+    include_yaml:
+    - members: data/members.yml
 
 nav:
   - Asyncer: index.md
