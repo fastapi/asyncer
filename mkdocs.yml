@@ -73,7 +73,13 @@ nav:
     - tutorial/asyncify.md
     - tutorial/syncify.md
     - tutorial/syncify-no-raise.md
-  - help.md
+  - Resources:
+    - resources/index.md
+    - help.md
+    - management-tasks.md
+  - About:
+    - about/index.md
+    - management.md
   - release-notes.md
 
 markdown_extensions:
