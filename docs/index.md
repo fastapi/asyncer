@@ -1,3 +1,7 @@
+<style>
+.md-content .md-typeset h1 { display: none; }
+</style>
+
 <p align="center">
   <a href="https://asyncer.tiangolo.com"><img src="https://asyncer.tiangolo.com/img/logo-margin/logo-margin-vector.svg" alt="Asyncer"></a>
 </p>
