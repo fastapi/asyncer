@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Docs
+
+* 📝 Add docs about repo management and team. PR [#184](https://github.com/tiangolo/asyncer/pull/184) by [@tiangolo](https://github.com/tiangolo).
+
 ### Internal
 
 * 🔧 Update MkDocs previews. PR [#183](https://github.com/tiangolo/asyncer/pull/183) by [@tiangolo](https://github.com/tiangolo).
