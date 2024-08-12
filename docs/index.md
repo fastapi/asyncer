@@ -9,14 +9,14 @@
     <em>Asyncer, async and await, focused on developer experience.</em>
 </p>
 <p align="center">
-<a href="https://github.com/tiangolo/asyncer/actions?query=workflow%3ATest" target="_blank">
-    <img src="https://github.com/tiangolo/asyncer/workflows/Test/badge.svg" alt="Test">
+<a href="https://github.com/fastapi/asyncer/actions?query=workflow%3ATest" target="_blank">
+    <img src="https://github.com/fastapi/asyncer/workflows/Test/badge.svg" alt="Test">
 </a>
-<a href="https://github.com/tiangolo/asyncer/actions?query=workflow%3APublish" target="_blank">
-    <img src="https://github.com/tiangolo/asyncer/workflows/Publish/badge.svg" alt="Publish">
+<a href="https://github.com/fastapi/asyncer/actions?query=workflow%3APublish" target="_blank">
+    <img src="https://github.com/fastapi/asyncer/workflows/Publish/badge.svg" alt="Publish">
 </a>
-<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/tiangolo/asyncer" target="_blank">
-    <img src="https://coverage-badge.samuelcolvin.workers.dev/tiangolo/asyncer.svg" alt="Coverage">
+<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/fastapi/asyncer" target="_blank">
+    <img src="https://coverage-badge.samuelcolvin.workers.dev/fastapi/asyncer.svg" alt="Coverage">
 <a href="https://pypi.org/project/asyncer" target="_blank">
     <img src="https://img.shields.io/pypi/v/asyncer?color=%2334D058&label=pypi%20package" alt="Package version">
 </a>
@@ -26,7 +26,7 @@
 
 **Documentation**: <a href="https://asyncer.tiangolo.com" target="_blank">https://asyncer.tiangolo.com</a>
 
-**Source Code**: <a href="https://github.com/tiangolo/asyncer" target="_blank">https://github.com/tiangolo/asyncer</a>
+**Source Code**: <a href="https://github.com/fastapi/asyncer" target="_blank">https://github.com/fastapi/asyncer</a>
 
 ---
 
@@ -126,4 +126,4 @@ Everything in **Asyncer** is designed to get the best **developer experience** p
 
 ## License
 
-This project is licensed under the terms of the [MIT license](https://github.com/tiangolo/asyncer/blob/main/LICENSE).
+This project is licensed under the terms of the [MIT license](https://github.com/fastapi/asyncer/blob/main/LICENSE).
