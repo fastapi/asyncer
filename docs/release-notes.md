@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 📝 Change links from github.com/tiangolo/asyncer to github.com/fastapi/asyncer. PR [#186](https://github.com/fastapi/asyncer/pull/186) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Update docs.py script to enable dirty reload conditionally. PR [#185](https://github.com/tiangolo/asyncer/pull/185) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update MkDocs previews. PR [#183](https://github.com/tiangolo/asyncer/pull/183) by [@tiangolo](https://github.com/tiangolo).
 * 💄 Update Termynal line-height. PR [#181](https://github.com/tiangolo/asyncer/pull/181) by [@tiangolo](https://github.com/tiangolo).
