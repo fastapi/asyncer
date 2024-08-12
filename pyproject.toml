@@ -36,9 +36,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/tiangolo/asyncer"
+Homepage = "https://github.com/fastapi/asyncer"
 Documentation = "https://asyncer.tiangolo.com"
-Repository = "https://github.com/tiangolo/asyncer"
+Repository = "https://github.com/fastapi/asyncer"
 
 [tool.pdm]
 version = { source = "file", path = "asyncer/__init__.py" }

@@ -12,7 +12,7 @@ authors:
     family-names: Ramírez
     email: tiangolo@gmail.com
 identifiers:
-repository-code: 'https://github.com/tiangolo/asyncer'
+repository-code: 'https://github.com/fastapi/asyncer'
 url: 'https://asyncer.tiangolo.com'
 abstract: >-
   Asyncer, async and await, focused on developer experience.

@@ -51,8 +51,8 @@ theme:
   logo: img/icon-white.svg
   favicon: img/favicon.png
   language: en
-repo_name: tiangolo/asyncer
-repo_url: https://github.com/tiangolo/asyncer
+repo_name: fastapi/asyncer
+repo_url: https://github.com/fastapi/asyncer
 plugins:
   # Material for MkDocs
   search:
@@ -147,7 +147,7 @@ extra:
             Thanks for your feedback!
   social:
   - icon: fontawesome/brands/github-alt
-    link: https://github.com/tiangolo/asyncer
+    link: https://github.com/fastapi/asyncer
   - icon: fontawesome/brands/twitter
     link: https://twitter.com/tiangolo
   - icon: fontawesome/brands/linkedin
