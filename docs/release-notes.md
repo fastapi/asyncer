@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 👷 Add GitHub Action label-checker. PR [#190](https://github.com/fastapi/asyncer/pull/190) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add GitHub Action labeler. PR [#189](https://github.com/fastapi/asyncer/pull/189) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update GitHub Action add-to-project. PR [#188](https://github.com/fastapi/asyncer/pull/188) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add GitHub Action add-to-project. PR [#187](https://github.com/fastapi/asyncer/pull/187) by [@tiangolo](https://github.com/tiangolo).
