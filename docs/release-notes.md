@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 👷 Update GitHub Action labeler to put only one label. PR [#192](https://github.com/fastapi/asyncer/pull/192) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update GitHub Action labeler permissions and dependencies. PR [#191](https://github.com/fastapi/asyncer/pull/191) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add GitHub Action label-checker. PR [#190](https://github.com/fastapi/asyncer/pull/190) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add GitHub Action labeler. PR [#189](https://github.com/fastapi/asyncer/pull/189) by [@tiangolo](https://github.com/tiangolo).
