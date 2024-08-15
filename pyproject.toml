@@ -39,6 +39,8 @@ dependencies = [
 Homepage = "https://github.com/fastapi/asyncer"
 Documentation = "https://asyncer.tiangolo.com"
 Repository = "https://github.com/fastapi/asyncer"
+Issues = "https://github.com/fastapi/asyncer/issues"
+Changelog = "https://asyncer.tiangolo.com/release-notes/"
 
 [tool.pdm]
 version = { source = "file", path = "asyncer/__init__.py" }
