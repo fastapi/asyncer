@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 🔧 Add URLs to `pyproject.toml`, show up in PyPI. PR [#195](https://github.com/fastapi/asyncer/pull/195) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Do not sync labels as it overrides manually added labels. PR [#194](https://github.com/fastapi/asyncer/pull/194) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update GitHub Action labeler to put only one label. PR [#192](https://github.com/fastapi/asyncer/pull/192) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update GitHub Action labeler permissions and dependencies. PR [#191](https://github.com/fastapi/asyncer/pull/191) by [@tiangolo](https://github.com/tiangolo).
