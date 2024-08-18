@@ -65,17 +65,24 @@ optional-dependencies = {}
 
 [tool.coverage.run]
 parallel = true
+data_file = "coverage/.coverage"
 source = [
     "docs_src",
     "tests",
     "asyncer"
 ]
 context = '${CONTEXT}'
+dynamic_context = "test_function"
 
 [tool.coverage.report]
+show_missing = true
+sort = "-Cover"
 omit = [
     "docs_src/tutorial/soonify_return/tutorial002.py",
 ]
+
+[tool.coverage.html]
+show_contexts = true
 
 [tool.mypy]
 strict = true
