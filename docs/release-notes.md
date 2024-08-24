@@ -4,6 +4,7 @@
 
 ### Refactors
 
+* ♻️ Deprecate `asyncify(cancellable=True)` in favor of `asyncify(abandon_on_cancel=True)`, following AnyIO 4.1.0. PR [#202](https://github.com/fastapi/asyncer/pull/202) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Import `anyio.from_thread` and `anyio.to_thread` explicitly. PR [#201](https://github.com/fastapi/asyncer/pull/201) by [@tiangolo](https://github.com/tiangolo).
 * ♻️ Update `asyncify` to wrap the function with `functools.wraps` like the other functions. PR [#84](https://github.com/fastapi/asyncer/pull/84) by [@Gowee](https://github.com/Gowee).
 
