@@ -4,6 +4,5 @@ set -e
 set -x
 
 mypy asyncer
-flake8 asyncer tests docs_src
-black asyncer tests docs_src --check
-isort asyncer tests docs_src scripts --check-only
+ruff check asyncer tests docs_src
+ruff format asyncer tests docs_src --check

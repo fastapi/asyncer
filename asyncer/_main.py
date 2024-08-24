@@ -26,7 +26,9 @@ from anyio.abc import TaskGroup as _TaskGroup
 
 # This was obtained with: from anyio._core._eventloop import get_asynclib
 # Removed in https://github.com/agronholm/anyio/pull/429
-# First release (not released yet): 4.0-dev
+# Released in AnyIO 4.x.x
+# The new function is anyio._core._eventloop.get_async_backend but that returns a
+# class, not a module to extract the TaskGroup class from.
 def get_asynclib(asynclib_name: Union[str, None] = None) -> Any:
     if asynclib_name is None:
         asynclib_name = sniffio.current_async_library()
@@ -158,7 +160,7 @@ class TaskGroup(_TaskGroup):
             soon_value: SoonValue[T] = SoonValue()
 
             @functools.wraps(partial_f)
-            async def value_wrapper() -> None:
+            async def value_wrapper(*args: Any) -> None:
                 value = await partial_f()
                 soon_value._stored_value = value
 
@@ -256,14 +258,14 @@ def syncify(
     By default this is expected to be used from a worker thread. For example inside
     some function passed to `asyncify()`.
 
-    But if you set `check_called_from_async` to `False`, you can also use this function
+    But if you set `raise_sync_error` to `False`, you can also use this function
     in a non-async context: without an async event loop. For example, from a
     blocking/regular function called at the top level of a Python file. In that case,
     if it is not being called from inside a worker thread started from an async context
     (e.g. this is not called from a function that was called with `asyncify()`) it will
     run `async_function` in a new async event loop with `anyio.run()`.
 
-    This functionality with `check_called_from_async` is there only to allow using
+    This functionality with `raise_sync_error` is there only to allow using
     `syncify()` in codebases that are used by async code in some cases and by blocking
     code in others. For example, during migrations from blocking code to async code.
 
@@ -285,7 +287,9 @@ def syncify(
 
     `async_function`: an async function to be called in the main thread, in the async
         event loop
-    `check_called_from_async`: If set to `False`
+    `raise_sync_error`: If set to `False`, when used in a non-async context (without
+        an async event loop), it will run `async_function` in a new async event loop,
+        instead of raising an exception.
 
     ## Return
 
@@ -296,7 +300,12 @@ def syncify(
 
     @functools.wraps(async_function)
     def wrapper(*args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs) -> T_Retval:
-        current_async_module = getattr(threadlocals, "current_async_module", None)
+        current_async_module = (
+            getattr(threadlocals, "current_async_backend", None)
+            or
+            # TODO: remove when deprecating AnyIO 3.x
+            getattr(threadlocals, "current_async_module", None)
+        )
         partial_f = functools.partial(async_function, *args, **kwargs)
         if current_async_module is None and raise_sync_error is False:
             return anyio.run(partial_f)
@@ -309,7 +318,7 @@ def asyncify(
     function: Callable[T_ParamSpec, T_Retval],
     *,
     cancellable: bool = False,
-    limiter: Optional[anyio.CapacityLimiter] = None
+    limiter: Optional[anyio.CapacityLimiter] = None,
 ) -> Callable[T_ParamSpec, Awaitable[T_Retval]]:
     """
     Take a blocking function and create an async one that receives the same
