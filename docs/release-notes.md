@@ -9,6 +9,7 @@
 
 ### Internal
 
+* ⬆ Bump actions/cache from 3 to 4. PR [#114](https://github.com/fastapi/asyncer/pull/114) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pypa/gh-action-pypi-publish from 1.8.11 to 1.9.0. PR [#164](https://github.com/fastapi/asyncer/pull/164) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 10.1.0 to 10.4.0. PR [#167](https://github.com/fastapi/asyncer/pull/167) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.2.0 to 0.6.2. PR [#199](https://github.com/fastapi/asyncer/pull/199) by [@dependabot[bot]](https://github.com/apps/dependabot).
