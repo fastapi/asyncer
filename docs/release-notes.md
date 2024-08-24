@@ -9,6 +9,7 @@
 
 ### Internal
 
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#157](https://github.com/fastapi/asyncer/pull/157) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump mypy from 1.4.1 to 1.11.1. PR [#171](https://github.com/fastapi/asyncer/pull/171) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔥 Remove unused scripts. PR [#197](https://github.com/fastapi/asyncer/pull/197) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update converage configs. PR [#196](https://github.com/fastapi/asyncer/pull/196) by [@tiangolo](https://github.com/tiangolo).
