@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Refactors
+
+* ♻️ Update `asyncify` to wrap the function with `functools.wraps` like the other functions. PR [#84](https://github.com/fastapi/asyncer/pull/84) by [@Gowee](https://github.com/Gowee).
+
 ### Docs
 
 * 📝 Add docs references to FastAPI's docs on virtual environments and new contributing guide. PR [#200](https://github.com/fastapi/asyncer/pull/200) by [@tiangolo](https://github.com/tiangolo).
