@@ -12,6 +12,9 @@ from typing import (
     TypeVar,
     Union,
 )
+from warnings import warn
+
+from asyncer._compat import run_sync
 
 if sys.version_info >= (3, 10):
     from typing import ParamSpec
@@ -319,7 +322,8 @@ def syncify(
 def asyncify(
     function: Callable[T_ParamSpec, T_Retval],
     *,
-    cancellable: bool = False,
+    abandon_on_cancel: bool = False,
+    cancellable: Union[bool, None] = None,
     limiter: Optional[anyio.CapacityLimiter] = None,
 ) -> Callable[T_ParamSpec, Awaitable[T_Retval]]:
     """
@@ -359,14 +363,24 @@ def asyncify(
     original one, that when called runs the same original function in a thread worker
     and returns the result.
     """
+    if cancellable is not None:
+        abandon_on_cancel = cancellable
+        warn(
+            "The `cancellable=` keyword argument to `asyncer.asyncify()` is "
+            "deprecated since Asyncer 0.0.8, following AnyIO 4.1.0. "
+            "Use `abandon_on_cancel=` instead.",
+            DeprecationWarning,
+            stacklevel=2,
+        )
 
     @functools.wraps(function)
     async def wrapper(
         *args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs
     ) -> T_Retval:
         partial_f = functools.partial(function, *args, **kwargs)
-        return await anyio.to_thread.run_sync(
-            partial_f, cancellable=cancellable, limiter=limiter
+
+        return await run_sync(
+            partial_f, abandon_on_cancel=abandon_on_cancel, limiter=limiter
         )
 
     return wrapper
