@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.8
+
 ### Refactors
 
 * ♻️ Deprecate `asyncify(cancellable=True)` in favor of `asyncify(abandon_on_cancel=True)`, following AnyIO 4.1.0. PR [#202](https://github.com/fastapi/asyncer/pull/202) by [@tiangolo](https://github.com/tiangolo).
