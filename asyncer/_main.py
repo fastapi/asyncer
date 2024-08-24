@@ -19,6 +19,8 @@ else:
     from typing_extensions import ParamSpec
 
 import anyio
+import anyio.from_thread
+import anyio.to_thread
 import sniffio
 from anyio._core._eventloop import threadlocals
 from anyio.abc import TaskGroup as _TaskGroup
