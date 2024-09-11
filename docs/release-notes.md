@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump ruff from 0.6.2 to 0.6.4. PR [#217](https://github.com/fastapi/asyncer/pull/217) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/issue-manager from 0.5.0 to 0.5.1. PR [#219](https://github.com/fastapi/asyncer/pull/219) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pypa/gh-action-pypi-publish from 1.9.0 to 1.10.1. PR [#216](https://github.com/fastapi/asyncer/pull/216) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.5.18 to 9.5.34. PR [#212](https://github.com/fastapi/asyncer/pull/212) by [@dependabot[bot]](https://github.com/apps/dependabot).
