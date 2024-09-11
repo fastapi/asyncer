@@ -2,5 +2,5 @@
 
 pytest >=7.0.1,<8.0.0
 coverage[toml] >=6.2,<8.0
-mypy ==1.11.1
+mypy ==1.11.2
 ruff ==0.6.2
