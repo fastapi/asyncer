@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump mypy from 1.11.1 to 1.11.2. PR [#206](https://github.com/fastapi/asyncer/pull/206) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update `issue-manager.yml`. PR [#218](https://github.com/fastapi/asyncer/pull/218) by [@tiangolo](https://github.com/tiangolo).
 * 💚 Set `include-hidden-files` to `True` when using the `upload-artifact` GH action. PR [#215](https://github.com/fastapi/asyncer/pull/215) by [@svlandeg](https://github.com/svlandeg).
 * 👷 Update `latest-changes` GitHub Action. PR [#203](https://github.com/fastapi/asyncer/pull/203) by [@tiangolo](https://github.com/tiangolo).
