@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 👷 Upgrade Cloudflare GitHub Action. PR [#234](https://github.com/fastapi/asyncer/pull/234) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-macros-plugin from 1.0.5 to 1.2.0. PR [#220](https://github.com/fastapi/asyncer/pull/220) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.6.4 to 0.6.5. PR [#221](https://github.com/fastapi/asyncer/pull/221) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update pytest requirement from <8.0.0,>=7.0.1 to >=7.0.1,<9.0.0. PR [#207](https://github.com/fastapi/asyncer/pull/207) by [@dependabot[bot]](https://github.com/apps/dependabot).
