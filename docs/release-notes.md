@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 👷 Update `labeler.yml`. PR [#238](https://github.com/fastapi/asyncer/pull/238) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update worfkow deploy-docs-notify URL. PR [#235](https://github.com/fastapi/asyncer/pull/235) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade Cloudflare GitHub Action. PR [#234](https://github.com/fastapi/asyncer/pull/234) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-macros-plugin from 1.0.5 to 1.2.0. PR [#220](https://github.com/fastapi/asyncer/pull/220) by [@dependabot[bot]](https://github.com/apps/dependabot).
