@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 👷 Use uv for CI. PR [#242](https://github.com/fastapi/asyncer/pull/242) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update `labeler.yml`. PR [#238](https://github.com/fastapi/asyncer/pull/238) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update worfkow deploy-docs-notify URL. PR [#235](https://github.com/fastapi/asyncer/pull/235) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Upgrade Cloudflare GitHub Action. PR [#234](https://github.com/fastapi/asyncer/pull/234) by [@tiangolo](https://github.com/tiangolo).
