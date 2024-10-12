@@ -18,6 +18,9 @@ on:
     # cron every week on monday
     - cron: "0 0 * * 1"
 
+env:
+  UV_SYSTEM_PYTHON: 1
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -33,33 +36,34 @@ jobs:
           - anyio-v3
           - anyio-v4
       fail-fast: false
-
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.4.15"
+          enable-cache: true
+          cache-dependency-glob: |
+            requirements**.txt
+            pyproject.toml
       # Allow debugging with tmate
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3
         if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.debug_enabled == 'true' }}
         with:
           limit-access-to-actor: true
-      - uses: actions/cache@v4
-        id: cache
-        with:
-          path: ${{ env.pythonLocation }}
-          key: ${{ runner.os }}-python-${{ env.pythonLocation }}-${{ hashFiles('pyproject.toml', 'requirements-tests.txt') }}
       - name: Install Dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: pip install -r requirements-tests.txt
+        run: uv pip install -r requirements-tests.txt
       - name: Install AnyIO v3
         if: matrix.anyio-version == 'anyio-v3'
-        run: pip install --upgrade "anyio>=3.4.0,<4.0"
+        run: uv pip install --upgrade "anyio>=3.4.0,<4.0"
       - name: Install AnyIO v4
         if: matrix.anyio-version == 'anyio-v4'
-        run: pip install --upgrade "anyio>=4.0.0,<5.0"
+        run: uv pip install --upgrade "anyio>=4.0.0,<5.0"
       - name: Lint
         if: matrix.anyio-version == 'anyio-v4'
         run: bash scripts/lint.sh
@@ -80,28 +84,31 @@ jobs:
     needs:
       - test
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.8'
-
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          version: "0.4.15"
+          enable-cache: true
+          cache-dependency-glob: |
+            requirements**.txt
+            pyproject.toml
       - name: Get coverage files
         uses: actions/download-artifact@v4
         with:
           pattern: coverage-*
           path: coverage
           merge-multiple: true
-
-      - run: pip install coverage[toml]
-
+      - name: Install Dependencies
+        run: uv pip install -r requirements-tests.txt
       - run: ls -la coverage
       - run: coverage combine coverage
       - run: coverage report
       - run: coverage html --title "Coverage for ${{ github.sha }}"
-
       - name: Store coverage HTML
         uses: actions/upload-artifact@v4
         with:
