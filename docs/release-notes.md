@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-material from 9.5.34 to 9.5.44. PR [#257](https://github.com/fastapi/asyncer/pull/257) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Fix smokeshow, checkout files on CI. PR [#243](https://github.com/fastapi/asyncer/pull/243) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Use uv for CI. PR [#242](https://github.com/fastapi/asyncer/pull/242) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update `labeler.yml`. PR [#238](https://github.com/fastapi/asyncer/pull/238) by [@tiangolo](https://github.com/tiangolo).
