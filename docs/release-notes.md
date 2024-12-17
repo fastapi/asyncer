@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#222](https://github.com/fastapi/asyncer/pull/222) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * 🔨 Update docs previews script. PR [#267](https://github.com/fastapi/asyncer/pull/267) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update build-docs filter paths. PR [#266](https://github.com/fastapi/asyncer/pull/266) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-material from 9.5.34 to 9.5.44. PR [#257](https://github.com/fastapi/asyncer/pull/257) by [@dependabot[bot]](https://github.com/apps/dependabot).
