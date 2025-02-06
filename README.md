@@ -5,8 +5,8 @@
     <em>Asyncer, async and await, focused on developer experience.</em>
 </p>
 <p align="center">
-<a href="https://github.com/fastapi/asyncer/actions?query=workflow%3ATest" target="_blank">
-    <img src="https://github.com/fastapi/asyncer/workflows/Test/badge.svg" alt="Test">
+<a href="https://github.com/fastapi/asyncer/actions?query=workflow%3ATest+event%3Apush+branch%3Amain" target="_blank">
+    <img src="https://github.com/fastapi/asyncer/workflows/Test/badge.svg?event=push&branch=main" alt="Test">
 </a>
 <a href="https://github.com/fastapi/asyncer/actions?query=workflow%3APublish" target="_blank">
     <img src="https://github.com/fastapi/asyncer/workflows/Publish/badge.svg" alt="Publish">
