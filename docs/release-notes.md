@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Update pre-commit requirement from <4.0.0,>=2.17.0 to >=2.17.0,<5.0.0. PR [#237](https://github.com/fastapi/asyncer/pull/237) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#275](https://github.com/fastapi/asyncer/pull/275) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump pypa/gh-action-pypi-publish from 1.10.1 to 1.12.4. PR [#280](https://github.com/fastapi/asyncer/pull/280) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 10.4.0 to 11.1.0. PR [#277](https://github.com/fastapi/asyncer/pull/277) by [@dependabot[bot]](https://github.com/apps/dependabot).
