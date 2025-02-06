@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump astral-sh/setup-uv from 3 to 5. PR [#273](https://github.com/fastapi/asyncer/pull/273) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-macros-plugin from 1.2.0 to 1.3.7. PR [#252](https://github.com/fastapi/asyncer/pull/252) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Update pre-commit requirement from <4.0.0,>=2.17.0 to >=2.17.0,<5.0.0. PR [#237](https://github.com/fastapi/asyncer/pull/237) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#275](https://github.com/fastapi/asyncer/pull/275) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
