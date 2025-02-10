@@ -10,10 +10,10 @@
 </p>
 <p align="center">
 <a href="https://github.com/fastapi/asyncer/actions?query=workflow%3ATest+event%3Apush+branch%3Amain" target="_blank">
-    <img src="https://github.com/fastapi/asyncer/workflows/Test/badge.svg?event=push&branch=main" alt="Test">
+    <img src="https://github.com/fastapi/asyncer/actions/workflows/test.yml/badge.svg?event=push&branch=main" alt="Test">
 </a>
 <a href="https://github.com/fastapi/asyncer/actions?query=workflow%3APublish" target="_blank">
-    <img src="https://github.com/fastapi/asyncer/workflows/Publish/badge.svg" alt="Publish">
+    <img src="https://github.com/fastapi/asyncer/actions/workflows/publish.yml/badge.svg" alt="Publish">
 </a>
 <a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/fastapi/asyncer" target="_blank">
     <img src="https://coverage-badge.samuelcolvin.workers.dev/fastapi/asyncer.svg" alt="Coverage">
