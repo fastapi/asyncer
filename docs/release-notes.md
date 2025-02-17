@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump mypy from 1.11.2 to 1.14.1. PR [#276](https://github.com/fastapi/asyncer/pull/276) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.8.3 to 0.9.6. PR [#291](https://github.com/fastapi/asyncer/pull/291) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#290](https://github.com/fastapi/asyncer/pull/290) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Update httpx requirement from <0.28.0,>=0.27.0 to >=0.27.0,<0.29.0. PR [#288](https://github.com/fastapi/asyncer/pull/288) by [@dependabot[bot]](https://github.com/apps/dependabot).
