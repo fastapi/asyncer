@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Docs
+
+* 🩺 Take the GH badge only from pushes to the `main` branch. PR [#284](https://github.com/fastapi/asyncer/pull/284) by [@svlandeg](https://github.com/svlandeg).
+
 ### Internal
 
 * ⬆ Bump ruff from 0.9.6 to 0.9.7. PR [#294](https://github.com/fastapi/asyncer/pull/294) by [@dependabot[bot]](https://github.com/apps/dependabot).
