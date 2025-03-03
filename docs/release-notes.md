@@ -2,8 +2,14 @@
 
 ## Latest Changes
 
+### Docs
+
+* 🩺 Take the GH badge only from pushes to the `main` branch. PR [#284](https://github.com/fastapi/asyncer/pull/284) by [@svlandeg](https://github.com/svlandeg).
+
 ### Internal
 
+* ⬆ Bump ruff from 0.9.6 to 0.9.7. PR [#294](https://github.com/fastapi/asyncer/pull/294) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#295](https://github.com/fastapi/asyncer/pull/295) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump mypy from 1.11.2 to 1.14.1. PR [#276](https://github.com/fastapi/asyncer/pull/276) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.8.3 to 0.9.6. PR [#291](https://github.com/fastapi/asyncer/pull/291) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#290](https://github.com/fastapi/asyncer/pull/290) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
