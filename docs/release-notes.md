@@ -8,6 +8,12 @@
 
 ### Internal
 
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#301](https://github.com/fastapi/asyncer/pull/301) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump ruff from 0.9.9 to 0.9.10. PR [#300](https://github.com/fastapi/asyncer/pull/300) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.15.1 to 0.15.2. PR [#299](https://github.com/fastapi/asyncer/pull/299) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.12.5 to 0.15.1. PR [#286](https://github.com/fastapi/asyncer/pull/286) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#298](https://github.com/fastapi/asyncer/pull/298) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump ruff from 0.9.7 to 0.9.9. PR [#296](https://github.com/fastapi/asyncer/pull/296) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.9.6 to 0.9.7. PR [#294](https://github.com/fastapi/asyncer/pull/294) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#295](https://github.com/fastapi/asyncer/pull/295) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump mypy from 1.11.2 to 1.14.1. PR [#276](https://github.com/fastapi/asyncer/pull/276) by [@dependabot[bot]](https://github.com/apps/dependabot).
