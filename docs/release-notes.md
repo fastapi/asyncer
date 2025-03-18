@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump ruff from 0.9.10 to 0.11.0. PR [#304](https://github.com/fastapi/asyncer/pull/304) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#301](https://github.com/fastapi/asyncer/pull/301) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump ruff from 0.9.9 to 0.9.10. PR [#300](https://github.com/fastapi/asyncer/pull/300) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.15.1 to 0.15.2. PR [#299](https://github.com/fastapi/asyncer/pull/299) by [@dependabot[bot]](https://github.com/apps/dependabot).
