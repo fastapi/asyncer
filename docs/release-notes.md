@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 🔧 Remove Google Analytics. PR [#329](https://github.com/fastapi/asyncer/pull/329) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#306](https://github.com/fastapi/asyncer/pull/306) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump ruff from 0.9.10 to 0.11.0. PR [#304](https://github.com/fastapi/asyncer/pull/304) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#301](https://github.com/fastapi/asyncer/pull/301) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
