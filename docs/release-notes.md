@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump cairosvg from 2.7.1 to 2.8.2. PR [#327](https://github.com/fastapi/asyncer/pull/327) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.15.2 to 0.16.0. PR [#331](https://github.com/fastapi/asyncer/pull/331) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.11.0 to 0.11.13. PR [#333](https://github.com/fastapi/asyncer/pull/333) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Remove Google Analytics. PR [#329](https://github.com/fastapi/asyncer/pull/329) by [@tiangolo](https://github.com/tiangolo).
