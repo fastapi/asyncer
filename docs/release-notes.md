@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump typer from 0.15.2 to 0.16.0. PR [#331](https://github.com/fastapi/asyncer/pull/331) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.11.0 to 0.11.13. PR [#333](https://github.com/fastapi/asyncer/pull/333) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Remove Google Analytics. PR [#329](https://github.com/fastapi/asyncer/pull/329) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#306](https://github.com/fastapi/asyncer/pull/306) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
