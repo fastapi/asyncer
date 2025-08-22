@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#335](https://github.com/fastapi/asyncer/pull/335) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#309](https://github.com/fastapi/asyncer/pull/309) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump pillow from 11.1.0 to 11.2.1. PR [#315](https://github.com/fastapi/asyncer/pull/315) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump cairosvg from 2.7.1 to 2.8.2. PR [#327](https://github.com/fastapi/asyncer/pull/327) by [@dependabot[bot]](https://github.com/apps/dependabot).
