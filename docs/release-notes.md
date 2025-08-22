@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-macros-plugin from 1.3.7 to 1.3.9. PR [#349](https://github.com/fastapi/asyncer/pull/349) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/checkout from 4 to 5. PR [#348](https://github.com/fastapi/asyncer/pull/348) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.2.1 to 11.3.0. PR [#338](https://github.com/fastapi/asyncer/pull/338) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/latest-changes from 0.3.2 to 0.4.0. PR [#345](https://github.com/fastapi/asyncer/pull/345) by [@dependabot[bot]](https://github.com/apps/dependabot).
