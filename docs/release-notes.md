@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump pillow from 11.2.1 to 11.3.0. PR [#338](https://github.com/fastapi/asyncer/pull/338) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/latest-changes from 0.3.2 to 0.4.0. PR [#345](https://github.com/fastapi/asyncer/pull/345) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.16.0 to 0.16.1. PR [#352](https://github.com/fastapi/asyncer/pull/352) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.11.13 to 0.12.9. PR [#350](https://github.com/fastapi/asyncer/pull/350) by [@dependabot[bot]](https://github.com/apps/dependabot).
