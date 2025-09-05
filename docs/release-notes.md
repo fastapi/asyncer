@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump ruff from 0.12.10 to 0.12.12. PR [#362](https://github.com/fastapi/asyncer/pull/362) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#357](https://github.com/fastapi/asyncer/pull/357) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump typer from 0.16.1 to 0.17.3. PR [#358](https://github.com/fastapi/asyncer/pull/358) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pypa/gh-action-pypi-publish from 1.12.4 to 1.13.0. PR [#359](https://github.com/fastapi/asyncer/pull/359) by [@dependabot[bot]](https://github.com/apps/dependabot).
