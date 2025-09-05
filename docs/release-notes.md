@@ -8,6 +8,7 @@
 
 ### Internal
 
+* 👷 Detect and label merge conflicts on PRs automatically. PR [#361](https://github.com/fastapi/asyncer/pull/361) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump ruff from 0.12.9 to 0.12.10. PR [#354](https://github.com/fastapi/asyncer/pull/354) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#355](https://github.com/fastapi/asyncer/pull/355) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump mkdocs-macros-plugin from 1.3.7 to 1.3.9. PR [#349](https://github.com/fastapi/asyncer/pull/349) by [@dependabot[bot]](https://github.com/apps/dependabot).
