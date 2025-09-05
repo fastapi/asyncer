@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump typer from 0.16.1 to 0.17.3. PR [#358](https://github.com/fastapi/asyncer/pull/358) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pypa/gh-action-pypi-publish from 1.12.4 to 1.13.0. PR [#359](https://github.com/fastapi/asyncer/pull/359) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Detect and label merge conflicts on PRs automatically. PR [#361](https://github.com/fastapi/asyncer/pull/361) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump ruff from 0.12.9 to 0.12.10. PR [#354](https://github.com/fastapi/asyncer/pull/354) by [@dependabot[bot]](https://github.com/apps/dependabot).
