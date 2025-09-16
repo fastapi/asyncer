@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ Bump actions/download-artifact from 4 to 5. PR [#346](https://github.com/fastapi/asyncer/pull/346) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.12.12 to 0.13.0. PR [#367](https://github.com/fastapi/asyncer/pull/367) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#369](https://github.com/fastapi/asyncer/pull/369) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#366](https://github.com/fastapi/asyncer/pull/366) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
