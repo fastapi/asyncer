@@ -8,6 +8,7 @@
 
 ### Internal
 
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#369](https://github.com/fastapi/asyncer/pull/369) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#366](https://github.com/fastapi/asyncer/pull/366) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump actions/setup-python from 5 to 6. PR [#360](https://github.com/fastapi/asyncer/pull/360) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/labeler from 5 to 6. PR [#363](https://github.com/fastapi/asyncer/pull/363) by [@dependabot[bot]](https://github.com/apps/dependabot).
