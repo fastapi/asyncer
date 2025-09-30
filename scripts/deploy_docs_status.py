@@ -6,7 +6,7 @@ from github import Auth, Github
 from pydantic import BaseModel, SecretStr
 from pydantic_settings import BaseSettings
 
-site_domain = "typer.tiangolo.com"
+site_domain = "asyncer.tiangolo.com"
 
 
 class Settings(BaseSettings):
