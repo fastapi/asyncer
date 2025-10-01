@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.9
+
 ### Fixes
 
 * 👽️ Ensure compatibility with AnyIO 4.11.0. PR [#381](https://github.com/fastapi/asyncer/pull/381) by [@svlandeg](https://github.com/svlandeg).
