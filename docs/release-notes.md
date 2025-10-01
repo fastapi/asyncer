@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Fixes
+
+* 👽️ Ensure compatibility with AnyIO 4.11.0. PR [#381](https://github.com/fastapi/asyncer/pull/381) by [@svlandeg](https://github.com/svlandeg).
+
 ### Docs
 
 * 🩺 Take the GH badge only from pushes to the `main` branch. PR [#284](https://github.com/fastapi/asyncer/pull/284) by [@svlandeg](https://github.com/svlandeg).
