@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-macros-plugin from 1.3.9 to 1.4.0. PR [#373](https://github.com/fastapi/asyncer/pull/373) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.17.4 to 0.19.2. PR [#374](https://github.com/fastapi/asyncer/pull/374) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.6.20 to 9.6.21. PR [#379](https://github.com/fastapi/asyncer/pull/379) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump tiangolo/issue-manager from 0.5.1 to 0.6.0. PR [#380](https://github.com/fastapi/asyncer/pull/380) by [@dependabot[bot]](https://github.com/apps/dependabot).
