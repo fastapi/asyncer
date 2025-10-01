@@ -2,12 +2,17 @@
 
 ## Latest Changes
 
+### Fixes
+
+* 👽️ Ensure compatibility with AnyIO 4.11.0. PR [#381](https://github.com/fastapi/asyncer/pull/381) by [@svlandeg](https://github.com/svlandeg).
+
 ### Docs
 
 * 🩺 Take the GH badge only from pushes to the `main` branch. PR [#284](https://github.com/fastapi/asyncer/pull/284) by [@svlandeg](https://github.com/svlandeg).
 
 ### Internal
 
+* 🔥 Remove unused Poetry config file. PR [#382](https://github.com/fastapi/asyncer/pull/382) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-material from 9.5.44 to 9.6.20. PR [#368](https://github.com/fastapi/asyncer/pull/368) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump astral-sh/setup-uv from 5 to 6. PR [#318](https://github.com/fastapi/asyncer/pull/318) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/download-artifact from 4 to 5. PR [#346](https://github.com/fastapi/asyncer/pull/346) by [@dependabot[bot]](https://github.com/apps/dependabot).
