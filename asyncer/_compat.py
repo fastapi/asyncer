@@ -14,19 +14,25 @@ RUN_SYNC_AOC = (
     "abandon_on_cancel" in inspect.getfullargspec(anyio.to_thread.run_sync).kwonlyargs
 )
 
+if RUN_SYNC_AOC:
 
-async def run_sync(
-    func: Callable[[Unpack[PosArgsT]], T_Retval],
-    *args: Unpack[PosArgsT],
-    abandon_on_cancel: bool = False,
-    limiter: Union[CapacityLimiter, None] = None,
-) -> T_Retval:
-    # AnyIO 4.1.0 renamed cancellable to abandon_on_cancel
-    if RUN_SYNC_AOC:
+    async def run_sync(
+        func: Callable[[Unpack[PosArgsT]], T_Retval],
+        *args: Unpack[PosArgsT],
+        abandon_on_cancel: bool = False,
+        limiter: Union[CapacityLimiter, None] = None,
+    ) -> T_Retval:
         return await anyio.to_thread.run_sync(
             func, *args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
         )
-    else:
+else:
+
+    async def run_sync(
+        func: Callable[[Unpack[PosArgsT]], T_Retval],
+        *args: Unpack[PosArgsT],
+        abandon_on_cancel: bool = False,
+        limiter: Union[CapacityLimiter, None] = None,
+    ) -> T_Retval:
         return await anyio.to_thread.run_sync(
             func, *args, cancellable=abandon_on_cancel, limiter=limiter
         )
