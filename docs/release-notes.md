@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump tiangolo/issue-manager from 0.5.1 to 0.6.0. PR [#380](https://github.com/fastapi/asyncer/pull/380) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#372](https://github.com/fastapi/asyncer/pull/372) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump ruff from 0.13.0 to 0.13.2. PR [#376](https://github.com/fastapi/asyncer/pull/376) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update docs previews comment, single comment, add failure status. PR [#377](https://github.com/fastapi/asyncer/pull/377) by [@tiangolo](https://github.com/tiangolo).
