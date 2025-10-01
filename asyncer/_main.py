@@ -306,6 +306,9 @@ def syncify(
     @functools.wraps(async_function)
     def wrapper(*args: T_ParamSpec.args, **kwargs: T_ParamSpec.kwargs) -> T_Retval:
         current_async_module = (
+            getattr(getattr(threadlocals, "current_token", None), "backend_class", None)
+            or
+            # TODO: remove when deprecating AnyIO 4.10.0
             getattr(threadlocals, "current_async_backend", None)
             or
             # TODO: remove when deprecating AnyIO 3.x
