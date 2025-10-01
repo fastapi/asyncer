@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Update docs previews comment, single comment, add failure status. PR [#377](https://github.com/fastapi/asyncer/pull/377) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.9
 
 ### Fixes
