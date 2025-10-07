@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump ruff from 0.13.2 to 0.13.3. PR [#383](https://github.com/fastapi/asyncer/pull/383) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#384](https://github.com/fastapi/asyncer/pull/384) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump mkdocs-macros-plugin from 1.3.9 to 1.4.0. PR [#373](https://github.com/fastapi/asyncer/pull/373) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.17.4 to 0.19.2. PR [#374](https://github.com/fastapi/asyncer/pull/374) by [@dependabot[bot]](https://github.com/apps/dependabot).
