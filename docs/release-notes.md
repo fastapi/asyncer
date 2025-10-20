@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.10
+
 ### Upgrades
 
 * ⬆️ Add support for Python 3.14. PR [#387](https://github.com/fastapi/asyncer/pull/387) by [@svlandeg](https://github.com/svlandeg).
