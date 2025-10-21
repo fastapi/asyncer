@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#388](https://github.com/fastapi/asyncer/pull/388) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+
 ## 0.0.10
 
 ### Upgrades
