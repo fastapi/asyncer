@@ -23,21 +23,37 @@ env:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version:
-          - "3.8"
-          - "3.9"
-          - "3.10"
-          - "3.11"
-          - "3.12"
-          - "3.13"
-          - "3.14"
+        os: [ ubuntu-latest, windows-latest, macos-latest ]
+        python-version: [ "3.14" ]
         anyio-version:
           - anyio-v3
           - anyio-v4
+        include:
+          - os: macos-latest
+            python-version: "3.8"
+            anyio-version: "anyio-v3"
+          - os: windows-latest
+            python-version: "3.8"
+            anyio-version: "anyio-v4"
+          - os: ubuntu-latest
+            python-version: "3.9"
+            anyio-version: "anyio-v3"
+          - os: macos-latest
+            python-version: "3.10"
+            anyio-version: "anyio-v4"
+          - os: windows-latest
+            python-version: "3.11"
+            anyio-version: "anyio-v3"
+          - os: ubuntu-latest
+            python-version: "3.12"
+            anyio-version: "anyio-v4"
+          - os: macos-latest
+            python-version: "3.13"
+            anyio-version: "anyio-v3"
       fail-fast: false
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v5
       - name: Set up Python
@@ -78,7 +94,7 @@ jobs:
       - name: Store coverage files
         uses: actions/upload-artifact@v4
         with:
-          name: coverage-${{ matrix.python-version }}-${{ matrix.anyio-version }}
+          name: coverage-${{ runner.os }}-${{ matrix.python-version }}-${{ matrix.anyio-version }}
           path: coverage
           include-hidden-files: true
 
