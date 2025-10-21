@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump typer from 0.19.2 to 0.20.0. PR [#393](https://github.com/fastapi/asyncer/pull/393) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.6.21 to 9.6.22. PR [#389](https://github.com/fastapi/asyncer/pull/389) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Configure reminder for `waiting` label in `issue-manager`. PR [#390](https://github.com/fastapi/asyncer/pull/390) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump ruff from 0.13.3 to 0.14.1. PR [#391](https://github.com/fastapi/asyncer/pull/391) by [@dependabot[bot]](https://github.com/apps/dependabot).
