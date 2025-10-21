@@ -4,6 +4,16 @@
 
 ### Internal
 
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#388](https://github.com/fastapi/asyncer/pull/388) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+
+## 0.0.10
+
+### Upgrades
+
+* ⬆️ Add support for Python 3.14. PR [#387](https://github.com/fastapi/asyncer/pull/387) by [@svlandeg](https://github.com/svlandeg).
+
+### Internal
+
 * ⬆ Bump astral-sh/setup-uv from 6 to 7. PR [#386](https://github.com/fastapi/asyncer/pull/386) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.13.2 to 0.13.3. PR [#383](https://github.com/fastapi/asyncer/pull/383) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#384](https://github.com/fastapi/asyncer/pull/384) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
