@@ -4,6 +4,8 @@ build-backend = "pdm.backend"
 
 [project]
 name = "asyncer"
+license = "MIT"
+license-files = ["LICENSE"]
 dynamic = ["version"]
 description = "Asyncer, async and await, focused on developer experience."
 readme = "README.md"
