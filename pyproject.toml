@@ -5,7 +5,7 @@ build-backend = "pdm.backend"
 [project]
 name = "asyncer"
 dynamic = ["version"]
-description = "Asyncer, async and await, focused on developer experience."
+description = "Asyncer, async and await, focused on developer experience"
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
