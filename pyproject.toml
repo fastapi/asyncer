@@ -4,6 +4,8 @@ build-backend = "pdm.backend"
 
 [project]
 name = "asyncer"
+license = "MIT"
+license-files = ["LICENSE"]
 dynamic = ["version"]
 description = "Asyncer, async and await, focused on developer experience."
 readme = "README.md"
@@ -20,7 +22,6 @@ classifiers = [
     "Intended Audience :: Information Technology",
     "Intended Audience :: Science/Research",
     "Intended Audience :: System Administrators",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
