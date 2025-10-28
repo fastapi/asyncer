@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump ruff from 0.14.1 to 0.14.2. PR [#394](https://github.com/fastapi/asyncer/pull/394) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#400](https://github.com/fastapi/asyncer/pull/400) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * 🔧 Add PEP-639 license metadata. PR [#395](https://github.com/fastapi/asyncer/pull/395) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump typer from 0.19.2 to 0.20.0. PR [#393](https://github.com/fastapi/asyncer/pull/393) by [@dependabot[bot]](https://github.com/apps/dependabot).
