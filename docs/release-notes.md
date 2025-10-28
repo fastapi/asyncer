@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#400](https://github.com/fastapi/asyncer/pull/400) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * 🔧 Add PEP-639 license metadata. PR [#395](https://github.com/fastapi/asyncer/pull/395) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump typer from 0.19.2 to 0.20.0. PR [#393](https://github.com/fastapi/asyncer/pull/393) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.6.21 to 9.6.22. PR [#389](https://github.com/fastapi/asyncer/pull/389) by [@dependabot[bot]](https://github.com/apps/dependabot).
