@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-material from 9.6.23 to 9.7.0. PR [#406](https://github.com/fastapi/asyncer/pull/406) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.14.4 to 0.14.5. PR [#408](https://github.com/fastapi/asyncer/pull/408) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#409](https://github.com/fastapi/asyncer/pull/409) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 * ⬆ Bump ruff from 0.14.3 to 0.14.4. PR [#404](https://github.com/fastapi/asyncer/pull/404) by [@dependabot[bot]](https://github.com/apps/dependabot).
