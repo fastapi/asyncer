@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 👷 Add pre-commit GitHub Action workflow. PR [#413](https://github.com/fastapi/asyncer/pull/413) by [@tiangolo](https://github.com/tiangolo).
 * 💄 Use font Fira Code to fix display of Rich panels in docs in Windows. PR [#412](https://github.com/fastapi/asyncer/pull/412) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Upgrade Material for MkDocs and remove insiders. PR [#410](https://github.com/fastapi/asyncer/pull/410) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump mkdocs-macros-plugin from 1.4.1 to 1.5.0. PR [#407](https://github.com/fastapi/asyncer/pull/407) by [@dependabot[bot]](https://github.com/apps/dependabot).
