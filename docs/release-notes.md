@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump tiangolo/latest-changes from 0.4.0 to 0.4.1. PR [#417](https://github.com/fastapi/asyncer/pull/417) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump actions/checkout from 5 to 6. PR [#411](https://github.com/fastapi/asyncer/pull/411) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Tweak pre-commit config in CI. PR [#415](https://github.com/fastapi/asyncer/pull/415) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add pre-commit GitHub Action workflow. PR [#413](https://github.com/fastapi/asyncer/pull/413) by [@tiangolo](https://github.com/tiangolo).
