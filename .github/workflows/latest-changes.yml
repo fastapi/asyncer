@@ -20,7 +20,9 @@ jobs:
   latest-changes:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      # pin to actions/checkout@v5 for compatibility with latest-changes
+      # Ref: https://github.com/actions/checkout/issues/2313
+      - uses: actions/checkout@v5
         with:
           # To allow latest-changes to commit to the main branch
           token: ${{ secrets.ASYNCER_LATEST_CHANGES }}
