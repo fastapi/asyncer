@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump actions/checkout from 5 to 6. PR [#411](https://github.com/fastapi/asyncer/pull/411) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Tweak pre-commit config in CI. PR [#415](https://github.com/fastapi/asyncer/pull/415) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Add pre-commit GitHub Action workflow. PR [#413](https://github.com/fastapi/asyncer/pull/413) by [@tiangolo](https://github.com/tiangolo).
 * 💄 Use font Fira Code to fix display of Rich panels in docs in Windows. PR [#412](https://github.com/fastapi/asyncer/pull/412) by [@tiangolo](https://github.com/tiangolo).
