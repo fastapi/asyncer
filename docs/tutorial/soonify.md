@@ -36,7 +36,7 @@ Let's now use **Asyncer** to run these **3 functions concurrently**. 🎉
 
 Use **Asyncer**'s `create_task_group()` in an `async with` block to create a **task group** object:
 
-{* docs_src/tutorial/soonify/tutorial002.py ln[2,10:11] hl[2,11] *}
+{* docs_src/tutorial/soonify/tutorial002.py ln[2,10:12] hl[2,11] *}
 
 ## Task Group - Soonify One Function
 
