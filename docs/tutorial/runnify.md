@@ -6,43 +6,13 @@ Continuing with the last example, let's see the first use case where **Asyncer**
 
 Let's say that now you want your async `main()` function to take arguments:
 
-```Python hl_lines="3"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/runnify/tutorial001.py[ln:10-12]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/runnify/tutorial001.py!}
-```
-
-</details>
+{* docs_src/tutorial/runnify/tutorial001.py ln[10:12] hl[10] *}
 
 ## Runnify with Arguments
 
 Now you can use `asyncer.runnify()` to run this function passing arguments:
 
-```Python hl_lines="3"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/runnify/tutorial001.py[ln:15]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/runnify/tutorial001.py!}
-```
-
-</details>
+{* docs_src/tutorial/runnify/tutorial001.py ln[15] hl[15] *}
 
 `asyncer.runnify()` takes the **async function** you want to call, and then it returns another function that **takes the positional and keyword arguments** needed, in this case it's just `name="World"`.
 
