@@ -15,9 +15,7 @@ But async functions can only be awaited inside of other async functions, you can
 
 For these cases, where you are in **sync code** and need to **call an async function** from within the sync code in a way that is **sync-compatible**, you can use **Asyncer**'s `syncify()`:
 
-```Python hl_lines="4  14"
-{!./docs_src/tutorial/syncify/tutorial001.py!}
-```
+{* docs_src/tutorial/syncify/tutorial001.py hl[4,14] *}
 
 The way this will work, step by step, is like this:
 

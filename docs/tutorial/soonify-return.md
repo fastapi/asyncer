@@ -12,22 +12,7 @@ I'll show you how to do that here. 🤓
 
 Let's see the last example `do_work()` async function we used in the previous chapter:
 
-```Python hl_lines="3-5"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:5-7]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify/tutorial002.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify/tutorial002.py ln[5:7] hl[5:7] *}
 
 This function takes a parameter `name` and then it prints a message.
 
@@ -39,22 +24,7 @@ But now let's say that we don't really want that function to print the message d
 
 Maybe because we could want to do something else later with the value, or for any other reason:
 
-```Python hl_lines="5-6"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify_return/tutorial001.py[ln:5-8]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify_return/tutorial001.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify_return/tutorial001.py ln[5:8] hl[7:8] *}
 
 ## Store `SoonValue` Objects
 
@@ -66,43 +36,13 @@ task_group.soonify(async_function)(arg1, arg2)
 
 ...that call **returns a special object** (an instance of a class `SoonValue`) that you can store in a variable:
 
-```Python hl_lines="11-13"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify_return/tutorial001.py[ln:5-15]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify_return/tutorial001.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify_return/tutorial001.py ln[5:15] hl[13:15] *}
 
 ## Get the Return Value from `SoonValue` Objects
 
 When one of these async functions started with `soonify()` finishes, the **return value** of the function is **stored** inside the `SoonValue` object, in the **attribute** `soon_value1.value`:
 
-```Python hl_lines="9"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify_return/tutorial001.py[ln:11-18]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify_return/tutorial001.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify_return/tutorial001.py ln[11:18] hl[17] *}
 
 After the `async with` block, the **task group** will wait for all of the concurrent functions/tasks to finish **before** any code below is executed.
 
@@ -136,22 +76,7 @@ All this **typing support** also means that you can use tools like **mypy** to v
 
 If you try to access the `soon_value1.value` attribute of the `SoonValue` object **inside** the `async with` block, you will **normally get an error**:
 
-```Python hl_lines="8"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify_return/tutorial002.py[ln:11-19]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify_return/tutorial002.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify_return/tutorial002.py ln[11:19] hl[16] *}
 
 That will raise an exception like this:
 
@@ -176,22 +101,7 @@ Because of that, the `soon_value1.value` attributes of the `SoonValue` objects *
 
 You can check if the value is already available by using the `soon_value.ready` attribute, it will be `True` or `False`:
 
-```Python hl_lines="6-8" linenums="1"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify_return/tutorial003.py[ln:11-16]!}
-
-        # Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify_return/tutorial003.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify_return/tutorial003.py ln[11:16] hl[14:16] *}
 
 Here we have an `await` inside the `async with` block. It sleeps for **2 seconds**.
 
