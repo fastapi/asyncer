@@ -4,6 +4,7 @@
 
 ### Docs
 
+* 📝 Update docs to use `markdown-include-variants`. PR [#419](https://github.com/fastapi/asyncer/pull/419) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 💅 Update CSS to explicitly use emoji font. PR [#420](https://github.com/fastapi/asyncer/pull/420) by [@tiangolo](https://github.com/tiangolo).
 
 ### Internal
