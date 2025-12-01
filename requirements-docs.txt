@@ -15,4 +15,4 @@ griffe-typingdoc==0.3.0
 griffe-warnings-deprecated==1.1.0
 typer == 0.20.0
 mkdocs-macros-plugin==1.5.0
-markdown-include-variants==0.0.5
+markdown-include-variants==0.0.7
