@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.11
+
 ### Fixes
 
 * 📝 Add `sniffio` dependency to project requirements. PR [#421](https://github.com/fastapi/asyncer/pull/421) by [@jujumilk3](https://github.com/jujumilk3).
