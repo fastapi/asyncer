@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Docs
+
+* 📝 Relax the warnings as I have been using Asyncer in production for a while (and other teams as well). PR [#424](https://github.com/fastapi/asyncer/pull/424) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.11
 
 ### Fixes
