@@ -38,21 +38,11 @@ The main goal of **Asyncer** is to improve **developer experience** by providing
 
 **Asyncer** also tries to improve **convenience** and simplicity when working with **async** code **mixed** with regular <abbr title="synchronous code, code that is not async">**blocking code**</abbr>, allowing to use them together in a simpler way... again, under my very **subjective** point of view.
 
-## 🚨 Warning
-
-This small library only exists to be able to use these **utility functions** until (and if) they are integrated into **AnyIO**.
-
-It will probably take some time for that to happen (or to be decided if it will be included or not).
-
-So I made this to be able to use these ideas right now. 🤓
-
 ## Can I Use It?
 
 Yes 🎉 (but continue reading).
 
-You can use this and evaluate the **library API design** I'm proposing. It will probably be useful to know if it works and is useful for you (I hope so).
-
-But still, consider this lab material, expect it to change a bit. 🧪
+This is a very small library, there are things that can change and improve in the future.
 
 If you use it, **pin the exact Asyncer version** for your project, to make sure it all works.
 

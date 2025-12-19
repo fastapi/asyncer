@@ -22,9 +22,7 @@ If you use `syncify()` directly in a mainly **sync** (blocking) program, by defa
 
 But `syncify()` has an **option** that you can set: `raise_sync_error=False`, that instead of raising an error will **run the async code**:
 
-```Python hl_lines="14"
-{!./docs_src/tutorial/syncify_no_raise/tutorial001.py!}
-```
+{* docs_src/tutorial/syncify_no_raise/tutorial001.py hl[14] *}
 
 If `syncify()` is called from inside of an async program (so, from inside of some code called with `asyncify()`), it will do the same thing as always, send the async function from the **worker thread** to the **main async thread** and run it there.
 
@@ -34,9 +32,7 @@ But if the program is not async, when using `syncify(raise_sync_error=False)`, i
 
 In this example, in the same file, we are running both an async and a sync program.
 
-```Python hl_lines="28-29"
-{!./docs_src/tutorial/syncify_no_raise/tutorial001.py!}
-```
+{* docs_src/tutorial/syncify_no_raise/tutorial001.py hl[28:30] *}
 
 * We first run the async code, with `anyio.run()`. It starts the async function `main()`.
 * Then we run the sync code, we just call directly `sync_main()`.
