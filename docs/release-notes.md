@@ -2,6 +2,25 @@
 
 ## Latest Changes
 
+### Docs
+
+* 📝 Relax the warnings as I have been using Asyncer in production for a while (and other teams as well). PR [#424](https://github.com/fastapi/asyncer/pull/424) by [@tiangolo](https://github.com/tiangolo).
+
+### Internal
+
+* 🔥 Remove Material for MkDocs Insiders extra files. PR [#432](https://github.com/fastapi/asyncer/pull/432) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.11
+
+### Fixes
+
+* 📝 Add `sniffio` dependency to project requirements. PR [#421](https://github.com/fastapi/asyncer/pull/421) by [@jujumilk3](https://github.com/jujumilk3).
+
+### Docs
+
+* 📝 Update docs to use `markdown-include-variants`. PR [#419](https://github.com/fastapi/asyncer/pull/419) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 💅 Update CSS to explicitly use emoji font. PR [#420](https://github.com/fastapi/asyncer/pull/420) by [@tiangolo](https://github.com/tiangolo).
+
 ### Internal
 
 * ⬆ Bump actions/checkout from 5 to 6. PR [#418](https://github.com/fastapi/asyncer/pull/418) by [@dependabot[bot]](https://github.com/apps/dependabot).

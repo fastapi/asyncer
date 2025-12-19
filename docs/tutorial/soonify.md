@@ -10,24 +10,7 @@ Let's start by just calling an **async function 3 times**, one after the other.
 
 This is still **not concurrent** because Python will run each one in its turn:
 
-```Python hl_lines="3-9"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify/tutorial001.py[ln:9-12]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-# 🚨 This is not concurrent 🚨
-
-{!./docs_src/tutorial/soonify/tutorial001.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify/tutorial001.py ln[11:14] hl[11:14] *}
 
 Python will see the first `await`, then it will know that **this might take a while**.
 
@@ -53,27 +36,7 @@ Let's now use **Asyncer** to run these **3 functions concurrently**. 🎉
 
 Use **Asyncer**'s `create_task_group()` in an `async with` block to create a **task group** object:
 
-```Python hl_lines="3  8"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:2]!}
-
-# Code here omitted 👈
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:10-11]!}
-        # Code here omitted 👈
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify/tutorial002.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify/tutorial002.py ln[2,10:12] hl[2,11] *}
 
 ## Task Group - Soonify One Function
 
@@ -83,27 +46,7 @@ Pass it the async function to call.
 
 That returns another function that receives the **arguments** for the async function you want to call:
 
-```Python hl_lines="9"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:2]!}
-
-# Code here omitted 👈
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:10-12]!}
-        # Code here omitted 👈
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify/tutorial002.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify/tutorial002.py ln[2,10:12] hl[12] *}
 
 This tells this **task group** to run that function **soon**.
 
@@ -113,27 +56,7 @@ It **won't run it right away** and make Python wait for it. Instead, the **task 
 
 Now you can use the same `task_group.soonify()` to **add the other async functions** you want to call concurrently with their parameters:
 
-```Python hl_lines="9-11"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:2]!}
-
-# Code here omitted 👈
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:10-14]!}
-    # Code here omitted 👈
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify/tutorial002.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify/tutorial002.py ln[2,10:14] hl[12:14] *}
 
 After the `async with` block ends, Python takes it as if it had an implicit `await` there.
 
@@ -143,31 +66,13 @@ Python will wait for all that to end in that `async with` block. It's like if th
 
 ## Review All the Code
 
-```Python
-{!./docs_src/tutorial/soonify/tutorial002.py!}
-```
+{* docs_src/tutorial/soonify/tutorial002.py *}
 
 Python will start with the first async function call to `do_work()` with the parameters `name="Yury"`.
 
 It will start that `anyio.sleep(1)` and it will notice the `await` there:
 
-```Python hl_lines="4"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:5-7]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify/tutorial002.py!}
-```
-
-</details>
-
+{* docs_src/tutorial/soonify/tutorial002.py ln[5:7] hl[6] *}
 
 That's the cue for Python to go and **run anything else** that might be **pending**.
 
@@ -175,22 +80,7 @@ At that point, Python will notice another thing **pending to run**, the next cal
 
 At some point it will get back to the first `await` and see that it's now done, so it will continue with that code, and print a message:
 
-```Python hl_lines="5"
-# Code above omitted 👆
-
-{!./docs_src/tutorial/soonify/tutorial002.py[ln:5-7]!}
-
-# Code below omitted 👇
-```
-
-<details>
-<summary>👀 Full file preview</summary>
-
-```Python
-{!./docs_src/tutorial/soonify/tutorial002.py!}
-```
-
-</details>
+{* docs_src/tutorial/soonify/tutorial002.py ln[5:7] hl[7] *}
 
 Because this was the first call, with `name="Yury"`, it will print:
 

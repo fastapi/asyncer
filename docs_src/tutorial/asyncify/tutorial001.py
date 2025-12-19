@@ -1,3 +1,5 @@
+# 🚨 Don't use this, it will block the event loop! 🚨
+
 import time
 
 import anyio
