@@ -2,12 +2,19 @@
 
 ## Latest Changes
 
+### Breaking Changes
+
+* ➖ Drop support for Python 3.8. PR [#441](https://github.com/fastapi/asyncer/pull/441) by [@tiangolo](https://github.com/tiangolo).
+
 ### Docs
 
 * 📝 Relax the warnings as I have been using Asyncer in production for a while (and other teams as well). PR [#424](https://github.com/fastapi/asyncer/pull/424) by [@tiangolo](https://github.com/tiangolo).
 
 ### Internal
 
+* ⬆️ Use prek as a pre-commit alternative. PR [#437](https://github.com/fastapi/asyncer/pull/437) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 👷 Configure coverage, error on main tests, don't wait for Smokeshow. PR [#435](https://github.com/fastapi/asyncer/pull/435) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 👷 Run Smokeshow always, even on test failures. PR [#434](https://github.com/fastapi/asyncer/pull/434) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 🔥 Remove Material for MkDocs Insiders extra files. PR [#432](https://github.com/fastapi/asyncer/pull/432) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.0.11
