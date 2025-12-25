@@ -1,6 +1,5 @@
 import threading
 from dataclasses import dataclass
-from typing import List
 
 import anyio
 from asyncer import asyncify, syncify
@@ -13,7 +12,7 @@ class Report:
 
 
 def test_syncify_no_raise_async():
-    reports: List[Report] = []
+    reports: list[Report] = []
 
     async def do_sub_async_work():
         report = Report(
