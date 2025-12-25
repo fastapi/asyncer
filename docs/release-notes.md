@@ -8,6 +8,9 @@
 
 ### Internal
 
+* ⬆️ Use prek as a pre-commit alternative. PR [#437](https://github.com/fastapi/asyncer/pull/437) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 👷 Configure coverage, error on main tests, don't wait for Smokeshow. PR [#435](https://github.com/fastapi/asyncer/pull/435) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 👷 Run Smokeshow always, even on test failures. PR [#434](https://github.com/fastapi/asyncer/pull/434) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 🔥 Remove Material for MkDocs Insiders extra files. PR [#432](https://github.com/fastapi/asyncer/pull/432) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.0.11
