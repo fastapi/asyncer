@@ -8,6 +8,7 @@
 
 ### Docs
 
+* 📝 Update code examples to Python 3.9. PR [#442](https://github.com/fastapi/asyncer/pull/442) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 📝 Relax the warnings as I have been using Asyncer in production for a while (and other teams as well). PR [#424](https://github.com/fastapi/asyncer/pull/424) by [@tiangolo](https://github.com/tiangolo).
 
 ### Internal
