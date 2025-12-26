@@ -81,7 +81,7 @@ dynamic_context = "test_function"
 show_missing = true
 sort = "-Cover"
 omit = [
-    "docs_src/tutorial/soonify_return/tutorial002.py",
+    "docs_src/tutorial/soonify_return/tutorial002_py39.py",
 ]
 
 [tool.coverage.html]
