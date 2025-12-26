@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.12
+
 ### Breaking Changes
 
 * ➖ Drop support for Python 3.8. PR [#441](https://github.com/fastapi/asyncer/pull/441) by [@tiangolo](https://github.com/tiangolo).
