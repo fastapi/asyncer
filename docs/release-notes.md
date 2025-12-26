@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 🔧 Update pre-commit to use local Ruff instead of hook, unpin `prek`. PR [#443](https://github.com/fastapi/asyncer/pull/443) by [@YuriiMotov](https://github.com/YuriiMotov).
+
 ## 0.0.12
 
 ### Breaking Changes
