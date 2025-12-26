@@ -31,15 +31,12 @@ jobs:
           - anyio-v3
           - anyio-v4
         include:
-          - os: macos-latest
-            python-version: "3.8"
-            anyio-version: "anyio-v3"
           - os: windows-latest
-            python-version: "3.8"
-            anyio-version: "anyio-v4"
-          - os: ubuntu-latest
             python-version: "3.9"
             anyio-version: "anyio-v3"
+          - os: ubuntu-latest
+            python-version: "3.9"
+            anyio-version: "anyio-v4"
           - os: macos-latest
             python-version: "3.10"
             anyio-version: "anyio-v4"
@@ -55,7 +52,7 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -92,7 +89,7 @@ jobs:
           COVERAGE_FILE: coverage/.coverage.${{ runner.os }}-py${{ matrix.python-version }}
           CONTEXT: ${{ runner.os }}-py${{ matrix.python-version }}
       - name: Store coverage files
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: coverage-${{ runner.os }}-${{ matrix.python-version }}-${{ matrix.anyio-version }}
           path: coverage
@@ -103,10 +100,10 @@ jobs:
       - test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
-          python-version: '3.8'
+          python-version: '3.13'
       - name: Setup uv
         uses: astral-sh/setup-uv@v7
         with:
@@ -116,7 +113,7 @@ jobs:
             requirements**.txt
             pyproject.toml
       - name: Get coverage files
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           pattern: coverage-*
           path: coverage
@@ -125,14 +122,14 @@ jobs:
         run: uv pip install -r requirements-tests.txt
       - run: ls -la coverage
       - run: coverage combine coverage
-      - run: coverage report
       - run: coverage html --title "Coverage for ${{ github.sha }}"
       - name: Store coverage HTML
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: coverage-html
           path: htmlcov
           include-hidden-files: true
+      - run: coverage report --fail-under=100
 
   # https://github.com/marketplace/actions/alls-green#why
   alls-green:  # This job does nothing and is only used for the branch protection
