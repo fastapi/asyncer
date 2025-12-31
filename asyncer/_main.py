@@ -1,12 +1,10 @@
 import functools
 import sys
+from collections.abc import Awaitable, Coroutine
 from importlib import import_module
 from typing import (
     Any,
-    Awaitable,
     Callable,
-    Coroutine,
-    Dict,
     Generic,
     Optional,
     TypeVar,
@@ -200,7 +198,7 @@ def create_task_group() -> "TaskGroup":
 def runnify(
     async_function: Callable[T_ParamSpec, Coroutine[Any, Any, T_Retval]],
     backend: str = "asyncio",
-    backend_options: Optional[Dict[str, Any]] = None,
+    backend_options: Optional[dict[str, Any]] = None,
 ) -> Callable[T_ParamSpec, T_Retval]:
     """
     Take an async function and create a regular (blocking) function that receives the
