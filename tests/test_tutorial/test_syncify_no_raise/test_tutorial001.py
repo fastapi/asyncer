@@ -9,7 +9,7 @@ def test_tutorial():
     new_print = get_testing_print_function(calls)
 
     with patch("builtins.print", new=new_print):
-        from docs_src.tutorial.syncify_no_raise import tutorial001 as mod
+        from docs_src.tutorial.syncify_no_raise import tutorial001_py39 as mod
 
         assert mod
     assert calls == [["Hello, World"], ["Hello, Sync World"]]

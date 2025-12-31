@@ -2,12 +2,26 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Update secrets check. PR [#446](https://github.com/fastapi/asyncer/pull/446) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 🔧 Migrate from Material for MkDocs to Zensical. PR [#445](https://github.com/fastapi/asyncer/pull/445) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Update pre-commit to use local Ruff instead of hook, unpin `prek`. PR [#443](https://github.com/fastapi/asyncer/pull/443) by [@YuriiMotov](https://github.com/YuriiMotov).
+
+## 0.0.12
+
+### Breaking Changes
+
+* ➖ Drop support for Python 3.8. PR [#441](https://github.com/fastapi/asyncer/pull/441) by [@tiangolo](https://github.com/tiangolo).
+
 ### Docs
 
+* 📝 Update code examples to Python 3.9. PR [#442](https://github.com/fastapi/asyncer/pull/442) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 📝 Relax the warnings as I have been using Asyncer in production for a while (and other teams as well). PR [#424](https://github.com/fastapi/asyncer/pull/424) by [@tiangolo](https://github.com/tiangolo).
 
 ### Internal
 
+* ⬆️ Use prek as a pre-commit alternative. PR [#437](https://github.com/fastapi/asyncer/pull/437) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 👷 Configure coverage, error on main tests, don't wait for Smokeshow. PR [#435](https://github.com/fastapi/asyncer/pull/435) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 👷 Run Smokeshow always, even on test failures. PR [#434](https://github.com/fastapi/asyncer/pull/434) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 🔥 Remove Material for MkDocs Insiders extra files. PR [#432](https://github.com/fastapi/asyncer/pull/432) by [@tiangolo](https://github.com/tiangolo).
