@@ -17,7 +17,7 @@ def test_tutorial():
 
     with patch("builtins.print", new=new_print):
         with pytest.raises((ExceptionGroup, asyncer.PendingValueException)) as e:
-            from docs_src.tutorial.soonify_return import tutorial002 as mod
+            from docs_src.tutorial.soonify_return import tutorial002_py39 as mod
 
             # Avoid autoflake removing this import
             assert mod  # pragma: nocover

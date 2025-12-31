@@ -3,6 +3,7 @@ site_name: Asyncer
 site_description: Asyncer, async and await, focused on developer experience.
 site_url: https://asyncer.tiangolo.com/
 theme:
+  variant: classic
   name: material
   palette:
   - media: "(prefers-color-scheme)"
@@ -65,7 +66,7 @@ plugins:
 
 nav:
   - Asyncer: index.md
-  - Tutorial - User Guide:
+  - Learn:
     - tutorial/index.md
     - tutorial/install.md
     - tutorial/first-steps.md
