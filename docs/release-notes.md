@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump markdown-include-variants from 0.0.5 to 0.0.8. PR [#429](https://github.com/fastapi/asyncer/pull/429) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.14.5 to 0.14.10. PR [#436](https://github.com/fastapi/asyncer/pull/436) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/download-artifact from 6 to 7. PR [#430](https://github.com/fastapi/asyncer/pull/430) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 5 to 6. PR [#431](https://github.com/fastapi/asyncer/pull/431) by [@dependabot[bot]](https://github.com/apps/dependabot).
