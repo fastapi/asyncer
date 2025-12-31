@@ -4,6 +4,8 @@
 
 ### Internal
 
+* 👷 Update secrets check. PR [#446](https://github.com/fastapi/asyncer/pull/446) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 🔧 Migrate from Material for MkDocs to Zensical. PR [#445](https://github.com/fastapi/asyncer/pull/445) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update pre-commit to use local Ruff instead of hook, unpin `prek`. PR [#443](https://github.com/fastapi/asyncer/pull/443) by [@YuriiMotov](https://github.com/YuriiMotov).
 
 ## 0.0.12
