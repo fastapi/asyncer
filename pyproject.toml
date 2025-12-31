@@ -9,7 +9,7 @@ license-files = ["LICENSE"]
 dynamic = ["version"]
 description = "Asyncer, async and await, focused on developer experience."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 authors = [
     { name = "Sebastián Ramírez", email = "tiangolo@gmail.com" },
 ]
@@ -23,7 +23,6 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "Intended Audience :: System Administrators",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
@@ -82,7 +81,7 @@ dynamic_context = "test_function"
 show_missing = true
 sort = "-Cover"
 omit = [
-    "docs_src/tutorial/soonify_return/tutorial002.py",
+    "docs_src/tutorial/soonify_return/tutorial002_py39.py",
 ]
 
 [tool.coverage.html]
