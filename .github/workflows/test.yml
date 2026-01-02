@@ -73,7 +73,7 @@ jobs:
         with:
           limit-access-to-actor: true
       - name: Install Dependencies
-        run: uv sync --locked --group tests
+        run: uv sync --locked --no-dev --group tests
       - name: Install AnyIO v3
         if: matrix.anyio-version == 'anyio-v3'
         run: uv pip install --upgrade "anyio>=3.4.0,<4.0"
@@ -119,7 +119,7 @@ jobs:
           path: coverage
           merge-multiple: true
       - name: Install Dependencies
-        run: uv sync --locked --group tests
+        run: uv sync --locked --no-dev --group tests
       - run: ls -la coverage
       - run: uv run coverage combine coverage
       - run: uv run coverage html --title "Coverage for ${{ github.sha }}"
