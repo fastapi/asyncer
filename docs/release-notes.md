@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆️ Migrate to uv. PR [#440](https://github.com/fastapi/asyncer/pull/440) by [@DoctorJohn](https://github.com/DoctorJohn).
 * ✅ Expand test matrix to include Windows and MacOS. PR [#392](https://github.com/fastapi/asyncer/pull/392) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump typer from 0.20.0 to 0.21.0. PR [#444](https://github.com/fastapi/asyncer/pull/444) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/cache from 4 to 5. PR [#428](https://github.com/fastapi/asyncer/pull/428) by [@dependabot[bot]](https://github.com/apps/dependabot).
