@@ -1,8 +1,9 @@
-INHERIT: ./mkdocs.maybe-insiders.yml
+INHERIT: ./mkdocs.env.yml
 site_name: Asyncer
 site_description: Asyncer, async and await, focused on developer experience.
 site_url: https://asyncer.tiangolo.com/
 theme:
+  variant: classic
   name: material
   palette:
   - media: "(prefers-color-scheme)"
@@ -57,6 +58,7 @@ plugins:
   # Material for MkDocs
   search:
   social:
+  typeset:
   # Other plugins
   macros:
     include_yaml:
@@ -64,7 +66,7 @@ plugins:
 
 nav:
   - Asyncer: index.md
-  - Tutorial - User Guide:
+  - Learn:
     - tutorial/index.md
     - tutorial/install.md
     - tutorial/first-steps.md
@@ -85,6 +87,11 @@ nav:
   - release-notes.md
 
 markdown_extensions:
+  # Material for MkDocs
+  material.extensions.preview:
+    targets:
+      include:
+        - "*"
   # Python Markdown
   abbr:
   attr_list:
@@ -109,6 +116,7 @@ markdown_extensions:
       class: mermaid
       format: !!python/name:pymdownx.superfences.fence_code_format
   pymdownx.tilde:
+  markdown_include_variants: null
 
   # pymdownx blocks
   pymdownx.blocks.admonition:

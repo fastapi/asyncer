@@ -9,7 +9,7 @@ def test_tutorial():
     new_print = get_testing_print_function(calls)
 
     with patch("builtins.print", new=new_print):
-        from docs_src.tutorial.soonify_return import tutorial003 as mod
+        from docs_src.tutorial.soonify_return import tutorial003_py39 as mod
 
         assert mod
     assert calls == [
