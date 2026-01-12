@@ -6,18 +6,14 @@ First, you might want to see the basic ways to [help Asyncer and get help](help.
 
 If you already cloned the <a href="https://github.com/fastapi/asyncer" class="external-link" target="_blank">asyncer repository</a> and you want to deep dive in the code, here are some guidelines to set up your environment.
 
-### Virtual Environment
+### Install Requirements Using `uv`
 
-Follow the instructions to create and activate a virtual environment as described in the <a href="https://fastapi.tiangolo.com/virtual-environments/" class="external-link" target="_blank">FastAPI page on Virtual Environments</a> for the internal code of `asyncer`.
-
-### Install Requirements Using `pip`
-
-After activating the environment, install the required packages:
+Create a virtual environment and install the required packages in one command:
 
 <div class="termy">
 
 ```console
-$ pip install -r requirements.txt
+$ uv sync
 
 ---> 100%
 ```
@@ -104,10 +100,10 @@ Go into the docs director at `docs/`:
 $ cd docs/
 ```
 
-Then run `mkdocs` in that directory:
+Then run `zensical` in that directory:
 
 ```console
-$ mkdocs serve --dev-addr 8008
+$ zensical serve --dev-addr 8008
 ```
 
 ///
@@ -133,7 +129,7 @@ Completion will take effect once you restart the terminal.
 
 ### Docs Structure
 
-The documentation uses <a href="https://www.mkdocs.org/" class="external-link" target="_blank">MkDocs</a>.
+The documentation uses <a href="https://zensical.org" class="external-link" target="_blank">Zensical</a>.
 
 And there are extra tools/scripts in place in `./scripts/docs.py`.
 

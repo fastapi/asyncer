@@ -2,6 +2,102 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Update Smokeshow, use uv. PR [#447](https://github.com/fastapi/asyncer/pull/447) by [@tiangolo](https://github.com/tiangolo).
+* ⬆️ Migrate to uv. PR [#440](https://github.com/fastapi/asyncer/pull/440) by [@DoctorJohn](https://github.com/DoctorJohn).
+* ✅ Expand test matrix to include Windows and MacOS. PR [#392](https://github.com/fastapi/asyncer/pull/392) by [@svlandeg](https://github.com/svlandeg).
+* ⬆ Bump typer from 0.20.0 to 0.21.0. PR [#444](https://github.com/fastapi/asyncer/pull/444) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/cache from 4 to 5. PR [#428](https://github.com/fastapi/asyncer/pull/428) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump markdown-include-variants from 0.0.5 to 0.0.8. PR [#429](https://github.com/fastapi/asyncer/pull/429) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.14.5 to 0.14.10. PR [#436](https://github.com/fastapi/asyncer/pull/436) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/download-artifact from 6 to 7. PR [#430](https://github.com/fastapi/asyncer/pull/430) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/upload-artifact from 5 to 6. PR [#431](https://github.com/fastapi/asyncer/pull/431) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.7.0 to 9.7.1. PR [#433](https://github.com/fastapi/asyncer/pull/433) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update secrets check. PR [#446](https://github.com/fastapi/asyncer/pull/446) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 🔧 Migrate from Material for MkDocs to Zensical. PR [#445](https://github.com/fastapi/asyncer/pull/445) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Update pre-commit to use local Ruff instead of hook, unpin `prek`. PR [#443](https://github.com/fastapi/asyncer/pull/443) by [@YuriiMotov](https://github.com/YuriiMotov).
+
+## 0.0.12
+
+### Breaking Changes
+
+* ➖ Drop support for Python 3.8. PR [#441](https://github.com/fastapi/asyncer/pull/441) by [@tiangolo](https://github.com/tiangolo).
+
+### Docs
+
+* 📝 Update code examples to Python 3.9. PR [#442](https://github.com/fastapi/asyncer/pull/442) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 📝 Relax the warnings as I have been using Asyncer in production for a while (and other teams as well). PR [#424](https://github.com/fastapi/asyncer/pull/424) by [@tiangolo](https://github.com/tiangolo).
+
+### Internal
+
+* ⬆️ Use prek as a pre-commit alternative. PR [#437](https://github.com/fastapi/asyncer/pull/437) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 👷 Configure coverage, error on main tests, don't wait for Smokeshow. PR [#435](https://github.com/fastapi/asyncer/pull/435) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 👷 Run Smokeshow always, even on test failures. PR [#434](https://github.com/fastapi/asyncer/pull/434) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 🔥 Remove Material for MkDocs Insiders extra files. PR [#432](https://github.com/fastapi/asyncer/pull/432) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.11
+
+### Fixes
+
+* 📝 Add `sniffio` dependency to project requirements. PR [#421](https://github.com/fastapi/asyncer/pull/421) by [@jujumilk3](https://github.com/jujumilk3).
+
+### Docs
+
+* 📝 Update docs to use `markdown-include-variants`. PR [#419](https://github.com/fastapi/asyncer/pull/419) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 💅 Update CSS to explicitly use emoji font. PR [#420](https://github.com/fastapi/asyncer/pull/420) by [@tiangolo](https://github.com/tiangolo).
+
+### Internal
+
+* ⬆ Bump actions/checkout from 5 to 6. PR [#418](https://github.com/fastapi/asyncer/pull/418) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump tiangolo/latest-changes from 0.4.0 to 0.4.1. PR [#417](https://github.com/fastapi/asyncer/pull/417) by [@svlandeg](https://github.com/svlandeg).
+* ⬆ Bump actions/checkout from 5 to 6. PR [#411](https://github.com/fastapi/asyncer/pull/411) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Tweak pre-commit config in CI. PR [#415](https://github.com/fastapi/asyncer/pull/415) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Add pre-commit GitHub Action workflow. PR [#413](https://github.com/fastapi/asyncer/pull/413) by [@tiangolo](https://github.com/tiangolo).
+* 💄 Use font Fira Code to fix display of Rich panels in docs in Windows. PR [#412](https://github.com/fastapi/asyncer/pull/412) by [@tiangolo](https://github.com/tiangolo).
+* 🔧 Upgrade Material for MkDocs and remove insiders. PR [#410](https://github.com/fastapi/asyncer/pull/410) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Bump mkdocs-macros-plugin from 1.4.1 to 1.5.0. PR [#407](https://github.com/fastapi/asyncer/pull/407) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.6.23 to 9.7.0. PR [#406](https://github.com/fastapi/asyncer/pull/406) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.14.4 to 0.14.5. PR [#408](https://github.com/fastapi/asyncer/pull/408) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#409](https://github.com/fastapi/asyncer/pull/409) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump ruff from 0.14.3 to 0.14.4. PR [#404](https://github.com/fastapi/asyncer/pull/404) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#405](https://github.com/fastapi/asyncer/pull/405) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump mkdocs-material from 9.6.22 to 9.6.23. PR [#402](https://github.com/fastapi/asyncer/pull/402) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.14.2 to 0.14.3. PR [#401](https://github.com/fastapi/asyncer/pull/401) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#403](https://github.com/fastapi/asyncer/pull/403) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump actions/upload-artifact from 4 to 5. PR [#397](https://github.com/fastapi/asyncer/pull/397) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-macros-plugin from 1.4.0 to 1.4.1. PR [#398](https://github.com/fastapi/asyncer/pull/398) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/download-artifact from 5 to 6. PR [#399](https://github.com/fastapi/asyncer/pull/399) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.14.1 to 0.14.2. PR [#394](https://github.com/fastapi/asyncer/pull/394) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#400](https://github.com/fastapi/asyncer/pull/400) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 🔧 Add PEP-639 license metadata. PR [#395](https://github.com/fastapi/asyncer/pull/395) by [@svlandeg](https://github.com/svlandeg).
+* ⬆ Bump typer from 0.19.2 to 0.20.0. PR [#393](https://github.com/fastapi/asyncer/pull/393) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.6.21 to 9.6.22. PR [#389](https://github.com/fastapi/asyncer/pull/389) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Configure reminder for `waiting` label in `issue-manager`. PR [#390](https://github.com/fastapi/asyncer/pull/390) by [@YuriiMotov](https://github.com/YuriiMotov).
+* ⬆ Bump ruff from 0.13.3 to 0.14.1. PR [#391](https://github.com/fastapi/asyncer/pull/391) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#388](https://github.com/fastapi/asyncer/pull/388) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+
+## 0.0.10
+
+### Upgrades
+
+* ⬆️ Add support for Python 3.14. PR [#387](https://github.com/fastapi/asyncer/pull/387) by [@svlandeg](https://github.com/svlandeg).
+
+### Internal
+
+* ⬆ Bump astral-sh/setup-uv from 6 to 7. PR [#386](https://github.com/fastapi/asyncer/pull/386) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.13.2 to 0.13.3. PR [#383](https://github.com/fastapi/asyncer/pull/383) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#384](https://github.com/fastapi/asyncer/pull/384) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump mkdocs-macros-plugin from 1.3.9 to 1.4.0. PR [#373](https://github.com/fastapi/asyncer/pull/373) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.17.4 to 0.19.2. PR [#374](https://github.com/fastapi/asyncer/pull/374) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.6.20 to 9.6.21. PR [#379](https://github.com/fastapi/asyncer/pull/379) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump tiangolo/issue-manager from 0.5.1 to 0.6.0. PR [#380](https://github.com/fastapi/asyncer/pull/380) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#372](https://github.com/fastapi/asyncer/pull/372) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump ruff from 0.13.0 to 0.13.2. PR [#376](https://github.com/fastapi/asyncer/pull/376) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update docs previews comment, single comment, add failure status. PR [#377](https://github.com/fastapi/asyncer/pull/377) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.9
+
 ### Fixes
 
 * 👽️ Ensure compatibility with AnyIO 4.11.0. PR [#381](https://github.com/fastapi/asyncer/pull/381) by [@svlandeg](https://github.com/svlandeg).
