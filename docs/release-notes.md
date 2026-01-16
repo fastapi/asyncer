@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Docs
+
+* 🐛 Fix copy button in `custom.js`. PR [#448](https://github.com/fastapi/asyncer/pull/448) by [@alejsdev](https://github.com/alejsdev).
+
 ### Internal
 
 * 👷 Update Smokeshow, use uv. PR [#447](https://github.com/fastapi/asyncer/pull/447) by [@tiangolo](https://github.com/tiangolo).
