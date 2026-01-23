@@ -9,6 +9,7 @@
 
 ### Internal
 
+* ⬆ Bump mypy from 1.14.1 to 1.19.1. PR [#453](https://github.com/fastapi/asyncer/pull/453) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.14.10 to 0.14.13. PR [#450](https://github.com/fastapi/asyncer/pull/450) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Ensure that an edit to `uv.lock` gets the `internal` label. PR [#455](https://github.com/fastapi/asyncer/pull/455) by [@svlandeg](https://github.com/svlandeg).
 * 👷 Update Smokeshow, use uv. PR [#447](https://github.com/fastapi/asyncer/pull/447) by [@tiangolo](https://github.com/tiangolo).
