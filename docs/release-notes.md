@@ -9,6 +9,7 @@
 
 ### Internal
 
+* ⬆ Bump anyio from 4.12.0 to 4.12.1. PR [#451](https://github.com/fastapi/asyncer/pull/451) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.21.0 to 0.21.1. PR [#452](https://github.com/fastapi/asyncer/pull/452) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mypy from 1.14.1 to 1.19.1. PR [#453](https://github.com/fastapi/asyncer/pull/453) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.14.10 to 0.14.13. PR [#450](https://github.com/fastapi/asyncer/pull/450) by [@dependabot[bot]](https://github.com/apps/dependabot).
