@@ -2,8 +2,23 @@
 
 ## Latest Changes
 
+### Docs
+
+* 📝 Add contribution instructions about LLM generated code and comments and automated tools for PRs. PR [#449](https://github.com/fastapi/asyncer/pull/449) by [@alejsdev](https://github.com/alejsdev).
+* 🐛 Fix copy button in `custom.js`. PR [#448](https://github.com/fastapi/asyncer/pull/448) by [@alejsdev](https://github.com/alejsdev).
+
 ### Internal
 
+* 👷 Run mypy by pre-commit. PR [#459](https://github.com/fastapi/asyncer/pull/459) by [@YuriiMotov](https://github.com/YuriiMotov).
+* ⬆ Bump ruff from 0.14.13 to 0.14.14. PR [#457](https://github.com/fastapi/asyncer/pull/457) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump prek from 0.3.0 to 0.3.1. PR [#458](https://github.com/fastapi/asyncer/pull/458) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump prek from 0.2.30 to 0.3.0. PR [#456](https://github.com/fastapi/asyncer/pull/456) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump prek from 0.2.25 to 0.2.30. PR [#454](https://github.com/fastapi/asyncer/pull/454) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump anyio from 4.12.0 to 4.12.1. PR [#451](https://github.com/fastapi/asyncer/pull/451) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.21.0 to 0.21.1. PR [#452](https://github.com/fastapi/asyncer/pull/452) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mypy from 1.14.1 to 1.19.1. PR [#453](https://github.com/fastapi/asyncer/pull/453) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.14.10 to 0.14.13. PR [#450](https://github.com/fastapi/asyncer/pull/450) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Ensure that an edit to `uv.lock` gets the `internal` label. PR [#455](https://github.com/fastapi/asyncer/pull/455) by [@svlandeg](https://github.com/svlandeg).
 * 👷 Update Smokeshow, use uv. PR [#447](https://github.com/fastapi/asyncer/pull/447) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Migrate to uv. PR [#440](https://github.com/fastapi/asyncer/pull/440) by [@DoctorJohn](https://github.com/DoctorJohn).
 * ✅ Expand test matrix to include Windows and MacOS. PR [#392](https://github.com/fastapi/asyncer/pull/392) by [@svlandeg](https://github.com/svlandeg).
