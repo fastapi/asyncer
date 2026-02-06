@@ -4,6 +4,7 @@
 
 ### Docs
 
+* 📝 Update management-tasks.md to be in line with management-tasks.md in FastAPI repo. PR [#462](https://github.com/fastapi/asyncer/pull/462) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 📝 Add contribution instructions about LLM generated code and comments and automated tools for PRs. PR [#449](https://github.com/fastapi/asyncer/pull/449) by [@alejsdev](https://github.com/alejsdev).
 * 🐛 Fix copy button in `custom.js`. PR [#448](https://github.com/fastapi/asyncer/pull/448) by [@alejsdev](https://github.com/alejsdev).
 
