@@ -10,6 +10,7 @@
 
 ### Internal
 
+* ⬆ Bump prek from 0.3.1 to 0.3.2. PR [#463](https://github.com/fastapi/asyncer/pull/463) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.14.14 to 0.15.0. PR [#461](https://github.com/fastapi/asyncer/pull/461) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Add generate-readme to pre-commit. PR [#460](https://github.com/fastapi/asyncer/pull/460) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Run mypy by pre-commit. PR [#459](https://github.com/fastapi/asyncer/pull/459) by [@YuriiMotov](https://github.com/YuriiMotov).
