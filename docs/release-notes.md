@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.13
+
 ### Docs
 
 * 📝 Update management-tasks.md to be in line with management-tasks.md in FastAPI repo. PR [#462](https://github.com/fastapi/asyncer/pull/462) by [@YuriiMotov](https://github.com/YuriiMotov).
