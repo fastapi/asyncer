@@ -10,6 +10,7 @@
 
 ### Internal
 
+* 🔨 Tweak PDM hook and build process for `asyncer-slim`. PR [#467](https://github.com/fastapi/asyncer/pull/467) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update build setup for `asyncer-slim`, deprecate it, and make it only depend on `asyncer`. PR [#466](https://github.com/fastapi/asyncer/pull/466) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump prek from 0.3.1 to 0.3.2. PR [#463](https://github.com/fastapi/asyncer/pull/463) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.14.14 to 0.15.0. PR [#461](https://github.com/fastapi/asyncer/pull/461) by [@dependabot[bot]](https://github.com/apps/dependabot).
