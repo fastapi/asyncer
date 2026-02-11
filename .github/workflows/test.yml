@@ -90,7 +90,7 @@ jobs:
         if: matrix.anyio-version == 'anyio-v4'
         run: uv pip install --upgrade "anyio>=4.0.0,<5.0"
       - name: Lint
-        if: matrix.anyio-version == 'anyio-v4'
+        if: ${{ matrix.anyio-version == 'anyio-v4' && matrix.uv-resolution == 'highest' }}
         run: uv run bash scripts/lint.sh
       - run: mkdir coverage
       - name: Test
