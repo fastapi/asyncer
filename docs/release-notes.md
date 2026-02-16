@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump prek from 0.3.2 to 0.3.3. PR [#471](https://github.com/fastapi/asyncer/pull/471) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.23.0 to 0.23.1. PR [#470](https://github.com/fastapi/asyncer/pull/470) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.15.0 to 0.15.1. PR [#469](https://github.com/fastapi/asyncer/pull/469) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.21.1 to 0.23.0. PR [#468](https://github.com/fastapi/asyncer/pull/468) by [@dependabot[bot]](https://github.com/apps/dependabot).
