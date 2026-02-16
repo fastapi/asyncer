@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.14
+
 ### Internal
 
 * 👷 Run tests with lower bound uv sync, upgrade `pytest` minimum dependency pin. PR [#464](https://github.com/fastapi/asyncer/pull/464) by [@YuriiMotov](https://github.com/YuriiMotov).
