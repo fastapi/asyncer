@@ -180,7 +180,8 @@ class TaskGroup(_TaskGroup):
         return await super().__aenter__()  # type: ignore
 
     # This is only for the return type annotation, but it won't really be called
-    async def __aexit__(self,
+    async def __aexit__(
+        self,
         exc_type: Optional[type[BaseException]],
         exc_value: Optional[BaseException],
         exc_tb: Optional[TracebackType],
