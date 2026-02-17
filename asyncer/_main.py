@@ -2,10 +2,12 @@ import functools
 import sys
 from collections.abc import Awaitable, Coroutine
 from importlib import import_module
+from types import TracebackType
 from typing import (
     Any,
     Callable,
     Generic,
+    Literal,
     Optional,
     TypeVar,
     Union,
@@ -176,6 +178,15 @@ class TaskGroup(_TaskGroup):
     async def __aenter__(self) -> "TaskGroup":  # pragma: nocover
         """Enter the task group context and allow starting new tasks."""
         return await super().__aenter__()  # type: ignore
+
+    # This is only for the return type annotation, but it won't really be called
+    async def __aexit__(self,
+        exc_type: Optional[type[BaseException]],
+        exc_value: Optional[BaseException],
+        exc_tb: Optional[TracebackType],
+    ) -> Literal[False]:  # pragma: nocover
+        """Exit the task group context once all tasks are completed."""
+        return await super().__aexit__(exc_type, exc_value, exc_tb)
 
 
 def create_task_group() -> "TaskGroup":
