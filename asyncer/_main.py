@@ -187,7 +187,7 @@ class TaskGroup(_TaskGroup):
         exc_tb: Optional[TracebackType],
     ) -> Literal[False]:  # pragma: nocover
         """Exit the task group context once all tasks are completed."""
-        return await super().__aexit__(exc_type, exc_value, exc_tb)
+        return await super().__aexit__(exc_type, exc_value, exc_tb)  # type: ignore
 
 
 def create_task_group() -> "TaskGroup":
