@@ -6,7 +6,7 @@ Asyncer is based on **AnyIO**, so let's start with a simple example just using *
 
 Let's start with a simple main async function.
 
-{* docs_src/tutorial/first_steps/tutorial001_py39.py ln[9:11] hl[9:10] *}
+{* docs_src/tutorial/first_steps/tutorial001_py310.py ln[9:11] hl[9:10] *}
 
 When working with **async** code you normally use `async` and `await`.
 
@@ -25,13 +25,13 @@ The function `do_work()` also needs to be declared with `async def` for us to be
 
 For this example, let's simulate that by making `do_work()` wait there for 1 second:
 
-{* docs_src/tutorial/first_steps/tutorial001_py39.py ln[4:11] hl[4:5] *}
+{* docs_src/tutorial/first_steps/tutorial001_py310.py ln[4:11] hl[4:5] *}
 
 ## Run the Main Function
 
 As `main()` is an `async` function, we can't call it directly because we can't `await` it. Instead, we call it with `anyio.run()`:
 
-{* docs_src/tutorial/first_steps/tutorial001_py39.py hl[1,14] *}
+{* docs_src/tutorial/first_steps/tutorial001_py310.py hl[1,14] *}
 
 `anyio.run()` will do everything necessary to call `main()`, handling all the `await` parts, and waiting there until it finishes.
 
