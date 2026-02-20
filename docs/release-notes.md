@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Breaking Changes
+
+* ➖ Drop support for Python 3.9. PR [#476](https://github.com/fastapi/asyncer/pull/476) by [@tiangolo](https://github.com/tiangolo).
+
 ### Internal
 
 * 👷 Remove min-max testing of AnyIO, covered by uv resolution. PR [#477](https://github.com/fastapi/asyncer/pull/477) by [@tiangolo](https://github.com/tiangolo).
