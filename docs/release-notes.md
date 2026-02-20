@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.15
+
 ### Breaking Changes
 
 * ➖ Drop support for Python 3.9. PR [#476](https://github.com/fastapi/asyncer/pull/476) by [@tiangolo](https://github.com/tiangolo).
