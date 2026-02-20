@@ -33,14 +33,6 @@ jobs:
         uv-resolution:
           - highest
         include:
-          - os: windows-latest
-            python-version: "3.9"
-            anyio-version: "anyio-v3"
-            uv-resolution: lowest-direct
-          - os: ubuntu-latest
-            python-version: "3.9"
-            anyio-version: "anyio-v4"
-            uv-resolution: highest
           - os: macos-latest
             python-version: "3.10"
             anyio-version: "anyio-v4"
