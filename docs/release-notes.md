@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Fix CI, prevent CI from trying to build `asyncer-slim`. PR [#480](https://github.com/fastapi/asyncer/pull/480) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.16
 
 ### Internal
