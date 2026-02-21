@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.16
+
 ### Internal
 
 * ➖ Drop support for `asyncer-slim`, no more versions will be released, use only `asyncer`. PR [#479](https://github.com/fastapi/asyncer/pull/479) by [@tiangolo](https://github.com/tiangolo).
