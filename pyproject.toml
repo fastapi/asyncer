@@ -76,7 +76,7 @@ github-actions = [
 tests = [
     "coverage[toml]>=6.2,<8.0",
     "mypy==1.19.1",
-    "pytest>=7.4.0,<9.0.0",
+    "pytest>=9.0.0",
     "ruff==0.15.2",
 ]
 
@@ -89,6 +89,17 @@ source-includes = [
     "tests/",
     "docs_src/",
     "scripts/",
+]
+
+[tool.pytest]
+minversion = "9.0"
+addopts = [
+  "--strict-config",
+  "--strict-markers",
+]
+strict_xfail = true
+filterwarnings = [
+    "error",
 ]
 
 [tool.coverage.run]
