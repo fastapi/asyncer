@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 🔧 Upgrade pytest version and config. PR [#481](https://github.com/fastapi/asyncer/pull/481) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.17
 
 ### Internal
