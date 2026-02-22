@@ -1,7 +1,8 @@
 # AnyIO 4.1.0 renamed cancellable to abandon_on_cancel
 import importlib
 import importlib.metadata
-from typing import Callable, TypeVar, Union
+from collections.abc import Callable
+from typing import TypeVar
 
 import anyio
 import anyio.to_thread
@@ -19,7 +20,7 @@ if ANYIO_VERSION >= "4.1.0":
         func: Callable[[Unpack[PosArgsT]], T_Retval],
         *args: Unpack[PosArgsT],
         abandon_on_cancel: bool = False,
-        limiter: Union[CapacityLimiter, None] = None,
+        limiter: CapacityLimiter | None = None,
     ) -> T_Retval:
         return await anyio.to_thread.run_sync(
             func, *args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
@@ -30,7 +31,7 @@ else:
         func: Callable[[Unpack[PosArgsT]], T_Retval],
         *args: Unpack[PosArgsT],
         abandon_on_cancel: bool = False,
-        limiter: Union[CapacityLimiter, None] = None,
+        limiter: CapacityLimiter | None = None,
     ) -> T_Retval:
         return await anyio.to_thread.run_sync(
             func, *args, cancellable=abandon_on_cancel, limiter=limiter

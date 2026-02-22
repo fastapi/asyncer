@@ -2,6 +2,36 @@
 
 ## Latest Changes
 
+### Internal
+
+* 🔧 Upgrade pytest version and config. PR [#481](https://github.com/fastapi/asyncer/pull/481) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.17
+
+### Internal
+
+* 👷 Fix CI, prevent CI from trying to build `asyncer-slim`. PR [#480](https://github.com/fastapi/asyncer/pull/480) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.16
+
+### Internal
+
+* ➖ Drop support for `asyncer-slim`, no more versions will be released, use only `asyncer`. PR [#479](https://github.com/fastapi/asyncer/pull/479) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.15
+
+### Breaking Changes
+
+* ➖ Drop support for Python 3.9. PR [#476](https://github.com/fastapi/asyncer/pull/476) by [@tiangolo](https://github.com/tiangolo).
+
+### Internal
+
+* 🔨 Update script to generate source examples, migrate from Python 3.9 to Python 3.10. PR [#478](https://github.com/fastapi/asyncer/pull/478) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Remove min-max testing of AnyIO, covered by uv resolution. PR [#477](https://github.com/fastapi/asyncer/pull/477) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Bump ruff from 0.15.1 to 0.15.2. PR [#475](https://github.com/fastapi/asyncer/pull/475) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.7.1 to 9.7.2. PR [#474](https://github.com/fastapi/asyncer/pull/474) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.23.1 to 0.23.2. PR [#473](https://github.com/fastapi/asyncer/pull/473) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
 ## 0.0.14
 
 ### Internal
