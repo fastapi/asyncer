@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Relax constraints for `griffe-typingdoc` and `griffe-warnings-deprecated`. PR [#488](https://github.com/fastapi/asyncer/pull/488) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Update all dependencies to use `griffelib` instead of `griffe`. PR [#487](https://github.com/fastapi/asyncer/pull/487) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump typer from 0.23.2 to 0.24.1. PR [#484](https://github.com/fastapi/asyncer/pull/484) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Upgrade pytest version and config. PR [#481](https://github.com/fastapi/asyncer/pull/481) by [@tiangolo](https://github.com/tiangolo).
