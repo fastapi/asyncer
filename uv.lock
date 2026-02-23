@@ -104,7 +104,7 @@ requires-dist = [
 dev = [
     { name = "cairosvg", specifier = "==2.8.2" },
     { name = "coverage", extras = ["toml"], specifier = ">=6.2,<8.0" },
-    { name = "griffe-typingdoc", specifier = "==0.3.0" },
+    { name = "griffe-typingdoc", specifier = "==0.3.1" },
     { name = "griffe-warnings-deprecated", specifier = "==1.1.0" },
     { name = "markdown-include-variants", specifier = "==0.0.8" },
     { name = "mdx-include", specifier = ">=1.4.1,<2.0.0" },
@@ -123,7 +123,7 @@ dev = [
 ]
 docs = [
     { name = "cairosvg", specifier = "==2.8.2" },
-    { name = "griffe-typingdoc", specifier = "==0.3.0" },
+    { name = "griffe-typingdoc", specifier = "==0.3.1" },
     { name = "griffe-warnings-deprecated", specifier = "==1.1.0" },
     { name = "markdown-include-variants", specifier = "==0.0.8" },
     { name = "mdx-include", specifier = ">=1.4.1,<2.0.0" },
@@ -645,6 +645,18 @@ wheels = [
 ]
 
 [[package]]
+name = "griffe"
+version = "2.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "griffecli" },
+    { name = "griffelib" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8b/94/ee21d41e7eb4f823b94603b9d40f86d3c7fde80eacc2c3c71845476dddaa/griffe-2.0.0-py3-none-any.whl", hash = "sha256:5418081135a391c3e6e757a7f3f156f1a1a746cc7b4023868ff7d5e2f9a980aa", size = 5214, upload-time = "2026-02-09T19:09:44.105Z" },
+]
+
+[[package]]
 name = "griffe-typingdoc"
 version = "0.3.1"
 source = { registry = "https://pypi.org/simple" }
@@ -659,14 +671,26 @@ wheels = [
 
 [[package]]
 name = "griffe-warnings-deprecated"
-version = "1.1.1"
+version = "1.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
+    { name = "griffe" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/7e/0e/f034e1714eb2c694d6196c75f77a02f9c69d19f9961c4804a016397bf3e5/griffe_warnings_deprecated-1.1.0.tar.gz", hash = "sha256:7bf21de327d59c66c7ce08d0166aa4292ce0577ff113de5878f428d102b6f7c5", size = 33260, upload-time = "2024-12-10T21:02:18.395Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/43/4c/b7241f03ad1f22ec2eed33b0f90c4f8c949e3395c4b7488670b07225a20b/griffe_warnings_deprecated-1.1.0-py3-none-any.whl", hash = "sha256:e7b0e8bfd6e5add3945d4d9805b2a41c72409e456733965be276d55f01e8a7a2", size = 5854, upload-time = "2024-12-10T21:02:16.96Z" },
+]
+
+[[package]]
+name = "griffecli"
+version = "2.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "colorama" },
     { name = "griffelib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/da/9e/fc86f1e9270f143a395a601de81aa42a871722c34d4b3c7763658dc2e04d/griffe_warnings_deprecated-1.1.1.tar.gz", hash = "sha256:9261369bf2acb8b5d24a0dc7895cce788208513d4349031d4ea315b979b2e99f", size = 26262, upload-time = "2026-02-21T09:38:55.858Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2f/3c/c2a9eee79bf2c8002d2fa370534bee93fdca39e8b1fc82e83d552d5d2c07/griffe_warnings_deprecated-1.1.1-py3-none-any.whl", hash = "sha256:4b7d765e82ca9139ed44ffe7bdebed0d3a46ce014ad5a35a2c22e9a16288737a", size = 6565, upload-time = "2026-02-20T15:35:23.577Z" },
+    { url = "https://files.pythonhosted.org/packages/e6/ed/d93f7a447bbf7a935d8868e9617cbe1cadf9ee9ee6bd275d3040fbf93d60/griffecli-2.0.0-py3-none-any.whl", hash = "sha256:9f7cd9ee9b21d55e91689358978d2385ae65c22f307a63fb3269acf3f21e643d", size = 9345, upload-time = "2026-02-09T19:09:42.554Z" },
 ]
 
 [[package]]
