@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump typer from 0.23.2 to 0.24.1. PR [#484](https://github.com/fastapi/asyncer/pull/484) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Upgrade pytest version and config. PR [#481](https://github.com/fastapi/asyncer/pull/481) by [@tiangolo](https://github.com/tiangolo).
 
 ## 0.0.17
