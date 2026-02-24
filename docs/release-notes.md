@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump mkdocs-material from 9.7.2 to 9.7.3. PR [#490](https://github.com/fastapi/asyncer/pull/490) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.3.0 to 12.1.1. PR [#486](https://github.com/fastapi/asyncer/pull/486) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocstrings[python] from 0.30.1 to 1.0.3. PR [#482](https://github.com/fastapi/asyncer/pull/482) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Relax constraints for `griffe-typingdoc` and `griffe-warnings-deprecated`. PR [#488](https://github.com/fastapi/asyncer/pull/488) by [@svlandeg](https://github.com/svlandeg).
