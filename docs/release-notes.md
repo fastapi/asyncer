@@ -4,6 +4,72 @@
 
 ### Internal
 
+* ⬆ Relax constraints for `griffe-typingdoc` and `griffe-warnings-deprecated`. PR [#488](https://github.com/fastapi/asyncer/pull/488) by [@svlandeg](https://github.com/svlandeg).
+* ⬆ Update all dependencies to use `griffelib` instead of `griffe`. PR [#487](https://github.com/fastapi/asyncer/pull/487) by [@svlandeg](https://github.com/svlandeg).
+* ⬆ Bump typer from 0.23.2 to 0.24.1. PR [#484](https://github.com/fastapi/asyncer/pull/484) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Upgrade pytest version and config. PR [#481](https://github.com/fastapi/asyncer/pull/481) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.17
+
+### Internal
+
+* 👷 Fix CI, prevent CI from trying to build `asyncer-slim`. PR [#480](https://github.com/fastapi/asyncer/pull/480) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.16
+
+### Internal
+
+* ➖ Drop support for `asyncer-slim`, no more versions will be released, use only `asyncer`. PR [#479](https://github.com/fastapi/asyncer/pull/479) by [@tiangolo](https://github.com/tiangolo).
+
+## 0.0.15
+
+### Breaking Changes
+
+* ➖ Drop support for Python 3.9. PR [#476](https://github.com/fastapi/asyncer/pull/476) by [@tiangolo](https://github.com/tiangolo).
+
+### Internal
+
+* 🔨 Update script to generate source examples, migrate from Python 3.9 to Python 3.10. PR [#478](https://github.com/fastapi/asyncer/pull/478) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Remove min-max testing of AnyIO, covered by uv resolution. PR [#477](https://github.com/fastapi/asyncer/pull/477) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Bump ruff from 0.15.1 to 0.15.2. PR [#475](https://github.com/fastapi/asyncer/pull/475) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.7.1 to 9.7.2. PR [#474](https://github.com/fastapi/asyncer/pull/474) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.23.1 to 0.23.2. PR [#473](https://github.com/fastapi/asyncer/pull/473) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
+## 0.0.14
+
+### Internal
+
+* 👷 Run tests with lower bound uv sync, upgrade `pytest` minimum dependency pin. PR [#464](https://github.com/fastapi/asyncer/pull/464) by [@YuriiMotov](https://github.com/YuriiMotov).
+* ⬆ Bump prek from 0.3.2 to 0.3.3. PR [#471](https://github.com/fastapi/asyncer/pull/471) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.23.0 to 0.23.1. PR [#470](https://github.com/fastapi/asyncer/pull/470) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.15.0 to 0.15.1. PR [#469](https://github.com/fastapi/asyncer/pull/469) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.21.1 to 0.23.0. PR [#468](https://github.com/fastapi/asyncer/pull/468) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
+## 0.0.13
+
+### Docs
+
+* 📝 Update management-tasks.md to be in line with management-tasks.md in FastAPI repo. PR [#462](https://github.com/fastapi/asyncer/pull/462) by [@YuriiMotov](https://github.com/YuriiMotov).
+* 📝 Add contribution instructions about LLM generated code and comments and automated tools for PRs. PR [#449](https://github.com/fastapi/asyncer/pull/449) by [@alejsdev](https://github.com/alejsdev).
+* 🐛 Fix copy button in `custom.js`. PR [#448](https://github.com/fastapi/asyncer/pull/448) by [@alejsdev](https://github.com/alejsdev).
+
+### Internal
+
+* 🔨 Tweak PDM hook and build process for `asyncer-slim`. PR [#467](https://github.com/fastapi/asyncer/pull/467) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Update build setup for `asyncer-slim`, deprecate it, and make it only depend on `asyncer`. PR [#466](https://github.com/fastapi/asyncer/pull/466) by [@tiangolo](https://github.com/tiangolo).
+* ⬆ Bump prek from 0.3.1 to 0.3.2. PR [#463](https://github.com/fastapi/asyncer/pull/463) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.14.14 to 0.15.0. PR [#461](https://github.com/fastapi/asyncer/pull/461) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Add generate-readme to pre-commit. PR [#460](https://github.com/fastapi/asyncer/pull/460) by [@tiangolo](https://github.com/tiangolo).
+* 👷 Run mypy by pre-commit. PR [#459](https://github.com/fastapi/asyncer/pull/459) by [@YuriiMotov](https://github.com/YuriiMotov).
+* ⬆ Bump ruff from 0.14.13 to 0.14.14. PR [#457](https://github.com/fastapi/asyncer/pull/457) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump prek from 0.3.0 to 0.3.1. PR [#458](https://github.com/fastapi/asyncer/pull/458) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump prek from 0.2.30 to 0.3.0. PR [#456](https://github.com/fastapi/asyncer/pull/456) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump prek from 0.2.25 to 0.2.30. PR [#454](https://github.com/fastapi/asyncer/pull/454) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump anyio from 4.12.0 to 4.12.1. PR [#451](https://github.com/fastapi/asyncer/pull/451) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump typer from 0.21.0 to 0.21.1. PR [#452](https://github.com/fastapi/asyncer/pull/452) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mypy from 1.14.1 to 1.19.1. PR [#453](https://github.com/fastapi/asyncer/pull/453) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.14.10 to 0.14.13. PR [#450](https://github.com/fastapi/asyncer/pull/450) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Ensure that an edit to `uv.lock` gets the `internal` label. PR [#455](https://github.com/fastapi/asyncer/pull/455) by [@svlandeg](https://github.com/svlandeg).
 * 👷 Update Smokeshow, use uv. PR [#447](https://github.com/fastapi/asyncer/pull/447) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Migrate to uv. PR [#440](https://github.com/fastapi/asyncer/pull/440) by [@DoctorJohn](https://github.com/DoctorJohn).
 * ✅ Expand test matrix to include Windows and MacOS. PR [#392](https://github.com/fastapi/asyncer/pull/392) by [@svlandeg](https://github.com/svlandeg).

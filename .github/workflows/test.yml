@@ -27,32 +27,26 @@ jobs:
       matrix:
         os: [ ubuntu-latest, windows-latest, macos-latest ]
         python-version: [ "3.14" ]
-        anyio-version:
-          - anyio-v3
-          - anyio-v4
+        uv-resolution:
+          - highest
         include:
-          - os: windows-latest
-            python-version: "3.9"
-            anyio-version: "anyio-v3"
-          - os: ubuntu-latest
-            python-version: "3.9"
-            anyio-version: "anyio-v4"
           - os: macos-latest
             python-version: "3.10"
-            anyio-version: "anyio-v4"
+            uv-resolution: lowest-direct
           - os: windows-latest
             python-version: "3.11"
-            anyio-version: "anyio-v3"
+            uv-resolution: highest
           - os: ubuntu-latest
             python-version: "3.12"
-            anyio-version: "anyio-v4"
+            uv-resolution: highest
           - os: macos-latest
             python-version: "3.13"
-            anyio-version: "anyio-v3"
+            uv-resolution: lowest-direct
       fail-fast: false
     runs-on: ${{ matrix.os }}
     env:
       UV_PYTHON: ${{ matrix.python-version }}
+      UV_RESOLUTION: ${{ matrix.uv-resolution }}
     steps:
       - uses: actions/checkout@v6
       - name: Set up Python
@@ -73,15 +67,9 @@ jobs:
         with:
           limit-access-to-actor: true
       - name: Install Dependencies
-        run: uv sync --locked --no-dev --group tests
-      - name: Install AnyIO v3
-        if: matrix.anyio-version == 'anyio-v3'
-        run: uv pip install --upgrade "anyio>=3.4.0,<4.0"
-      - name: Install AnyIO v4
-        if: matrix.anyio-version == 'anyio-v4'
-        run: uv pip install --upgrade "anyio>=4.0.0,<5.0"
+        run: uv sync --no-dev --group tests
       - name: Lint
-        if: matrix.anyio-version == 'anyio-v4'
+        if: ${{ matrix.uv-resolution == 'highest' }}
         run: uv run bash scripts/lint.sh
       - run: mkdir coverage
       - name: Test
@@ -92,7 +80,7 @@ jobs:
       - name: Store coverage files
         uses: actions/upload-artifact@v6
         with:
-          name: coverage-${{ runner.os }}-${{ matrix.python-version }}-${{ matrix.anyio-version }}
+          name: coverage-${{ runner.os }}-${{ matrix.python-version }}
           path: coverage
           include-hidden-files: true
 
