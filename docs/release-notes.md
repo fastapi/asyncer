@@ -13,7 +13,7 @@
 * ⬆ Bump typer from 0.23.2 to 0.24.1. PR [#484](https://github.com/fastapi/asyncer/pull/484) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Upgrade pytest version and config. PR [#481](https://github.com/fastapi/asyncer/pull/481) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.17
+## 0.0.17 (2026-02-21)
 
 ### Internal
 
@@ -25,7 +25,7 @@
 
 * ➖ Drop support for `asyncer-slim`, no more versions will be released, use only `asyncer`. PR [#479](https://github.com/fastapi/asyncer/pull/479) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.15
+## 0.0.15 (2026-02-20)
 
 ### Breaking Changes
 
@@ -39,7 +39,7 @@
 * ⬆ Bump mkdocs-material from 9.7.1 to 9.7.2. PR [#474](https://github.com/fastapi/asyncer/pull/474) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.23.1 to 0.23.2. PR [#473](https://github.com/fastapi/asyncer/pull/473) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
-## 0.0.14
+## 0.0.14 (2026-02-16)
 
 ### Internal
 
@@ -49,7 +49,7 @@
 * ⬆ Bump ruff from 0.15.0 to 0.15.1. PR [#469](https://github.com/fastapi/asyncer/pull/469) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump typer from 0.21.1 to 0.23.0. PR [#468](https://github.com/fastapi/asyncer/pull/468) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
-## 0.0.13
+## 0.0.13 (2026-02-11)
 
 ### Docs
 
@@ -88,7 +88,7 @@
 * 🔧 Migrate from Material for MkDocs to Zensical. PR [#445](https://github.com/fastapi/asyncer/pull/445) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Update pre-commit to use local Ruff instead of hook, unpin `prek`. PR [#443](https://github.com/fastapi/asyncer/pull/443) by [@YuriiMotov](https://github.com/YuriiMotov).
 
-## 0.0.12
+## 0.0.12 (2025-12-26)
 
 ### Breaking Changes
 
@@ -106,7 +106,7 @@
 * 👷 Run Smokeshow always, even on test failures. PR [#434](https://github.com/fastapi/asyncer/pull/434) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 🔥 Remove Material for MkDocs Insiders extra files. PR [#432](https://github.com/fastapi/asyncer/pull/432) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.11
+## 0.0.11 (2025-12-01)
 
 ### Fixes
 
@@ -147,7 +147,7 @@
 * ⬆ Bump ruff from 0.13.3 to 0.14.1. PR [#391](https://github.com/fastapi/asyncer/pull/391) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#388](https://github.com/fastapi/asyncer/pull/388) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 
-## 0.0.10
+## 0.0.10 (2025-10-20)
 
 ### Upgrades
 
@@ -166,7 +166,7 @@
 * ⬆ Bump ruff from 0.13.0 to 0.13.2. PR [#376](https://github.com/fastapi/asyncer/pull/376) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Update docs previews comment, single comment, add failure status. PR [#377](https://github.com/fastapi/asyncer/pull/377) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.9
+## 0.0.9 (2025-10-01)
 
 ### Fixes
 
@@ -253,7 +253,7 @@
 * 💚 Set `include-hidden-files` to `True` when using the `upload-artifact` GH action. PR [#215](https://github.com/fastapi/asyncer/pull/215) by [@svlandeg](https://github.com/svlandeg).
 * 👷 Update `latest-changes` GitHub Action. PR [#203](https://github.com/fastapi/asyncer/pull/203) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.8
+## 0.0.8 (2024-08-24)
 
 ### Refactors
 
@@ -301,7 +301,7 @@
 * 👷 Update GitHub Actions to download and upload artifacts. PR [#159](https://github.com/tiangolo/asyncer/pull/159) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Tweak CI for test-redistribute, add needed env vars for slim. PR [#158](https://github.com/tiangolo/asyncer/pull/158) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.7
+## 0.0.7 (2024-04-30)
 
 ### Internal
 
@@ -309,7 +309,7 @@
 
 In the future Asyncer can include the standard default recommended packages, and `asyncer-slim` can come without those recommended standard packages and with a group of optional dependencies `asyncer-slim[standard]`, equivalent to `asyncer`, for those that want to opt out of those packages.
 
-## 0.0.6
+## 0.0.6 (2024-04-30)
 
 ### Internal
 
@@ -321,7 +321,7 @@ In the future Asyncer can include the standard default recommended packages, and
 * 👷 Add cron to run test once a week on monday. PR [#140](https://github.com/tiangolo/asyncer/pull/140) by [@estebanx64](https://github.com/estebanx64).
 * ⬆️ Upgrade Ruff version and configs. PR [#139](https://github.com/tiangolo/asyncer/pull/139) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.5
+## 0.0.5 (2024-02-22)
 
 ### Fixes
 
@@ -331,7 +331,7 @@ In the future Asyncer can include the standard default recommended packages, and
 
 * 👷 Update Publish CI Python version to 3.11. PR [#120](https://github.com/tiangolo/asyncer/pull/120) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.4
+## 0.0.4 (2024-01-28)
 
 ### Docs
 
@@ -342,7 +342,7 @@ In the future Asyncer can include the standard default recommended packages, and
 * 🔧 Add Ruff config. PR [#112](https://github.com/tiangolo/asyncer/pull/112) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Adopt Ruff for formatting and linting and upgrade internal tools. PR [#111](https://github.com/tiangolo/asyncer/pull/111) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.3
+## 0.0.3 (2024-01-23)
 
 ### Features
 
@@ -400,7 +400,7 @@ In the future Asyncer can include the standard default recommended packages, and
 * ⬆ Bump dawidd6/action-download-artifact from 2.24.1 to 2.24.2. PR [#54](https://github.com/tiangolo/asyncer/pull/54) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump dawidd6/action-download-artifact from 2.9.0 to 2.24.1. PR [#53](https://github.com/tiangolo/asyncer/pull/53) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
-## 0.0.2
+## 0.0.2 (2022-11-04)
 
 ### Features
 
@@ -437,7 +437,7 @@ In the future Asyncer can include the standard default recommended packages, and
 * ⬆ Update coverage requirement from ^5.5 to ^6.2. PR [#1](https://github.com/tiangolo/asyncer/pull/1) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔧 Upgrade MkDocs Material and update configs. PR [#10](https://github.com/tiangolo/asyncer/pull/10) by [@tiangolo](https://github.com/tiangolo).
 
-## 0.0.1
+## 0.0.1 (2022-01-04)
 
 * First release. 🎉
 
