@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump zensical from 0.0.23 to 0.0.24. PR [#492](https://github.com/fastapi/asyncer/pull/492) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump zensical from 0.0.15 to 0.0.23. PR [#489](https://github.com/fastapi/asyncer/pull/489) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.7.2 to 9.7.3. PR [#490](https://github.com/fastapi/asyncer/pull/490) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pillow from 11.3.0 to 12.1.1. PR [#486](https://github.com/fastapi/asyncer/pull/486) by [@dependabot[bot]](https://github.com/apps/dependabot).
