@@ -126,9 +126,9 @@ class TaskGroup(_TaskGroup):
             result1 = task_group.soonify(do_work)(name="task 1")
             result2 = task_group.soonify(do_work)(name="task 2")
             await anyio.sleep(0)
-            if not result1.pending:
+            if result1.ready:
                 print(result1.value)
-            if not result2.pending:
+            if result2.ready:
                 print(result2.value)
         ```
 
