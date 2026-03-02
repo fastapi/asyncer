@@ -72,6 +72,10 @@ class SoonValue(Generic[T]):
     def ready(self) -> bool:
         return not isinstance(self._stored_value, PendingType)
 
+    @property
+    def pending(self) -> bool:
+        return isinstance(self._stored_value, PendingType)
+
 
 class TaskGroup(_TaskGroup):
     def soonify(
