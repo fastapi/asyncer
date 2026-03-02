@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump ruff from 0.15.2 to 0.15.4. PR [#495](https://github.com/fastapi/asyncer/pull/495) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 6 to 7. PR [#494](https://github.com/fastapi/asyncer/pull/494) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/download-artifact from 7 to 8. PR [#493](https://github.com/fastapi/asyncer/pull/493) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump prek from 0.3.3 to 0.3.4. PR [#496](https://github.com/fastapi/asyncer/pull/496) by [@dependabot[bot]](https://github.com/apps/dependabot).
