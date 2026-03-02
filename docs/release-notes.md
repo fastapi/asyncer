@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump actions/upload-artifact from 6 to 7. PR [#494](https://github.com/fastapi/asyncer/pull/494) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/download-artifact from 7 to 8. PR [#493](https://github.com/fastapi/asyncer/pull/493) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump prek from 0.3.3 to 0.3.4. PR [#496](https://github.com/fastapi/asyncer/pull/496) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump zensical from 0.0.23 to 0.0.24. PR [#492](https://github.com/fastapi/asyncer/pull/492) by [@dependabot[bot]](https://github.com/apps/dependabot).
