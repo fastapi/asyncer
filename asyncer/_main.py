@@ -116,7 +116,7 @@ class TaskGroup(_TaskGroup):
         But either way, if you have checkpoints inside the `async with` block (you have
         some `await` there), one or more of the `SoonValue` objects you might have
         could end up having the result value ready before ending the `async with` block.
-        You can check that with `soon_value.pending`. For example:
+        You can check that with `soon_value.ready`. For example:
 
         ```Python
         async def do_work(name: str) -> str:
