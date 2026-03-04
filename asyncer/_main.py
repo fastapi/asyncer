@@ -1,23 +1,14 @@
 import functools
 import sys
-from collections.abc import Awaitable, Coroutine
+from collections.abc import Awaitable, Callable, Coroutine
 from importlib import import_module
 from typing import (
     Any,
-    Callable,
     Generic,
-    Optional,
+    ParamSpec,
     TypeVar,
-    Union,
 )
 from warnings import warn
-
-from asyncer._compat import run_sync
-
-if sys.version_info >= (3, 10):
-    from typing import ParamSpec
-else:
-    from typing_extensions import ParamSpec
 
 import anyio
 import anyio.from_thread
@@ -25,6 +16,7 @@ import anyio.to_thread
 import sniffio
 from anyio._core._eventloop import threadlocals
 from anyio.abc import TaskGroup as _TaskGroup
+from asyncer._compat import run_sync
 
 
 # This was obtained with: from anyio._core._eventloop import get_asynclib
@@ -32,7 +24,7 @@ from anyio.abc import TaskGroup as _TaskGroup
 # Released in AnyIO 4.x.x
 # The new function is anyio._core._eventloop.get_async_backend but that returns a
 # class, not a module to extract the TaskGroup class from.
-def get_asynclib(asynclib_name: Union[str, None] = None) -> Any:
+def get_asynclib(asynclib_name: str | None = None) -> Any:
     if asynclib_name is None:
         asynclib_name = sniffio.current_async_library()
 
@@ -62,7 +54,7 @@ class PendingValueException(Exception):
 
 class SoonValue(Generic[T]):
     def __init__(self) -> None:
-        self._stored_value: Union[T, PendingType] = Pending
+        self._stored_value: T | PendingType = Pending
 
     @property
     def value(self) -> T:
@@ -198,7 +190,7 @@ def create_task_group() -> "TaskGroup":
 def runnify(
     async_function: Callable[T_ParamSpec, Coroutine[Any, Any, T_Retval]],
     backend: str = "asyncio",
-    backend_options: Optional[dict[str, Any]] = None,
+    backend_options: dict[str, Any] | None = None,
 ) -> Callable[T_ParamSpec, T_Retval]:
     """
     Take an async function and create a regular (blocking) function that receives the
@@ -324,8 +316,8 @@ def asyncify(
     function: Callable[T_ParamSpec, T_Retval],
     *,
     abandon_on_cancel: bool = False,
-    cancellable: Union[bool, None] = None,
-    limiter: Optional[anyio.CapacityLimiter] = None,
+    cancellable: bool | None = None,
+    limiter: anyio.CapacityLimiter | None = None,
 ) -> Callable[T_ParamSpec, Awaitable[T_Retval]]:
     """
     Take a blocking function and create an async one that receives the same
