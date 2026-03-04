@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Docs
+
+* 📝 Fix docstring example for `TaskGroup.soonify()`. PR [#269](https://github.com/fastapi/asyncer/pull/269) by [@asifr](https://github.com/asifr).
+
 ### Internal
 
 * ⬆ Bump ruff from 0.15.2 to 0.15.4. PR [#495](https://github.com/fastapi/asyncer/pull/495) by [@dependabot[bot]](https://github.com/apps/dependabot).
