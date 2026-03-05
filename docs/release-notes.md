@@ -4,6 +4,7 @@
 
 ### Docs
 
+* 🔨 Handle external links `target=_blank` and CSS automatically in JS and CSS. PR [#499](https://github.com/fastapi/asyncer/pull/499) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Fix docstring example for `TaskGroup.soonify()`. PR [#269](https://github.com/fastapi/asyncer/pull/269) by [@asifr](https://github.com/asifr).
 
 ### Internal
