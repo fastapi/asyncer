@@ -2,7 +2,7 @@
 
 Before starting, create a project directory, and then create a **virtual environment** in it to install the packages.
 
-You can read the <a href="https://fastapi.tiangolo.com/virtual-environments/" class="external-link" target="_blank">FastAPI page on Virtual Environments</a>.
+You can read the [FastAPI page on Virtual Environments](https://fastapi.tiangolo.com/virtual-environments/).
 
 Then activate the virtual environment, and then install Asyncer, for example:
 

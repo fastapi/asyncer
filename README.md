@@ -5,30 +5,30 @@
     <em>Asyncer, async and await, focused on developer experience.</em>
 </p>
 <p align="center">
-<a href="https://github.com/fastapi/asyncer/actions?query=workflow%3ATest+event%3Apush+branch%3Amain" target="_blank">
+<a href="https://github.com/fastapi/asyncer/actions?query=workflow%3ATest+event%3Apush+branch%3Amain">
     <img src="https://github.com/fastapi/asyncer/actions/workflows/test.yml/badge.svg?event=push&branch=main" alt="Test">
 </a>
-<a href="https://github.com/fastapi/asyncer/actions?query=workflow%3APublish" target="_blank">
+<a href="https://github.com/fastapi/asyncer/actions?query=workflow%3APublish">
     <img src="https://github.com/fastapi/asyncer/actions/workflows/publish.yml/badge.svg" alt="Publish">
 </a>
-<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/fastapi/asyncer" target="_blank">
+<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/fastapi/asyncer">
     <img src="https://coverage-badge.samuelcolvin.workers.dev/fastapi/asyncer.svg" alt="Coverage">
-<a href="https://pypi.org/project/asyncer" target="_blank">
+<a href="https://pypi.org/project/asyncer">
     <img src="https://img.shields.io/pypi/v/asyncer?color=%2334D058&label=pypi%20package" alt="Package version">
 </a>
 </p>
 
 ---
 
-**Documentation**: <a href="https://asyncer.tiangolo.com" target="_blank">https://asyncer.tiangolo.com</a>
+**Documentation**: [https://asyncer.tiangolo.com](https://asyncer.tiangolo.com)
 
-**Source Code**: <a href="https://github.com/fastapi/asyncer" target="_blank">https://github.com/fastapi/asyncer</a>
+**Source Code**: [https://github.com/fastapi/asyncer](https://github.com/fastapi/asyncer)
 
 ---
 
-**Asyncer** is a small library built on top of <a href="https://anyio.readthedocs.io/en/stable/" class="external-link" target="_blank">AnyIO</a>.
+**Asyncer** is a small library built on top of [AnyIO](https://anyio.readthedocs.io/en/stable/).
 
-**Asyncer** has a small number of utility functions that allow working with `async`, `await`, and concurrent code in a more convenient way under my (<a href="https://twitter.com/tiangolo" class="external-link" target="_blank">@tiangolo - Sebastián Ramírez</a>) very opinionated and subjective point of view.
+**Asyncer** has a small number of utility functions that allow working with `async`, `await`, and concurrent code in a more convenient way under my ([@tiangolo - Sebastián Ramírez](https://twitter.com/tiangolo)) very opinionated and subjective point of view.
 
 The main goal of **Asyncer** is to improve **developer experience** by providing better support for **autocompletion** and **inline errors** in the editor, and **more certainty** that the code is **bug-free** by providing better support for type checking tools like **mypy**.
 
@@ -66,7 +66,7 @@ Successfully installed asyncer anyio
 
 ## How to Use
 
-You can read more about each of the use cases and utility functions in **Asyncer** in the <a href="https://asyncer.tiangolo.com/tutorial/" class="external-link" target="_blank">tutorial</a>.
+You can read more about each of the use cases and utility functions in **Asyncer** in the [tutorial](https://asyncer.tiangolo.com/tutorial/).
 
 As a sneak preview of one of the utilities, you can **call sync code from async code** using `asyncify()`:
 
