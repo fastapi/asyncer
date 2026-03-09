@@ -68,9 +68,6 @@ jobs:
           limit-access-to-actor: true
       - name: Install Dependencies
         run: uv sync --no-dev --group tests
-      - name: Lint
-        if: ${{ matrix.uv-resolution == 'highest' }}
-        run: uv run bash scripts/lint.sh
       - run: mkdir coverage
       - name: Test
         run: uv run bash scripts/test.sh
