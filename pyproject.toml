@@ -76,9 +76,9 @@ github-actions = [
 tests = [
     "coverage[toml]>=6.2,<8.0",
     "mypy==1.19.1",
-    "ty>=0.0.9",
     "pytest>=9.0.0",
     "ruff==0.15.5",
+    "ty>=0.0.9",
 ]
 
 [tool.pdm]
