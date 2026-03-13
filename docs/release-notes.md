@@ -10,6 +10,8 @@
 
 ### Internal
 
+* ⬆ Bump ruff from 0.15.5 to 0.15.6. PR [#508](https://github.com/fastapi/asyncer/pull/508) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump dorny/paths-filter from 3 to 4. PR [#507](https://github.com/fastapi/asyncer/pull/507) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.7.4 to 9.7.5. PR [#504](https://github.com/fastapi/asyncer/pull/504) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump zensical from 0.0.24 to 0.0.26. PR [#505](https://github.com/fastapi/asyncer/pull/505) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump prek from 0.3.4 to 0.3.5. PR [#502](https://github.com/fastapi/asyncer/pull/502) by [@dependabot[bot]](https://github.com/apps/dependabot).
