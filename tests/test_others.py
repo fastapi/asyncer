@@ -1,6 +1,5 @@
-import pytest
-
 import asyncer
+import pytest
 
 
 def test_pending_repr():
