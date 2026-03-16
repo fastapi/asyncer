@@ -78,6 +78,7 @@ tests = [
     "mypy >=1.19.1",
     "pytest >=9.0.0",
     "ruff >=0.15.6",
+    "ty >=0.0.9",
 ]
 
 [tool.pdm]
