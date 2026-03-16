@@ -10,6 +10,7 @@
 
 ### Internal
 
+* ⬆ Bump zensical from 0.0.26 to 0.0.27. PR [#512](https://github.com/fastapi/asyncer/pull/512) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump prek from 0.3.5 to 0.3.6. PR [#513](https://github.com/fastapi/asyncer/pull/513) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump cairosvg from 2.8.2 to 2.9.0. PR [#510](https://github.com/fastapi/asyncer/pull/510) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Add `ty` to precommit. PR [#503](https://github.com/fastapi/asyncer/pull/503) by [@svlandeg](https://github.com/svlandeg).
