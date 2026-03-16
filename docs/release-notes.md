@@ -10,6 +10,7 @@
 
 ### Internal
 
+* 📌 Update internal dependency limits. PR [#506](https://github.com/fastapi/asyncer/pull/506) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump ruff from 0.15.5 to 0.15.6. PR [#508](https://github.com/fastapi/asyncer/pull/508) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump dorny/paths-filter from 3 to 4. PR [#507](https://github.com/fastapi/asyncer/pull/507) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.7.4 to 9.7.5. PR [#504](https://github.com/fastapi/asyncer/pull/504) by [@dependabot[bot]](https://github.com/apps/dependabot).
