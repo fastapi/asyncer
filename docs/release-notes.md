@@ -10,6 +10,7 @@
 
 ### Internal
 
+* ⬆ Bump prek from 0.3.6 to 0.3.8. PR [#518](https://github.com/fastapi/asyncer/pull/518) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pygithub from 2.8.1 to 2.9.0. PR [#519](https://github.com/fastapi/asyncer/pull/519) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mkdocs-material from 9.7.5 to 9.7.6. PR [#517](https://github.com/fastapi/asyncer/pull/517) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump zensical from 0.0.27 to 0.0.28. PR [#515](https://github.com/fastapi/asyncer/pull/515) by [@dependabot[bot]](https://github.com/apps/dependabot).
