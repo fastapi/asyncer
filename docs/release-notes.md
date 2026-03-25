@@ -10,6 +10,7 @@
 
 ### Internal
 
+* ⬆ Bump zensical from 0.0.28 to 0.0.29. PR [#520](https://github.com/fastapi/asyncer/pull/520) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump anyio from 4.12.1 to 4.13.0. PR [#522](https://github.com/fastapi/asyncer/pull/522) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump prek from 0.3.6 to 0.3.8. PR [#518](https://github.com/fastapi/asyncer/pull/518) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pygithub from 2.8.1 to 2.9.0. PR [#519](https://github.com/fastapi/asyncer/pull/519) by [@dependabot[bot]](https://github.com/apps/dependabot).
