@@ -181,7 +181,7 @@ def create_task_group() -> "TaskGroup":
 
     LibTaskGroup = get_asynclib().TaskGroup
 
-    class ExtendedTaskGroup(LibTaskGroup, TaskGroup):  # type: ignore  # ty: ignore[unused-ignore-comment]
+    class ExtendedTaskGroup(LibTaskGroup, TaskGroup):  # type: ignore[valid-type, misc]
         pass
 
     return ExtendedTaskGroup()
