@@ -161,3 +161,6 @@ known-third-party = ["asyncer", "anyio"]
 [tool.ruff.lint.pyupgrade]
 # Preserve types, even if a file imports `from __future__ import annotations`.
 keep-runtime-typing = true
+
+[tool.ty.terminal]
+error-on-warning = true
