@@ -10,6 +10,7 @@
 
 ### Internal
 
+* 👷 Configure `ty` to exit with error code on warnings. PR [#523](https://github.com/fastapi/asyncer/pull/523) by [@svlandeg](https://github.com/svlandeg).
 * ⬆ Bump ty from 0.0.24 to 0.0.25. PR [#521](https://github.com/fastapi/asyncer/pull/521) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump zensical from 0.0.28 to 0.0.29. PR [#520](https://github.com/fastapi/asyncer/pull/520) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump anyio from 4.12.1 to 4.13.0. PR [#522](https://github.com/fastapi/asyncer/pull/522) by [@dependabot[bot]](https://github.com/apps/dependabot).
