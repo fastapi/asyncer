@@ -10,6 +10,7 @@
 
 ### Internal
 
+* ⬆ Bump zensical from 0.0.30 to 0.0.31. PR [#531](https://github.com/fastapi/asyncer/pull/531) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump zensical from 0.0.29 to 0.0.30. PR [#526](https://github.com/fastapi/asyncer/pull/526) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.15.7 to 0.15.8. PR [#524](https://github.com/fastapi/asyncer/pull/524) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.25 to 0.0.26. PR [#525](https://github.com/fastapi/asyncer/pull/525) by [@dependabot[bot]](https://github.com/apps/dependabot).
