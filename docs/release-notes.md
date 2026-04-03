@@ -11,6 +11,7 @@
 
 ### Internal
 
+* 🔨 Add pre-commit hook to ensure latest release header has date. PR [#533](https://github.com/fastapi/asyncer/pull/533) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump pillow from 12.1.1 to 12.2.0. PR [#532](https://github.com/fastapi/asyncer/pull/532) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.26 to 0.0.27. PR [#529](https://github.com/fastapi/asyncer/pull/529) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mypy from 1.19.1 to 1.20.0. PR [#530](https://github.com/fastapi/asyncer/pull/530) by [@dependabot[bot]](https://github.com/apps/dependabot).
