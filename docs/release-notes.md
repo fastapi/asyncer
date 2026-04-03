@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump pillow from 12.1.1 to 12.2.0. PR [#532](https://github.com/fastapi/asyncer/pull/532) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.26 to 0.0.27. PR [#529](https://github.com/fastapi/asyncer/pull/529) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mypy from 1.19.1 to 1.20.0. PR [#530](https://github.com/fastapi/asyncer/pull/530) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump zensical from 0.0.30 to 0.0.31. PR [#531](https://github.com/fastapi/asyncer/pull/531) by [@dependabot[bot]](https://github.com/apps/dependabot).
