@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump prek from 0.3.8 to 0.3.9. PR [#541](https://github.com/fastapi/asyncer/pull/541) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mypy from 1.20.0 to 1.20.1. PR [#542](https://github.com/fastapi/asyncer/pull/542) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.15.9 to 0.15.10. PR [#540](https://github.com/fastapi/asyncer/pull/540) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pytest from 9.0.2 to 9.0.3. PR [#539](https://github.com/fastapi/asyncer/pull/539) by [@dependabot[bot]](https://github.com/apps/dependabot).
