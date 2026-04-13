@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump ruff from 0.15.9 to 0.15.10. PR [#540](https://github.com/fastapi/asyncer/pull/540) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pytest from 9.0.2 to 9.0.3. PR [#539](https://github.com/fastapi/asyncer/pull/539) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.28 to 0.0.29. PR [#536](https://github.com/fastapi/asyncer/pull/536) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.27 to 0.0.28. PR [#534](https://github.com/fastapi/asyncer/pull/534) by [@dependabot[bot]](https://github.com/apps/dependabot).
