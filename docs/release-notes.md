@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump pygithub from 2.9.0 to 2.9.1. PR [#545](https://github.com/fastapi/asyncer/pull/545) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pydantic from 2.12.5 to 2.13.0. PR [#543](https://github.com/fastapi/asyncer/pull/543) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump prek from 0.3.8 to 0.3.9. PR [#541](https://github.com/fastapi/asyncer/pull/541) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mypy from 1.20.0 to 1.20.1. PR [#542](https://github.com/fastapi/asyncer/pull/542) by [@dependabot[bot]](https://github.com/apps/dependabot).
