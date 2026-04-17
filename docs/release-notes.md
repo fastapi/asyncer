@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump cloudflare/wrangler-action from 3.14.1 to 3.15.0. PR [#552](https://github.com/fastapi/asyncer/pull/552) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.15.10 to 0.15.11. PR [#554](https://github.com/fastapi/asyncer/pull/554) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump astral-sh/setup-uv from 7.6.0 to 8.1.0. PR [#549](https://github.com/fastapi/asyncer/pull/549) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.30 to 0.0.31. PR [#547](https://github.com/fastapi/asyncer/pull/547) by [@dependabot[bot]](https://github.com/apps/dependabot).
