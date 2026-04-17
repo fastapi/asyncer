@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump astral-sh/setup-uv from 7.6.0 to 8.1.0. PR [#549](https://github.com/fastapi/asyncer/pull/549) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.30 to 0.0.31. PR [#547](https://github.com/fastapi/asyncer/pull/547) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pydantic from 2.13.0 to 2.13.1. PR [#548](https://github.com/fastapi/asyncer/pull/548) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔒 Pin GitHub actions by commit SHA. PR [#528](https://github.com/fastapi/asyncer/pull/528) by [@YuriiMotov](https://github.com/YuriiMotov).
