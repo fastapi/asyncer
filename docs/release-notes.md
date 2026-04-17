@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump pydantic from 2.13.0 to 2.13.1. PR [#548](https://github.com/fastapi/asyncer/pull/548) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 🔒 Pin GitHub actions by commit SHA. PR [#528](https://github.com/fastapi/asyncer/pull/528) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump ty from 0.0.29 to 0.0.30. PR [#546](https://github.com/fastapi/asyncer/pull/546) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pygithub from 2.9.0 to 2.9.1. PR [#545](https://github.com/fastapi/asyncer/pull/545) by [@dependabot[bot]](https://github.com/apps/dependabot).
