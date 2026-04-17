@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump pydantic from 2.13.1 to 2.13.2. PR [#553](https://github.com/fastapi/asyncer/pull/553) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 7.0.0 to 7.0.1. PR [#551](https://github.com/fastapi/asyncer/pull/551) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump cloudflare/wrangler-action from 3.14.1 to 3.15.0. PR [#552](https://github.com/fastapi/asyncer/pull/552) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ruff from 0.15.10 to 0.15.11. PR [#554](https://github.com/fastapi/asyncer/pull/554) by [@dependabot[bot]](https://github.com/apps/dependabot).
