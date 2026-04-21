@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump pydantic-settings from 2.13.1 to 2.14.0. PR [#556](https://github.com/fastapi/asyncer/pull/556) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/cache from 5.0.4 to 5.0.5. PR [#550](https://github.com/fastapi/asyncer/pull/550) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pydantic from 2.13.1 to 2.13.2. PR [#553](https://github.com/fastapi/asyncer/pull/553) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/upload-artifact from 7.0.0 to 7.0.1. PR [#551](https://github.com/fastapi/asyncer/pull/551) by [@dependabot[bot]](https://github.com/apps/dependabot).
