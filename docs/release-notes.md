@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump mypy from 1.20.2 to 2.0.0. PR [#579](https://github.com/fastapi/asyncer/pull/579) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Add pre-commit for typos. PR [#573](https://github.com/fastapi/asyncer/pull/573) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump typer from 0.25.0 to 0.25.1. PR [#570](https://github.com/fastapi/asyncer/pull/570) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.32 to 0.0.33. PR [#568](https://github.com/fastapi/asyncer/pull/568) by [@dependabot[bot]](https://github.com/apps/dependabot).
