@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump actions/add-to-project from 1.0.2 to 2.0.0. PR [#574](https://github.com/fastapi/asyncer/pull/574) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/labeler from 6.0.1 to 6.1.0. PR [#577](https://github.com/fastapi/asyncer/pull/577) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pydantic from 2.13.3 to 2.13.4. PR [#580](https://github.com/fastapi/asyncer/pull/580) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump prek from 0.3.11 to 0.3.13. PR [#578](https://github.com/fastapi/asyncer/pull/578) by [@dependabot[bot]](https://github.com/apps/dependabot).
