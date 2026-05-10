@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump pydantic from 2.13.3 to 2.13.4. PR [#580](https://github.com/fastapi/asyncer/pull/580) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump prek from 0.3.11 to 0.3.13. PR [#578](https://github.com/fastapi/asyncer/pull/578) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump mypy from 1.20.2 to 2.0.0. PR [#579](https://github.com/fastapi/asyncer/pull/579) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Add pre-commit for typos. PR [#573](https://github.com/fastapi/asyncer/pull/573) by [@tiangolo](https://github.com/tiangolo).
