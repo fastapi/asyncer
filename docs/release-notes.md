@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆ Bump pydantic-settings from 2.14.0 to 2.14.1. PR [#584](https://github.com/fastapi/asyncer/pull/584) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.34 to 0.0.35. PR [#581](https://github.com/fastapi/asyncer/pull/581) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump ty from 0.0.33 to 0.0.34. PR [#571](https://github.com/fastapi/asyncer/pull/571) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump actions/add-to-project from 1.0.2 to 2.0.0. PR [#574](https://github.com/fastapi/asyncer/pull/574) by [@dependabot[bot]](https://github.com/apps/dependabot).
