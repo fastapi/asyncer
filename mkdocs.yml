@@ -48,25 +48,16 @@ theme:
   - toc.follow
 
   icon:
-    repo: fontawesome/brands/github-alt
+    repo: octicons/mark-github-24
   logo: img/icon-white.svg
   favicon: img/favicon.png
   language: en
 repo_name: fastapi/asyncer
 repo_url: https://github.com/fastapi/asyncer
-plugins:
-  # Material for MkDocs
-  search:
-  social:
-  typeset:
-  # Other plugins
-  macros:
-    include_yaml:
-    - members: data/members.yml
 
 nav:
   - Asyncer: index.md
-  - Learn:
+  - "":
     - tutorial/index.md
     - tutorial/install.md
     - tutorial/first-steps.md
@@ -76,17 +67,19 @@ nav:
     - tutorial/asyncify.md
     - tutorial/syncify.md
     - tutorial/syncify-no-raise.md
-  - Resources:
+  - "":
     - resources/index.md
     - help.md
     - contributing.md
     - management-tasks.md
-  - About:
+  - "":
     - about/index.md
     - management.md
   - release-notes.md
 
 markdown_extensions:
+  # Zensical
+  zensical.extensions.macros:
   # Material for MkDocs
   material.extensions.preview:
     targets:
@@ -120,17 +113,6 @@ markdown_extensions:
 
   # pymdownx blocks
   pymdownx.blocks.admonition:
-    types:
-    - note
-    - attention
-    - caution
-    - danger
-    - error
-    - tip
-    - hint
-    - warning
-    # Custom types
-    - info
   pymdownx.blocks.details:
   pymdownx.blocks.tab:
     alternate_style: True
@@ -140,18 +122,16 @@ markdown_extensions:
 
 extra:
   social:
-  - icon: fontawesome/brands/github-alt
-    link: https://github.com/fastapi/asyncer
-  - icon: fontawesome/brands/twitter
-    link: https://twitter.com/tiangolo
-  - icon: fontawesome/brands/linkedin
-    link: https://www.linkedin.com/in/tiangolo
-  - icon: fontawesome/brands/dev
-    link: https://dev.to/tiangolo
-  - icon: fontawesome/brands/medium
-    link: https://medium.com/@tiangolo
-  - icon: fontawesome/solid/globe
-    link: https://tiangolo.com
+    - icon: octicons/mark-github-24
+      link: https://github.com/fastapi/asyncer
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/tiangolo
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/tiangolo.com
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/tiangolo
+    - icon: fontawesome/solid/globe
+      link: https://tiangolo.com
 
 extra_css:
   - css/termynal.css
@@ -161,5 +141,5 @@ extra_javascript:
   - js/termynal.js
   - js/custom.js
 
-hooks:
-  - scripts/mkdocs_hooks.py
+validation:
+  unresolved_references: false
