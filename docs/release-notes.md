@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Upgrades
+
+* 🔧 Upgrade Zensical, refactor and improve its usage. PR [#590](https://github.com/fastapi/asyncer/pull/590) by [@tiangolo](https://github.com/tiangolo).
+
 ### Docs
 
 * 📝 Add dates to release notes. PR [#491](https://github.com/fastapi/asyncer/pull/491) by [@YuriiMotov](https://github.com/YuriiMotov).
