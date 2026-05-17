@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 🔧 Remove unnecessary Ruff rule ignore. PR [#591](https://github.com/fastapi/asyncer/pull/591) by [@tiangolo](https://github.com/tiangolo).
 * 🔒️ Add zizmor and fix audit findings. PR [#555](https://github.com/fastapi/asyncer/pull/555) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆ Bump mypy from 2.0.0 to 2.1.0. PR [#582](https://github.com/fastapi/asyncer/pull/582) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pydantic-settings from 2.14.0 to 2.14.1. PR [#584](https://github.com/fastapi/asyncer/pull/584) by [@dependabot[bot]](https://github.com/apps/dependabot).
