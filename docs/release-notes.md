@@ -8,6 +8,7 @@
 
 ### Docs
 
+* 🔒️ Only allow team members to modify dependencies. PR [#592](https://github.com/fastapi/asyncer/pull/592) by [@svlandeg](https://github.com/svlandeg).
 * 📝 Add dates to release notes. PR [#491](https://github.com/fastapi/asyncer/pull/491) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 📝 Update link syntax to minimal Markdown. PR [#500](https://github.com/fastapi/asyncer/pull/500) by [@tiangolo](https://github.com/tiangolo).
 * 🔨 Handle external links `target=_blank` and CSS automatically in JS and CSS. PR [#499](https://github.com/fastapi/asyncer/pull/499) by [@tiangolo](https://github.com/tiangolo).
