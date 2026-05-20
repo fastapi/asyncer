@@ -118,7 +118,7 @@ class TaskGroup(_TaskGroup):
         But either way, if you have checkpoints inside the `async with` block (you have
         some `await` there), one or more of the `SoonValue` objects you might have
         could end up having the result value ready before ending the `async with` block.
-        You can check that with `soon_value.pending`. For example:
+        You can check that with `soon_value.ready`. For example:
 
         ```Python
         async def do_work(name: str) -> str:
@@ -128,9 +128,9 @@ class TaskGroup(_TaskGroup):
             result1 = task_group.soonify(do_work)(name="task 1")
             result2 = task_group.soonify(do_work)(name="task 2")
             await anyio.sleep(0)
-            if not result1.pending:
+            if result1.ready:
                 print(result1.value)
-            if not result2.pending:
+            if result2.ready:
                 print(result2.value)
         ```
 
@@ -193,7 +193,7 @@ def create_task_group() -> "TaskGroup":
 
     LibTaskGroup = get_asynclib().TaskGroup
 
-    class ExtendedTaskGroup(LibTaskGroup, TaskGroup):  # type: ignore
+    class ExtendedTaskGroup(LibTaskGroup, TaskGroup):  # type: ignore[valid-type, misc]
         pass
 
     return ExtendedTaskGroup()

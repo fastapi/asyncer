@@ -115,6 +115,6 @@ We verify that first, checking that `soon_value1.ready` is `True`, and then we c
 
 /// tip
 
-If you feel like you need to **access** values **generated** by the async functions **inside** the same `async with` block for a **task group**, you might need to use a different approach, for example, with <a href="https://anyio.readthedocs.io/en/stable/streams.html" class="external-link" target="_blank">AnyIO Streams</a>.
+If you feel like you need to **access** values **generated** by the async functions **inside** the same `async with` block for a **task group**, you might need to use a different approach, for example, with [AnyIO Streams](https://anyio.readthedocs.io/en/stable/streams.html).
 
 ///
