@@ -8,6 +8,7 @@
 
 ### Docs
 
+* 📝 Update contributing docs, add references to central docs. PR [#597](https://github.com/fastapi/asyncer/pull/597) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update security policy. PR [#595](https://github.com/fastapi/asyncer/pull/595) by [@tiangolo](https://github.com/tiangolo).
 * 🔒️ Only allow team members to modify dependencies. PR [#592](https://github.com/fastapi/asyncer/pull/592) by [@svlandeg](https://github.com/svlandeg).
 * 📝 Add dates to release notes. PR [#491](https://github.com/fastapi/asyncer/pull/491) by [@YuriiMotov](https://github.com/YuriiMotov).
