@@ -19,6 +19,7 @@
 
 ### Internal
 
+* 🔥 Remove config files now in central GitHub repo. PR [#600](https://github.com/fastapi/asyncer/pull/600) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Fix branch name in `guard-dependencies.yml`. PR [#593](https://github.com/fastapi/asyncer/pull/593) by [@svlandeg](https://github.com/svlandeg).
 * 🔧 Remove unnecessary Ruff rule ignore. PR [#591](https://github.com/fastapi/asyncer/pull/591) by [@tiangolo](https://github.com/tiangolo).
 * 🔒️ Add zizmor and fix audit findings. PR [#555](https://github.com/fastapi/asyncer/pull/555) by [@YuriiMotov](https://github.com/YuriiMotov).
