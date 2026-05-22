@@ -71,7 +71,6 @@ nav:
     - resources/index.md
     - help.md
     - contributing.md
-    - management-tasks.md
   - "":
     - about/index.md
     - management.md
