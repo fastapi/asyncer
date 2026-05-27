@@ -19,6 +19,7 @@
 
 ### Internal
 
+* ⬆ Bump zensical from 0.0.42 to 0.0.43 in the python-packages group. PR [#606](https://github.com/fastapi/asyncer/pull/606) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Configure Dependabot to group updates and update weekly. PR [#594](https://github.com/fastapi/asyncer/pull/594) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 🔥 Remove config files now in central GitHub repo. PR [#600](https://github.com/fastapi/asyncer/pull/600) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Fix branch name in `guard-dependencies.yml`. PR [#593](https://github.com/fastapi/asyncer/pull/593) by [@svlandeg](https://github.com/svlandeg).
