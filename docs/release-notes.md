@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.18 (2026-05-30)
+
 ### Upgrades
 
 * 🔧 Upgrade Zensical, refactor and improve its usage. PR [#590](https://github.com/fastapi/asyncer/pull/590) by [@tiangolo](https://github.com/tiangolo).
