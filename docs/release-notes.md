@@ -19,6 +19,7 @@
 
 ### Internal
 
+* 👷 Automate release preparation. PR [#608](https://github.com/fastapi/asyncer/pull/608) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Remove old package stub slim, not used nor needed. PR [#607](https://github.com/fastapi/asyncer/pull/607) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump zensical from 0.0.42 to 0.0.43 in the python-packages group. PR [#606](https://github.com/fastapi/asyncer/pull/606) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Configure Dependabot to group updates and update weekly. PR [#594](https://github.com/fastapi/asyncer/pull/594) by [@YuriiMotov](https://github.com/YuriiMotov).
