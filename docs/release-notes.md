@@ -19,6 +19,7 @@
 
 ### Internal
 
+* ⬆ Bump https://github.com/crate-ci/typos from v1.46.0 to v1.47.2 in the pre-commit group. PR [#614](https://github.com/fastapi/asyncer/pull/614) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the python-packages group with 3 updates. PR [#613](https://github.com/fastapi/asyncer/pull/613) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 2 updates. PR [#612](https://github.com/fastapi/asyncer/pull/612) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the python-packages group with 4 updates. PR [#610](https://github.com/fastapi/asyncer/pull/610) by [@dependabot[bot]](https://github.com/apps/dependabot).
