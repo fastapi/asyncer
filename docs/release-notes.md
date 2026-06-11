@@ -19,6 +19,7 @@
 
 ### Internal
 
+* ⬆ Bump the github-actions group with 2 updates. PR [#612](https://github.com/fastapi/asyncer/pull/612) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the python-packages group with 4 updates. PR [#610](https://github.com/fastapi/asyncer/pull/610) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group across 1 directory with 3 updates. PR [#611](https://github.com/fastapi/asyncer/pull/611) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * 👷 Automate release preparation. PR [#608](https://github.com/fastapi/asyncer/pull/608) by [@tiangolo](https://github.com/tiangolo).
