@@ -20,6 +20,7 @@
 
 ### Internal
 
+* 🔒️ Update zizmor workflow security checks. PR [#620](https://github.com/fastapi/asyncer/pull/620) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Fix alls-green test dependency. PR [#618](https://github.com/fastapi/asyncer/pull/618) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump the python-packages group with 5 updates. PR [#617](https://github.com/fastapi/asyncer/pull/617) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump astral-sh/setup-uv from 8.1.0 to 8.2.0 in the github-actions group. PR [#615](https://github.com/fastapi/asyncer/pull/615) by [@dependabot[bot]](https://github.com/apps/dependabot).
