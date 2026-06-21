@@ -19,6 +19,7 @@
 
 ### Internal
 
+* 👷 Fix alls-green test dependency. PR [#618](https://github.com/fastapi/asyncer/pull/618) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump the python-packages group with 5 updates. PR [#617](https://github.com/fastapi/asyncer/pull/617) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump astral-sh/setup-uv from 8.1.0 to 8.2.0 in the github-actions group. PR [#615](https://github.com/fastapi/asyncer/pull/615) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump https://github.com/crate-ci/typos from v1.46.0 to v1.47.2 in the pre-commit group. PR [#614](https://github.com/fastapi/asyncer/pull/614) by [@dependabot[bot]](https://github.com/apps/dependabot).
