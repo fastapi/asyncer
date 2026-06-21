@@ -8,6 +8,7 @@
 
 ### Docs
 
+* 📝 Update docs badges: remove Publish badge, it doesn't give extra information. PR [#619](https://github.com/fastapi/asyncer/pull/619) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update and simpify docs about help and management. PR [#598](https://github.com/fastapi/asyncer/pull/598) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update contributing docs, add references to central docs. PR [#597](https://github.com/fastapi/asyncer/pull/597) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update security policy. PR [#595](https://github.com/fastapi/asyncer/pull/595) by [@tiangolo](https://github.com/tiangolo).
