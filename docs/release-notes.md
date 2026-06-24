@@ -20,6 +20,7 @@
 
 ### Internal
 
+* 👷 Simplify pull request workflow triggers. PR [#626](https://github.com/fastapi/asyncer/pull/626) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Update issue-manager to 0.7.1. PR [#625](https://github.com/fastapi/asyncer/pull/625) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update issue-manager to 0.7.0. PR [#624](https://github.com/fastapi/asyncer/pull/624) by [@tiangolo](https://github.com/tiangolo).
 * 🔒️ Update zizmor workflow security checks. PR [#620](https://github.com/fastapi/asyncer/pull/620) by [@tiangolo](https://github.com/tiangolo).
