@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Features
+
+* ✨ Add Agent Library Skill, install with `uvx library-skills`. PR [#627](https://github.com/fastapi/asyncer/pull/627) by [@tiangolo](https://github.com/tiangolo).
+
 ### Upgrades
 
 * 🔧 Upgrade Zensical, refactor and improve its usage. PR [#590](https://github.com/fastapi/asyncer/pull/590) by [@tiangolo](https://github.com/tiangolo).
