@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.18 (2026-06-25)
+
 ### Features
 
 * ✨ Add Agent Library Skill, install with `uvx library-skills`. PR [#627](https://github.com/fastapi/asyncer/pull/627) by [@tiangolo](https://github.com/tiangolo).
