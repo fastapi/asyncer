@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump the python-packages group across 1 directory with 7 updates. PR [#631](https://github.com/fastapi/asyncer/pull/631) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump anyio from 4.13.0 to 4.14.1. PR [#623](https://github.com/fastapi/asyncer/pull/623) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 4 updates. PR [#630](https://github.com/fastapi/asyncer/pull/630) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
