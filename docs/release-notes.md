@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* ⬆ Bump the github-actions group with 4 updates. PR [#630](https://github.com/fastapi/asyncer/pull/630) by [@dependabot[bot]](https://github.com/apps/dependabot).
+
 ## 0.0.18 (2026-06-25)
 
 ### Features
