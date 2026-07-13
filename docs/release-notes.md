@@ -4,6 +4,7 @@
 
 ### Internal
 
+* 👷 Add GH workflow to bump pre-commit hook versions. PR [#632](https://github.com/fastapi/asyncer/pull/632) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 👷 Fix latest-changes checkout target. PR [#636](https://github.com/fastapi/asyncer/pull/636) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update issue-manager to 0.8.1. PR [#635](https://github.com/fastapi/asyncer/pull/635) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Update latest-changes to 0.6.1. PR [#634](https://github.com/fastapi/asyncer/pull/634) by [@tiangolo](https://github.com/tiangolo).
