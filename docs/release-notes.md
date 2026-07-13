@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump the python-packages group across 1 directory with 6 updates. PR [#641](https://github.com/fastapi/asyncer/pull/641) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 4 updates. PR [#639](https://github.com/fastapi/asyncer/pull/639) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pre-commit hooks. PR [#640](https://github.com/fastapi/asyncer/pull/640) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Set Dependabot schedule interval to "monthly". PR [#633](https://github.com/fastapi/asyncer/pull/633) by [@YuriiMotov](https://github.com/YuriiMotov).
