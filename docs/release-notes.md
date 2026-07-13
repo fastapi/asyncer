@@ -4,6 +4,7 @@
 
 ### Internal
 
+* ⬆ Bump pre-commit hooks. PR [#640](https://github.com/fastapi/asyncer/pull/640) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Set Dependabot schedule interval to "monthly". PR [#633](https://github.com/fastapi/asyncer/pull/633) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 👷 Add GH workflow to bump pre-commit hook versions. PR [#632](https://github.com/fastapi/asyncer/pull/632) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 👷 Fix latest-changes checkout target. PR [#636](https://github.com/fastapi/asyncer/pull/636) by [@tiangolo](https://github.com/tiangolo).
