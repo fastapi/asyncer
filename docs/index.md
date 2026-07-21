@@ -57,15 +57,18 @@ As **Asyncer** is based on **AnyIO** it will be also installed automatically whe
 
 ## Installation
 
+First, [install `uv`](https://docs.astral.sh/uv/getting-started/installation/), and then add Asyncer to your project:
+
 <div class="termy">
 
 ```console
-$ pip install asyncer
+$ uv add asyncer
 ---> 100%
-Successfully installed asyncer anyio
 ```
 
 </div>
+
+If you prefer to use `pip`, install `asyncer` inside a virtual environment. See the [installation guide](tutorial/install.md) for the alternative steps.
 
 ## How to Use
 

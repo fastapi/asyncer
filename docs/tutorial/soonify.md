@@ -115,7 +115,7 @@ So, Python was **waiting 1 second** in **3 places**. But in each of those, it **
 <div class="termy">
 
 ```console
-$ python main.py
+$ uv run python main.py
 
 // Enjoy the silence...
 
