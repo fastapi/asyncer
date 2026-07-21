@@ -42,7 +42,7 @@ If you run that, you will see the expected result, it will **wait for 1 second**
 <div class="termy">
 
 ```console
-$ python main.py
+$ uv run python main.py
 
 // Wait for it...
 
