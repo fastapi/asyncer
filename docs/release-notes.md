@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Docs
+
+* 📝 Update help docs. PR [#642](https://github.com/fastapi/asyncer/pull/642) by [@tiangolo](https://github.com/tiangolo).
+
 ### Internal
 
 * ⬆ Bump the python-packages group across 1 directory with 6 updates. PR [#641](https://github.com/fastapi/asyncer/pull/641) by [@dependabot[bot]](https://github.com/apps/dependabot).
