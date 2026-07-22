@@ -4,6 +4,7 @@
 
 ### Docs
 
+* 🐛 Prevent Termynal controls from scrolling. PR [#644](https://github.com/fastapi/asyncer/pull/644) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Recommend uv projects by default in docs. PR [#643](https://github.com/fastapi/asyncer/pull/643) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Update help docs. PR [#642](https://github.com/fastapi/asyncer/pull/642) by [@tiangolo](https://github.com/tiangolo).
 
