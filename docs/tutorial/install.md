@@ -40,3 +40,21 @@ If you prefer to manage a virtual environment and packages manually, create and 
 Read the [Virtual Environments guide](https://tiangolo.com/guides/virtual-environments/) for the detailed steps.
 
 ///
+
+## AI Agent Skills
+
+Asyncer includes an official skill for AI coding agents. It is bundled with the package, so its guidance stays aligned with the version of Asyncer installed in your project and updates when you update Asyncer.
+
+After installing Asyncer in your project, you can install the skill with <a href="https://library-skills.io">Library Skills</a>:
+
+```bash
+uvx library-skills
+```
+
+/// note
+
+`uvx` is an alias for `uv tool run`. It runs Library Skills in a temporary, isolated environment while Library Skills scans the packages installed in your project.
+
+///
+
+The skill is compatible with Codex, Claude Code, Cursor, GitHub Copilot, Gemini CLI, Pi, OpenCode, and most other coding agents. For Claude Code, select `.claude/skills` when asked where to install the skill.
