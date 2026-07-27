@@ -11,6 +11,7 @@
 
 ### Internal
 
+* ⬆️ Upgrade latest-changes to 0.7.1. PR [#646](https://github.com/fastapi/asyncer/pull/646) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump the python-packages group across 1 directory with 6 updates. PR [#641](https://github.com/fastapi/asyncer/pull/641) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 4 updates. PR [#639](https://github.com/fastapi/asyncer/pull/639) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pre-commit hooks. PR [#640](https://github.com/fastapi/asyncer/pull/640) by [@tiangolo](https://github.com/tiangolo).
