@@ -4,6 +4,7 @@
 
 ### Docs
 
+* 🐛 Use buttons for Termynal controls. PR [#650](https://github.com/fastapi/asyncer/pull/650) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add Library Skills documentation. PR [#645](https://github.com/fastapi/asyncer/pull/645) by [@tiangolo](https://github.com/tiangolo).
 * 🐛 Prevent Termynal controls from scrolling. PR [#644](https://github.com/fastapi/asyncer/pull/644) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Recommend uv projects by default in docs. PR [#643](https://github.com/fastapi/asyncer/pull/643) by [@tiangolo](https://github.com/tiangolo).
