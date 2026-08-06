@@ -12,6 +12,7 @@
 
 ### Internal
 
+* 🔥 Remove the old Latest Changes workflow. PR [#651](https://github.com/fastapi/asyncer/pull/651) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump the python-packages group across 1 directory with 7 updates. PR [#648](https://github.com/fastapi/asyncer/pull/648) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump anyio from 4.14.1 to 4.14.2. PR [#649](https://github.com/fastapi/asyncer/pull/649) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 5 updates. PR [#647](https://github.com/fastapi/asyncer/pull/647) by [@dependabot[bot]](https://github.com/apps/dependabot).
