@@ -12,6 +12,7 @@
 
 ### Internal
 
+* 🔒 Replace pre-commit PAT with PR Push. PR [#653](https://github.com/fastapi/asyncer/pull/653) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Remove Zensical docs cache. PR [#652](https://github.com/fastapi/asyncer/pull/652) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Remove the old Latest Changes workflow. PR [#651](https://github.com/fastapi/asyncer/pull/651) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump the python-packages group across 1 directory with 7 updates. PR [#648](https://github.com/fastapi/asyncer/pull/648) by [@dependabot[bot]](https://github.com/apps/dependabot).
