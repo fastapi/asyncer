@@ -12,6 +12,7 @@
 
 ### Internal
 
+* 👷 Use PR Push commit identity. PR [#655](https://github.com/fastapi/asyncer/pull/655) by [@tiangolo](https://github.com/tiangolo).
 * 🔒 Replace pre-commit PAT with PR Push. PR [#653](https://github.com/fastapi/asyncer/pull/653) by [@tiangolo](https://github.com/tiangolo).
 * 👷 Remove Zensical docs cache. PR [#652](https://github.com/fastapi/asyncer/pull/652) by [@tiangolo](https://github.com/tiangolo).
 * 🔥 Remove the old Latest Changes workflow. PR [#651](https://github.com/fastapi/asyncer/pull/651) by [@tiangolo](https://github.com/tiangolo).
