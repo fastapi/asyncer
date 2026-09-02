@@ -12,6 +12,7 @@
 
 ### Internal
 
+* ⬆ Bump pre-commit hooks. PR [#665](https://github.com/fastapi/asyncer/pull/665) by [@pr-submit[bot]](https://github.com/apps/pr-submit).
 * ⬆️ Bump Typer min version to `0.26.1`. PR [#662](https://github.com/fastapi/asyncer/pull/662) by [@YuriiMotov](https://github.com/YuriiMotov).
 * ⬆️ Bump setup-uv action to 10.0.1. PR [#661](https://github.com/fastapi/asyncer/pull/661) by [@YuriiMotov](https://github.com/YuriiMotov).
 * 👷 Migrate automatic labels to Latest Changes. PR [#659](https://github.com/fastapi/asyncer/pull/659) by [@tiangolo](https://github.com/tiangolo).
