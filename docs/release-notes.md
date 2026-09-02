@@ -12,6 +12,7 @@
 
 ### Internal
 
+* ⬆ Bump the python-packages group with 9 updates. PR [#664](https://github.com/fastapi/asyncer/pull/664) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 4 updates. PR [#663](https://github.com/fastapi/asyncer/pull/663) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pre-commit hooks. PR [#665](https://github.com/fastapi/asyncer/pull/665) by [@pr-submit[bot]](https://github.com/apps/pr-submit).
 * ⬆️ Bump Typer min version to `0.26.1`. PR [#662](https://github.com/fastapi/asyncer/pull/662) by [@YuriiMotov](https://github.com/YuriiMotov).
