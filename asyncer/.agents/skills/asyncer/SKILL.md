@@ -31,8 +31,7 @@ Prefer `asyncer.create_task_group()` plus `task_group.soonify()` for concurrent 
 import asyncer
 
 
-async def fetch_user(user_id: int) -> User:
-    ...
+async def fetch_user(user_id: int) -> User: ...
 
 
 async def load_users(user_ids: list[int]) -> list[User]:
@@ -91,8 +90,7 @@ Use `asyncer.asyncify()` when async code must call a blocking sync function with
 from asyncer import asyncify
 
 
-def render_pdf(order_id: int) -> bytes:
-    ...
+def render_pdf(order_id: int) -> bytes: ...
 
 
 async def endpoint(order_id: int) -> Response:
@@ -122,8 +120,7 @@ Use `asyncer.syncify()` from sync code that is running in a worker thread starte
 from asyncer import asyncify, syncify
 
 
-async def read_from_async_client(key: str) -> str:
-    ...
+async def read_from_async_client(key: str) -> str: ...
 
 
 def sync_business_logic(key: str) -> str:
@@ -156,8 +153,7 @@ Use `asyncer.runnify()` when sync top-level code needs to run one async function
 import asyncer
 
 
-async def main(name: str) -> str:
-    ...
+async def main(name: str) -> str: ...
 
 
 result = asyncer.runnify(main)(name="World")
