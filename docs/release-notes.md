@@ -12,6 +12,7 @@
 
 ### Internal
 
+* ⬆ Bump anyio from 4.14.2 to 4.15.1. PR [#668](https://github.com/fastapi/asyncer/pull/668) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 3 updates. PR [#666](https://github.com/fastapi/asyncer/pull/666) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the python-packages group with 9 updates. PR [#664](https://github.com/fastapi/asyncer/pull/664) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump the github-actions group with 4 updates. PR [#663](https://github.com/fastapi/asyncer/pull/663) by [@dependabot[bot]](https://github.com/apps/dependabot).
