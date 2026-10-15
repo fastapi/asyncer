@@ -157,7 +157,7 @@ dev = [
     { name = "prek", specifier = ">=0.2.24,<1.0.0" },
     { name = "pytest", specifier = ">=9.0.0" },
     { name = "pyyaml", specifier = ">=5.3.1" },
-    { name = "ruff", specifier = ">=0.15.6" },
+    { name = "ruff", specifier = ">=0.16.0" },
     { name = "ty", specifier = ">=0.0.25" },
     { name = "typer", specifier = ">=0.26.1" },
     { name = "zensical", specifier = ">=0.0.42" },
@@ -186,7 +186,7 @@ tests = [
     { name = "coverage", extras = ["toml"], specifier = ">=6.2" },
     { name = "mypy", specifier = ">=1.19.1" },
     { name = "pytest", specifier = ">=9.0.0" },
-    { name = "ruff", specifier = ">=0.15.6" },
+    { name = "ruff", specifier = ">=0.16.0" },
     { name = "ty", specifier = ">=0.0.25" },
     { name = "typer", specifier = ">=0.26.1" },
 ]
