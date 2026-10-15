@@ -106,7 +106,7 @@ class TaskGroup(_TaskGroup):
         return value of the original `async_function` *after* the `async with` block.
 
         If you try to access the `soon_value.value` inside the `async with` block,
-        before it has the actual return value, it will raise a an exception
+        before it has the actual return value, it will raise an exception
         `asyncer.PendingValueException`.
 
         If you think you need to access the return values inside the `async with` block,
@@ -220,7 +220,7 @@ def runnify(
     `async_function`: an async function to call
     `backend`: name of the asynchronous event loop implementation - currently either
         `asyncio` or `trio`
-    `backend_options` keyword arguments to call the backend `run()` implementation with
+    `backend_options`: keyword arguments to call the backend `run()` implementation with
 
     ## Return
 
