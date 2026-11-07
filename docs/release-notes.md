@@ -4,6 +4,7 @@
 
 ### Docs
 
+* 🎨 Use the Zensical modern theme for docs. PR [#675](https://github.com/fastapi/asyncer/pull/675) by [@tiangolo](https://github.com/tiangolo).
 * 📝 Add AI development guidance and coding agent notices. PR [#674](https://github.com/fastapi/asyncer/pull/674) by [@tiangolo](https://github.com/tiangolo).
 * 🎨 Enable Ruff formatting for Python in Markdown. PR [#670](https://github.com/fastapi/asyncer/pull/670) by [@tiangolo](https://github.com/tiangolo).
 * 🐛 Use buttons for Termynal controls. PR [#650](https://github.com/fastapi/asyncer/pull/650) by [@tiangolo](https://github.com/tiangolo).
