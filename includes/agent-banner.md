@@ -6,6 +6,6 @@ Use the official Asyncer skill for your installed version. Install it from your 
 uvx library-skills
 ```
 
-See [Develop with AI](https://asyncer.tiangolo.com/ai-development/).
+See [Develop with AI](ai-development.md).
 
 ///
