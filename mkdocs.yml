@@ -3,7 +3,7 @@ site_name: Asyncer
 site_description: Asyncer, async and await, focused on developer experience.
 site_url: https://asyncer.tiangolo.com/
 theme:
-  variant: classic
+  variant: modern
   name: material
   palette:
   - media: "(prefers-color-scheme)"
@@ -49,7 +49,7 @@ theme:
 
   icon:
     repo: octicons/mark-github-24
-  logo: img/icon-white.svg
+  logo: img/icon.svg
   favicon: img/favicon.png
   language: en
 repo_name: fastapi/asyncer
