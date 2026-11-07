@@ -60,6 +60,7 @@ nav:
   - "":
     - tutorial/index.md
     - tutorial/install.md
+    - ai-development.md
     - tutorial/first-steps.md
     - tutorial/runnify.md
     - tutorial/soonify.md
@@ -68,7 +69,6 @@ nav:
     - tutorial/syncify.md
     - tutorial/syncify-no-raise.md
   - "":
-    - ai-development.md
     - resources/index.md
     - help.md
     - contributing.md
