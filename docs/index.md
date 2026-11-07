@@ -37,6 +37,8 @@ The main goal of **Asyncer** is to improve **developer experience** by providing
 
 **Asyncer** also tries to improve **convenience** and simplicity when working with **async** code **mixed** with regular <abbr title="synchronous code, code that is not async">**blocking code**</abbr>, allowing to use them together in a simpler way... again, under my very **subjective** point of view.
 
+<!-- agent-banner -->
+
 ## Can I Use It?
 
 Yes 🎉 (but continue reading).

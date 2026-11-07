@@ -60,6 +60,7 @@ nav:
   - "":
     - tutorial/index.md
     - tutorial/install.md
+    - ai-development.md
     - tutorial/first-steps.md
     - tutorial/runnify.md
     - tutorial/soonify.md
@@ -76,7 +77,12 @@ nav:
     - management.md
   - release-notes.md
 
+watch:
+  - scripts/agent_banner.py
+  - includes/agent-banner.md
+
 markdown_extensions:
+  scripts.agent_banner:
   # Zensical
   zensical.extensions.macros:
   # Material for MkDocs
