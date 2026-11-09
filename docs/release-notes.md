@@ -16,6 +16,7 @@
 
 ### Internal
 
+* 🔥 Remove obsolete snippet generation and migration commands. PR [#679](https://github.com/fastapi/asyncer/pull/679) by [@tiangolo](https://github.com/tiangolo).
 * ⬆️ Upgrade markdown-include-variants to 0.0.10. PR [#677](https://github.com/fastapi/asyncer/pull/677) by [@tiangolo](https://github.com/tiangolo).
 * 🔧 Add an agent skills note to GitHub releases. PR [#676](https://github.com/fastapi/asyncer/pull/676) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump the python-packages group with 7 updates. PR [#672](https://github.com/fastapi/asyncer/pull/672) by [@dependabot[bot]](https://github.com/apps/dependabot).
