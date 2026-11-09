@@ -15,6 +15,7 @@
 
 ### Internal
 
+* 🔧 Add an agent skills note to GitHub releases. PR [#676](https://github.com/fastapi/asyncer/pull/676) by [@tiangolo](https://github.com/tiangolo).
 * ⬆ Bump the python-packages group with 7 updates. PR [#672](https://github.com/fastapi/asyncer/pull/672) by [@dependabot[bot]](https://github.com/apps/dependabot).
 * ⬆ Bump pre-commit hooks. PR [#673](https://github.com/fastapi/asyncer/pull/673) by [@pr-submit[bot]](https://github.com/apps/pr-submit).
 * ⬆ Bump the github-actions group with 6 updates. PR [#671](https://github.com/fastapi/asyncer/pull/671) by [@dependabot[bot]](https://github.com/apps/dependabot).
