@@ -1,13 +1,18 @@
 # AnyIO 4.1.0 renamed cancellable to abandon_on_cancel
 import importlib
 import importlib.metadata
+import sys
 from collections.abc import Callable
 from typing import TypeVar
 
 import anyio
 import anyio.to_thread
 from anyio import CapacityLimiter
-from typing_extensions import TypeVarTuple, Unpack
+
+if sys.version_info >= (3, 15):
+    from typing import TypeVarTuple, Unpack
+else:
+    from typing_extensions import TypeVarTuple, Unpack
 
 ANYIO_VERSION = importlib.metadata.version("anyio")
 

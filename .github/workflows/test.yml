@@ -25,7 +25,7 @@ jobs:
     strategy:
       matrix:
         os: [ ubuntu-latest, windows-latest, macos-latest ]
-        python-version: [ "3.14" ]
+        python-version: [ "3.14", "3.15", "3.15t" ]
         uv-resolution:
           - highest
         include:
@@ -70,6 +70,9 @@ jobs:
           limit-access-to-actor: true
       - name: Install Dependencies
         run: uv sync --no-dev --group tests
+      - name: Check free-threaded imports
+        if: endsWith(matrix.python-version, 't')
+        run: uv run python -W error -c "import sys; import asyncer, anyio._backends._asyncio, coverage.tracer, pytest; assert not sys._is_gil_enabled()"
       - run: mkdir coverage
       - name: Test
         run: uv run bash scripts/test.sh
