@@ -2,6 +2,8 @@
 
 ## Latest Changes
 
+## 0.0.19 (2026-11-11)
+
 ### Upgrades
 
 * ⬆️ Add support for Python 3.15 and 3.15t. PR [#680](https://github.com/fastapi/asyncer/pull/680) by [@tiangolo](https://github.com/tiangolo).
