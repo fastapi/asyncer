@@ -1,4 +1,4 @@
-__version__ = "0.0.19"
+__version__ = "0.0.20"
 
 from ._main import PendingValueException as PendingValueException
 from ._main import SoonValue as SoonValue
