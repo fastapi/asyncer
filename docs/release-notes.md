@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Breaking Changes
+
+* 🔥 Drop Python 3.10 support. PR [#682](https://github.com/fastapi/asyncer/pull/682) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.19 (2026-11-11)
 
 ### Upgrades
