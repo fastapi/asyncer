@@ -7,7 +7,7 @@ from typing import TypeVar
 import anyio
 import anyio.to_thread
 from anyio import CapacityLimiter
-from typing_extensions import TypeVarTuple, Unpack
+from typing_extensions import TypeVarTuple
 
 ANYIO_VERSION = importlib.metadata.version("anyio")
 
@@ -17,8 +17,8 @@ PosArgsT = TypeVarTuple("PosArgsT")
 if ANYIO_VERSION >= "4.1.0":
 
     async def run_sync(
-        func: Callable[[Unpack[PosArgsT]], T_Retval],
-        *args: Unpack[PosArgsT],
+        func: Callable[[*PosArgsT], T_Retval],
+        *args: *PosArgsT,
         abandon_on_cancel: bool = False,
         limiter: CapacityLimiter | None = None,
     ) -> T_Retval:
@@ -28,8 +28,8 @@ if ANYIO_VERSION >= "4.1.0":
 else:
 
     async def run_sync(
-        func: Callable[[Unpack[PosArgsT]], T_Retval],
-        *args: Unpack[PosArgsT],
+        func: Callable[[*PosArgsT], T_Retval],
+        *args: *PosArgsT,
         abandon_on_cancel: bool = False,
         limiter: CapacityLimiter | None = None,
     ) -> T_Retval:

@@ -1,11 +1,7 @@
-import sys
 from unittest.mock import patch
 
 import asyncer
 import pytest
-
-if sys.version_info < (3, 11):
-    from exceptiongroup import ExceptionGroup
 
 from ...conftest import get_testing_print_function
 
