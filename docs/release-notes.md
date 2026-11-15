@@ -2,6 +2,10 @@
 
 ## Latest Changes
 
+### Internal
+
+* 👷 Limit the full test matrix to Python 3.15. PR [#684](https://github.com/fastapi/asyncer/pull/684) by [@tiangolo](https://github.com/tiangolo).
+
 ## 0.0.20 (2026-11-13)
 
 ### Breaking Changes
